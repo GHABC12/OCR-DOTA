@@ -1,0 +1,158 @@
+{
+  "finished_at": 1788427219.5143926,
+  "identity": {
+    "caches": {
+      "caltech101": {
+        "num_samples": 2465,
+        "order_sha256": "77531dfd7566087636bb721ff93cc34b72818baec0ba72fb0ac3b09dc13e4e33",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/caltech101_vitb16.pt",
+        "sha256": "05d1644c198e639a7d28c5474b0c0aa089e229b97bbf1467f2663a59f2ddaf81"
+      },
+      "dtd": {
+        "num_samples": 1692,
+        "order_sha256": "f6aefa41550942fb0edfcfe681f56362bcff302bea77a327ff96b8c1a9302256",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/dtd_vitb16.pt",
+        "sha256": "3362a3847447fafcd2c512390ffa146b69d9892527f7dbb9fcaa85c02266103d"
+      },
+      "eurosat": {
+        "num_samples": 8100,
+        "order_sha256": "254ef240b12ba3f60216f838038f8fb69f3371c1cd31f9f5299c0fcb34777eb6",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/eurosat_vitb16.pt",
+        "sha256": "032b7f1f675203f3c7a28e56885d7222d2f7811b28c8758ff980da2a16053430"
+      },
+      "fgvc": {
+        "num_samples": 3333,
+        "order_sha256": "551b4483649bb664126650c05f33dc781fe2aa22b410dc22b606140e90ec92c9",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/fgvc_vitb16.pt",
+        "sha256": "2bce393656073433a8911254d6cb3146a68c9d4ec99657c58611c1b7296db059"
+      },
+      "food101": {
+        "num_samples": 30300,
+        "order_sha256": "6cfa68778c8be388d18faad95fc02e7ded613eafa8e2f122a27a02308011cd05",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/food101_vitb16.pt",
+        "sha256": "7e30ed89fc4584b2aa17ee36405c002c832d5ce2303d06c3dff64c63bcfa06f8"
+      },
+      "oxford_flowers": {
+        "num_samples": 2463,
+        "order_sha256": "93bc773fbf8fa920eed9dc62f66f8dc5a3c12c85a8dc22fa4abe827d8cd98864",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/oxford_flowers_vitb16.pt",
+        "sha256": "fce0fe5e773bffcfb9b4cca70ad6d7c5c4ea7229659b05fe665e0ebb09544dc9"
+      },
+      "oxford_pets": {
+        "num_samples": 3669,
+        "order_sha256": "83308eaab044b8daa3b71b8ee6b8b49b176827b93451544e7f00803626f7c389",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/oxford_pets_vitb16.pt",
+        "sha256": "cc91bcab9abc32e79c1041f383105f87db0ba333dec2961bb4425bb0d6b539cf"
+      },
+      "stanford_cars": {
+        "num_samples": 8041,
+        "order_sha256": "40892e4bcc7d5b80e0486a07efeb8a7d17ea4b7ded0322dd2665ed0b2694d983",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/stanford_cars_vitb16.pt",
+        "sha256": "5fe1038f509981e852f248a78ee9bbea60adc8e692866379534f34fda7112ba9"
+      },
+      "sun397": {
+        "num_samples": 19850,
+        "order_sha256": "c81df7a714ad16f737f8d6a4ada0fda6469ee43fd130a03beb8f9c227e8169c1",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/sun397_vitb16.pt",
+        "sha256": "10078987930d1b68406207d49aefcb7b50ddee1e952127f269d960675cbb6e8f"
+      },
+      "ucf101": {
+        "num_samples": 3783,
+        "order_sha256": "c64be1cdb12c7d215354556b388eb57bd98d0d9876e3072f6ab728f7813ae4a7",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/ucf101_vitb16.pt",
+        "sha256": "7ce61438b58887232c3bf89f411486a46b4efb5e5bca10eac6961b1f09112170"
+      }
+    },
+    "code_sha256": {
+      "legacy": "11cd3d4d77a876f8f7a3ff07c1313215d29588b416aa6e7a7124d1cc1cd2f478",
+      "rank": "03d347fe3ee69b47dcf4cbeb79c2bc4d8dfae942029f6a98a35cc737f8c4ab11",
+      "runner": "83f4b77c8cac71ada0e23828c7be65dde8c48035e6ca714e16a93ea6fc6de06e",
+      "sidecar_model": "9fc5ecd65ead1ccf16d2d5a5e21ec2c11e1f014d3c52bb157dd986525755c08b",
+      "tuner": "73f6a31f0ac7883d2c289283420ea4ad3a4b0557e5a77d5bf6d4b350f7b27369",
+      "v3_model": "d7a947193428c1b70f0a2c40b49c610bd06cc420c527a990ea674af60d02b1f9"
+    },
+    "global_seed": 1,
+    "max_samples": null,
+    "precision": "fp32",
+    "protocol": {
+      "candidates": [
+        {
+          "candidate_id": "D",
+          "candidate_sha256": "bfc01908300b7a8541efa0e7b43755ff0dd9c3f19017bffeff0b21d20f894c61",
+          "prediction_strength": 0.1,
+          "source": "D",
+          "tau_rank": 0.15,
+          "update_power": 1.0
+        },
+        {
+          "candidate_id": "E",
+          "candidate_sha256": "1498fb03160d52693757cdad5268db678750fb301defe71064ded8ed3a5b5f47",
+          "prediction_strength": 0.1,
+          "source": "E",
+          "tau_rank": 0.15,
+          "update_power": 1.0
+        },
+        {
+          "candidate_id": "O",
+          "candidate_sha256": "1b60d6ea7ede8ae1a94b34fc1e90cf134d09e2226f13de3a8d24bf9406129172",
+          "prediction_strength": 0.1,
+          "source": "O",
+          "tau_rank": 0.15,
+          "update_power": 1.0
+        },
+        {
+          "candidate_id": "EO",
+          "candidate_sha256": "a7dd111ba0ed772be0fb9adec9f1d55fdfc3f95e94ed510d0ba39f24a852de24",
+          "prediction_strength": 0.1,
+          "source": "EO",
+          "tau_rank": 0.15,
+          "update_power": 1.0
+        },
+        {
+          "candidate_id": "DO",
+          "candidate_sha256": "aa91b2a3b339566141542bc6868dcbf8e2177f3279c873e4a1488e6810015f65",
+          "prediction_strength": 0.1,
+          "source": "DO",
+          "tau_rank": 0.15,
+          "update_power": 1.0
+        }
+      ],
+      "formula": "D=1-cos^2; E=clip(old_semantic,0,1); O=.5*relu(max_other-cos); EO=(E+O)/2; DO=(D+O)/2; compatibility=exp(-risk/.15)",
+      "prediction_strength": 0.1,
+      "sources": [
+        "D",
+        "E",
+        "O",
+        "EO",
+        "DO"
+      ],
+      "stage1": [
+        "dtd",
+        "eurosat",
+        "ucf101"
+      ],
+      "stage2": [
+        "fgvc",
+        "caltech101",
+        "stanford_cars",
+        "dtd",
+        "eurosat",
+        "oxford_flowers",
+        "food101",
+        "oxford_pets",
+        "sun397",
+        "ucf101"
+      ],
+      "tau": 0.15,
+      "top_k": 3,
+      "update_power": 1.0
+    },
+    "version": "v3-compat-risk-two-stage-v1",
+    "winner_sha256": "d8e09dbb3bc39e8c7b29a11aa9bca18ad4c62edfae9de5f675d727bce12788c3",
+    "winner_source": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/BEST_SINGLE_CONFIG_NONIMAGENET21_AFTER_CONTINUATION.json"
+  },
+  "identity_sha256": "8ff708e2d23ad574fb02a2824aa5483fcf42f4a112ebadd7d42a3e689f462bb9",
+  "started_at": 1788423814.9420307,
+  "status": "complete",
+  "summary_sha256": "2e8325316b79b7147a23f772996686209ee7813731b0d524fb1b08a6fc82b964"
+}

@@ -1,0 +1,20 @@
+OCR-DOTA-V3 分层真实在线消融
+口径：冻结冠军的全量流机制诊断，不是无偏泛化评估
+
+总样本: 32
+Full V3 vs Original DOTA: +0 samples / +0.000000pp micro / +0.000000pp macro
+
+Micro逐层贡献：
+- base_tuning: +0.000 samples; positive_share=0.000%
+- enhanced_core: +0.000 samples; positive_share=0.000%
+- residual: +0.000 samples; positive_share=0.000%
+- prediction_rank: +1.000 samples; positive_share=100.000%
+- update_rank: -1.000 samples; positive_share=0.000%
+
+V3内部G/P/U Shapley：
+- residual: +0.000 samples; magnitude_share=0.000%
+- prediction_rank: +0.000 samples; magnitude_share=50.000%
+- update_rank: +0.000 samples; magnitude_share=50.000%
+
+逐数据集：
+- eurosat: 17 -> 17 -> 17 -> 17 -> 18 -> 17 (Full-Original +0)

@@ -1,0 +1,148 @@
+{
+  "aggregate": {
+    "delta_all_vs_none_correct": 0.0,
+    "delta_all_vs_none_macro_pp": 0.0,
+    "macro_arm_accuracy": {
+      "D0E0O0": 31.25,
+      "D0E0O1": 31.25,
+      "D0E1O0": 31.25,
+      "D0E1O1": 31.25,
+      "D1E0O0": 31.25,
+      "D1E0O1": 31.25,
+      "D1E1O0": 31.25,
+      "D1E1O1": 31.25
+    },
+    "macro_shapley_pp": {
+      "order": 0.0,
+      "residual": 0.0,
+      "semantic": 0.0
+    },
+    "macro_shares": {
+      "order": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "residual": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "semantic": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      }
+    },
+    "micro_arm_correct": {
+      "D0E0O0": 10.0,
+      "D0E0O1": 10.0,
+      "D0E1O0": 10.0,
+      "D0E1O1": 10.0,
+      "D1E0O0": 10.0,
+      "D1E0O1": 10.0,
+      "D1E1O0": 10.0,
+      "D1E1O1": 10.0
+    },
+    "micro_shapley_correct": {
+      "order": 0.0,
+      "residual": 0.0,
+      "semantic": 0.0
+    },
+    "micro_shares": {
+      "order": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "residual": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "semantic": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      }
+    },
+    "num_samples": 32
+  },
+  "per_dataset": {
+    "dtd": {
+      "arms": {
+        "D0E0O0": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        },
+        "D0E0O1": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        },
+        "D0E1O0": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        },
+        "D0E1O1": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        },
+        "D1E0O0": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        },
+        "D1E0O1": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        },
+        "D1E1O0": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        },
+        "D1E1O1": {
+          "accuracy": 31.25,
+          "correct": 10,
+          "prediction_sha256": "b61cbf42910703ed10bda86c8bc199053a8381e6501505009a4cde643acc5f54"
+        }
+      },
+      "delta_all_vs_none_correct": 0.0,
+      "num_samples": 32,
+      "shapley_correct": {
+        "order": 0.0,
+        "residual": 0.0,
+        "semantic": 0.0
+      },
+      "shapley_pp": {
+        "order": 0.0,
+        "residual": 0.0,
+        "semantic": 0.0
+      },
+      "shares": {
+        "order": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "residual": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "semantic": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        }
+      }
+    }
+  },
+  "protocol": "full-stream true-online 2^3 factorial diagnostic; no offline trajectory scoring",
+  "status": "complete"
+}

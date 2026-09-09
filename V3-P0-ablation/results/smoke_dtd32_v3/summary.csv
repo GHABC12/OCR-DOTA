@@ -1,0 +1,2 @@
+dataset,N,original_dota,matched_base_dota,rank_free,prediction_only,update_only,pure_rank,geometry_only,full_v3,G_active,P_active,U_active,rank_interaction_pp
+dtd,32,31.25,31.25,31.25,31.25,31.25,31.25,31.25,31.25,True,False,False,0.0

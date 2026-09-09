@@ -1,0 +1,51 @@
+{
+  "datasets": {
+    "eurosat": {
+      "prediction_rank_does_not_change_update": [
+        {
+          "fields": [
+            "state_sha256",
+            "compatibility_sha256"
+          ],
+          "geometry": 0,
+          "status": "identical",
+          "update_rank": 0
+        },
+        {
+          "fields": [
+            "state_sha256",
+            "compatibility_sha256"
+          ],
+          "geometry": 0,
+          "status": "identical",
+          "update_rank": 1
+        },
+        {
+          "fields": [
+            "state_sha256",
+            "compatibility_sha256"
+          ],
+          "geometry": 1,
+          "status": "identical",
+          "update_rank": 0
+        },
+        {
+          "fields": [
+            "state_sha256",
+            "compatibility_sha256"
+          ],
+          "geometry": 1,
+          "status": "identical",
+          "update_rank": 1
+        }
+      ],
+      "status": "passed",
+      "update_gate_off_is_identity": {
+        "G0P0U0": 1.0,
+        "G0P1U0": 1.0,
+        "G1P0U0": 1.0,
+        "G1P1U0": 1.0
+      }
+    }
+  }
+}

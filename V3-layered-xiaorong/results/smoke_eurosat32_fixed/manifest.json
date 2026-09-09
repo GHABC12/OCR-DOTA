@@ -1,0 +1,53 @@
+{
+  "finished_at": 1788333069.7261305,
+  "identity": {
+    "caches": {
+      "eurosat": {
+        "num_samples": 8100,
+        "order_sha256": "254ef240b12ba3f60216f838038f8fb69f3371c1cd31f9f5299c0fcb34777eb6",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/eurosat_vitb16.pt",
+        "sha256": "032b7f1f675203f3c7a28e56885d7222d2f7811b28c8758ff980da2a16053430"
+      }
+    },
+    "code_sha256": {
+      "legacy_runner": "11cd3d4d77a876f8f7a3ff07c1313215d29588b416aa6e7a7124d1cc1cd2f478",
+      "rank_compatibility": "03d347fe3ee69b47dcf4cbeb79c2bc4d8dfae942029f6a98a35cc737f8c4ab11",
+      "runner": "dab906c51dbf94f2278e0fa471ec61640228bcb463ddeb70620ef5b9c5874d6e",
+      "v3_model": "d7a947193428c1b70f0a2c40b49c610bd06cc420c527a990ea674af60d02b1f9",
+      "v3_tuner": "73f6a31f0ac7883d2c289283420ea4ad3a4b0557e5a77d5bf6d4b350f7b27369"
+    },
+    "datasets": [
+      "eurosat"
+    ],
+    "global_seed": 1,
+    "max_samples": 32,
+    "original_bases": {
+      "eurosat": {
+        "epsilon": 0.0001,
+        "eta": 3.0,
+        "rho": 0.05,
+        "sigma": 0.002
+      }
+    },
+    "precision": "fp32",
+    "variants": [
+      "original_dota",
+      "tuned_base_dota",
+      "G0P0U0",
+      "G0P0U1",
+      "G0P1U0",
+      "G0P1U1",
+      "G1P0U0",
+      "G1P0U1",
+      "G1P1U0",
+      "G1P1U1"
+    ],
+    "version": "ocr-dota-v3-layered-factorial-online-v1",
+    "winner_source": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/BEST_SINGLE_CONFIG_NONIMAGENET21_AFTER_CONTINUATION.json",
+    "winner_source_sha256": "d8e09dbb3bc39e8c7b29a11aa9bca18ad4c62edfae9de5f675d727bce12788c3"
+  },
+  "identity_sha256": "e4564925aebd28f0f078f4ce6f8526f5859e8ba6985c7e7ab7fd3276e2f9eb1b",
+  "started_at": 1788333066.2197444,
+  "status": "complete_smoke",
+  "summary_sha256": "07c63713c2956897b717035d61cd89a7d5818c19cc91db5b1653806352e7ab61"
+}

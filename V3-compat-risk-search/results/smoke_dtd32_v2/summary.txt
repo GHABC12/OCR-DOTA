@@ -1,0 +1,13 @@
+V3 compatibility-risk真实在线搜索
+状态: complete
+复验: 3/3
+
+Stage1 top3:
+- off: macro=31.250000%
+- C_both: macro=31.250000%
+- C_prediction_only: macro=31.250000%
+
+Stage2 ranking:
+- C_both: macro=31.250000% (1/1)
+- C_prediction_only: macro=31.250000% (1/1)
+- off: macro=31.250000% (1/1)

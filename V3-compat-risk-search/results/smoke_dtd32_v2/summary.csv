@@ -1,0 +1,4 @@
+candidate,source,usage,dataset,correct,N,accuracy
+off,off,off,dtd,10,32,31.25
+C_both,C,both,dtd,10,32,31.25
+C_prediction_only,C,prediction_only,dtd,10,32,31.25

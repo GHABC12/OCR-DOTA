@@ -1,0 +1,1348 @@
+{
+  "aggregate": {
+    "delta_full_vs_original_correct": 1162,
+    "delta_full_vs_original_macro_pp": 1.966189781848911,
+    "delta_full_vs_original_micro_pp": 1.3883578665647103,
+    "factorial_macro_shapley_pp": {
+      "prediction_rank": -0.3330027155730756,
+      "residual": 0.04955600521494337,
+      "update_rank": 0.891221751146529
+    },
+    "factorial_macro_shares": {
+      "prediction_rank": {
+        "magnitude_percent": 26.14286550235217,
+        "positive_percent": 0.0,
+        "signed_percent": -54.79045588004229
+      },
+      "residual": {
+        "magnitude_percent": 3.8904667096741106,
+        "positive_percent": 5.267557069653186,
+        "signed_percent": 8.153675601857564
+      },
+      "update_rank": {
+        "magnitude_percent": 69.96666778797372,
+        "positive_percent": 94.7324429303468,
+        "signed_percent": 146.63678027818472
+      }
+    },
+    "factorial_micro_shapley_correct": {
+      "prediction_rank": -269.99999999999994,
+      "residual": 33.5,
+      "update_rank": 727.5
+    },
+    "factorial_micro_shares": {
+      "prediction_rank": {
+        "magnitude_percent": 26.18816682832201,
+        "positive_percent": 0.0,
+        "signed_percent": -54.98981670061098
+      },
+      "residual": {
+        "magnitude_percent": 3.2492725509214355,
+        "positive_percent": 4.402102496714849,
+        "signed_percent": 6.822810590631364
+      },
+      "update_rank": {
+        "magnitude_percent": 70.56256062075654,
+        "positive_percent": 95.59789750328515,
+        "signed_percent": 148.1670061099796
+      }
+    },
+    "macro_stage_accuracy": {
+      "enhanced_core": 70.98906198106627,
+      "full_v3": 71.59683702185467,
+      "original_dota": 69.63064724000576,
+      "plus_prediction_rank": 70.70967499368325,
+      "plus_residual": 71.04785894096781,
+      "tuned_base_dota": 70.11887246069202
+    },
+    "micro_stage_accuracy": {
+      "enhanced_core": 75.69417893328236,
+      "full_v3": 76.28082584591856,
+      "original_dota": 74.89246797935385,
+      "plus_prediction_rank": 75.41579047983177,
+      "plus_residual": 75.74555534314662,
+      "tuned_base_dota": 75.08483081628752
+    },
+    "micro_stage_correct": {
+      "enhanced_core": 63353,
+      "full_v3": 63844,
+      "original_dota": 62682,
+      "plus_prediction_rank": 63120,
+      "plus_residual": 63396,
+      "tuned_base_dota": 62843
+    },
+    "num_samples": 83696,
+    "sequential_macro_pp": {
+      "base_tuning": 0.4882252206862603,
+      "enhanced_core": 0.8701895203742538,
+      "prediction_rank": -0.3381839472845627,
+      "residual": 0.05879695990154232,
+      "update_rank": 0.8871620281714172
+    },
+    "sequential_macro_shares": {
+      "base_tuning": {
+        "magnitude_percent": 18.475480215366396,
+        "positive_percent": 21.186894057755566,
+        "signed_percent": 24.83103234455611
+      },
+      "enhanced_core": {
+        "magnitude_percent": 32.92982129168844,
+        "positive_percent": 37.76251696383798,
+        "signed_percent": 44.25765652977655
+      },
+      "prediction_rank": {
+        "magnitude_percent": 12.797599473513406,
+        "positive_percent": 0.0,
+        "signed_percent": -17.199964642606915
+      },
+      "residual": {
+        "magnitude_percent": 2.2250019527006533,
+        "positive_percent": 2.5515375027145475,
+        "signed_percent": 2.990401051024305
+      },
+      "update_rank": {
+        "magnitude_percent": 33.572097066731104,
+        "positive_percent": 38.49905147569191,
+        "signed_percent": 45.120874717249954
+      }
+    },
+    "sequential_micro_correct": {
+      "base_tuning": 161,
+      "enhanced_core": 510,
+      "prediction_rank": -276,
+      "residual": 43,
+      "update_rank": 724
+    },
+    "sequential_micro_shares": {
+      "base_tuning": {
+        "magnitude_percent": 9.39323220536756,
+        "positive_percent": 11.196105702364395,
+        "signed_percent": 13.855421686746988
+      },
+      "enhanced_core": {
+        "magnitude_percent": 29.754959159859975,
+        "positive_percent": 35.46592489568846,
+        "signed_percent": 43.88984509466437
+      },
+      "prediction_rank": {
+        "magnitude_percent": 16.102683780630105,
+        "positive_percent": 0.0,
+        "signed_percent": -23.752151462994835
+      },
+      "residual": {
+        "magnitude_percent": 2.5087514585764294,
+        "positive_percent": 2.9902642559109873,
+        "signed_percent": 3.7005163511187606
+      },
+      "update_rank": {
+        "magnitude_percent": 42.240373395565925,
+        "positive_percent": 50.34770514603616,
+        "signed_percent": 62.306368330464714
+      }
+    }
+  },
+  "per_dataset": {
+    "caltech101": {
+      "delta_full_vs_original_correct": 3.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "G0P0U1": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "G0P1U0": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "G0P1U1": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "G1P0U0": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "G1P0U1": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "G1P1U0": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "G1P1U1": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "residual": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "update_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        }
+      },
+      "num_samples": 2465,
+      "sequential_contribution_correct": {
+        "base_tuning": -12.0,
+        "enhanced_core": 15.0,
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 44.44444444444444,
+          "positive_percent": 0.0,
+          "signed_percent": -400.0
+        },
+        "enhanced_core": {
+          "magnitude_percent": 55.55555555555556,
+          "positive_percent": 100.0,
+          "signed_percent": 500.0
+        },
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "full_v3": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "original_dota": {
+          "accuracy": 94.19878296146045,
+          "correct": 2322
+        },
+        "plus_prediction_rank": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "plus_residual": {
+          "accuracy": 94.32048681541582,
+          "correct": 2325
+        },
+        "tuned_base_dota": {
+          "accuracy": 93.71196754563894,
+          "correct": 2310
+        }
+      }
+    },
+    "dtd": {
+      "delta_full_vs_original_correct": 50.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G0P0U1": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G0P1U0": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G0P1U1": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G1P0U0": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "G1P0U1": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "G1P1U0": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "G1P1U1": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 1.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 100.0,
+          "positive_percent": 100.0,
+          "signed_percent": 100.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "num_samples": 1692,
+      "sequential_contribution_correct": {
+        "base_tuning": 27.0,
+        "enhanced_core": 22.0,
+        "prediction_rank": 0.0,
+        "residual": 1.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 54.0,
+          "positive_percent": 54.0,
+          "signed_percent": 54.0
+        },
+        "enhanced_core": {
+          "magnitude_percent": 44.0,
+          "positive_percent": 44.0,
+          "signed_percent": 44.0
+        },
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 2.0,
+          "positive_percent": 2.0,
+          "signed_percent": 2.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "full_v3": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "original_dota": {
+          "accuracy": 48.10874704491726,
+          "correct": 814
+        },
+        "plus_prediction_rank": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "plus_residual": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "tuned_base_dota": {
+          "accuracy": 49.70449172576832,
+          "correct": 841
+        }
+      }
+    },
+    "eurosat": {
+      "delta_full_vs_original_correct": 865.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 67.85185185185185,
+          "correct": 5496
+        },
+        "G0P0U1": {
+          "accuracy": 76.58024691358025,
+          "correct": 6203
+        },
+        "G0P1U0": {
+          "accuracy": 64.53086419753086,
+          "correct": 5227
+        },
+        "G0P1U1": {
+          "accuracy": 73.34567901234568,
+          "correct": 5941
+        },
+        "G1P0U0": {
+          "accuracy": 68.34567901234568,
+          "correct": 5536
+        },
+        "G1P0U1": {
+          "accuracy": 76.82716049382717,
+          "correct": 6223
+        },
+        "G1P1U0": {
+          "accuracy": 65.0,
+          "correct": 5265
+        },
+        "G1P1U1": {
+          "accuracy": 73.60493827160494,
+          "correct": 5962
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": -265.5,
+        "residual": 29.999999999999996,
+        "update_rank": 701.5
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 26.62988966900702,
+          "positive_percent": 0.0,
+          "signed_percent": -56.97424892703863
+        },
+        "residual": {
+          "magnitude_percent": 3.0090270812437305,
+          "positive_percent": 4.1011619958988375,
+          "signed_percent": 6.437768240343346
+        },
+        "update_rank": {
+          "magnitude_percent": 70.36108324974924,
+          "positive_percent": 95.89883800410117,
+          "signed_percent": 150.53648068669528
+        }
+      },
+      "num_samples": 8100,
+      "sequential_contribution_correct": {
+        "base_tuning": -2.0,
+        "enhanced_core": 401.0,
+        "prediction_rank": -271.0,
+        "residual": 40.0,
+        "update_rank": 697.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 0.14174344436569808,
+          "positive_percent": 0.0,
+          "signed_percent": -0.23121387283236994
+        },
+        "enhanced_core": {
+          "magnitude_percent": 28.419560595322466,
+          "positive_percent": 35.23725834797891,
+          "signed_percent": 46.358381502890175
+        },
+        "prediction_rank": {
+          "magnitude_percent": 19.20623671155209,
+          "positive_percent": 0.0,
+          "signed_percent": -31.329479768786126
+        },
+        "residual": {
+          "magnitude_percent": 2.8348688873139616,
+          "positive_percent": 3.51493848857645,
+          "signed_percent": 4.624277456647399
+        },
+        "update_rank": {
+          "magnitude_percent": 49.397590361445786,
+          "positive_percent": 61.24780316344464,
+          "signed_percent": 80.57803468208093
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 67.85185185185185,
+          "correct": 5496
+        },
+        "full_v3": {
+          "accuracy": 73.60493827160494,
+          "correct": 5962
+        },
+        "original_dota": {
+          "accuracy": 62.925925925925924,
+          "correct": 5097
+        },
+        "plus_prediction_rank": {
+          "accuracy": 65.0,
+          "correct": 5265
+        },
+        "plus_residual": {
+          "accuracy": 68.34567901234568,
+          "correct": 5536
+        },
+        "tuned_base_dota": {
+          "accuracy": 62.901234567901234,
+          "correct": 5095
+        }
+      }
+    },
+    "fgvc": {
+      "delta_full_vs_original_correct": 33.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 27.152715271527153,
+          "correct": 905
+        },
+        "G0P0U1": {
+          "accuracy": 27.152715271527153,
+          "correct": 905
+        },
+        "G0P1U0": {
+          "accuracy": 27.152715271527153,
+          "correct": 905
+        },
+        "G0P1U1": {
+          "accuracy": 27.152715271527153,
+          "correct": 905
+        },
+        "G1P0U0": {
+          "accuracy": 27.182718271827184,
+          "correct": 906
+        },
+        "G1P0U1": {
+          "accuracy": 27.182718271827184,
+          "correct": 906
+        },
+        "G1P1U0": {
+          "accuracy": 27.182718271827184,
+          "correct": 906
+        },
+        "G1P1U1": {
+          "accuracy": 27.182718271827184,
+          "correct": 906
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 1.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 100.0,
+          "positive_percent": 100.0,
+          "signed_percent": 100.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "num_samples": 3333,
+      "sequential_contribution_correct": {
+        "base_tuning": 23.0,
+        "enhanced_core": 9.0,
+        "prediction_rank": 0.0,
+        "residual": 1.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 69.6969696969697,
+          "positive_percent": 69.6969696969697,
+          "signed_percent": 69.6969696969697
+        },
+        "enhanced_core": {
+          "magnitude_percent": 27.272727272727273,
+          "positive_percent": 27.272727272727273,
+          "signed_percent": 27.272727272727273
+        },
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 3.0303030303030303,
+          "positive_percent": 3.0303030303030303,
+          "signed_percent": 3.0303030303030303
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 27.152715271527153,
+          "correct": 905
+        },
+        "full_v3": {
+          "accuracy": 27.182718271827184,
+          "correct": 906
+        },
+        "original_dota": {
+          "accuracy": 26.192619261926193,
+          "correct": 873
+        },
+        "plus_prediction_rank": {
+          "accuracy": 27.182718271827184,
+          "correct": 906
+        },
+        "plus_residual": {
+          "accuracy": 27.182718271827184,
+          "correct": 906
+        },
+        "tuned_base_dota": {
+          "accuracy": 26.882688268826882,
+          "correct": 896
+        }
+      }
+    },
+    "food101": {
+      "delta_full_vs_original_correct": 34.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 87.03960396039604,
+          "correct": 26373
+        },
+        "G0P0U1": {
+          "accuracy": 87.05940594059406,
+          "correct": 26379
+        },
+        "G0P1U0": {
+          "accuracy": 87.01980198019803,
+          "correct": 26367
+        },
+        "G0P1U1": {
+          "accuracy": 87.05610561056106,
+          "correct": 26378
+        },
+        "G1P0U0": {
+          "accuracy": 87.03960396039604,
+          "correct": 26373
+        },
+        "G1P0U1": {
+          "accuracy": 87.05940594059406,
+          "correct": 26379
+        },
+        "G1P1U0": {
+          "accuracy": 87.01980198019803,
+          "correct": 26367
+        },
+        "G1P1U1": {
+          "accuracy": 87.05610561056106,
+          "correct": 26378
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": -3.5,
+        "residual": 0.0,
+        "update_rank": 8.5
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 29.166666666666668,
+          "positive_percent": 0.0,
+          "signed_percent": -70.0
+        },
+        "residual": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "update_rank": {
+          "magnitude_percent": 70.83333333333333,
+          "positive_percent": 100.0,
+          "signed_percent": 170.0
+        }
+      },
+      "num_samples": 30300,
+      "sequential_contribution_correct": {
+        "base_tuning": 19.0,
+        "enhanced_core": 10.0,
+        "prediction_rank": -6.0,
+        "residual": 0.0,
+        "update_rank": 11.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 41.30434782608695,
+          "positive_percent": 47.5,
+          "signed_percent": 55.88235294117647
+        },
+        "enhanced_core": {
+          "magnitude_percent": 21.73913043478261,
+          "positive_percent": 25.0,
+          "signed_percent": 29.41176470588235
+        },
+        "prediction_rank": {
+          "magnitude_percent": 13.043478260869565,
+          "positive_percent": 0.0,
+          "signed_percent": -17.647058823529413
+        },
+        "residual": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "update_rank": {
+          "magnitude_percent": 23.91304347826087,
+          "positive_percent": 27.5,
+          "signed_percent": 32.35294117647059
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 87.03960396039604,
+          "correct": 26373
+        },
+        "full_v3": {
+          "accuracy": 87.05610561056106,
+          "correct": 26378
+        },
+        "original_dota": {
+          "accuracy": 86.94389438943894,
+          "correct": 26344
+        },
+        "plus_prediction_rank": {
+          "accuracy": 87.01980198019803,
+          "correct": 26367
+        },
+        "plus_residual": {
+          "accuracy": 87.03960396039604,
+          "correct": 26373
+        },
+        "tuned_base_dota": {
+          "accuracy": 87.00660066006601,
+          "correct": 26363
+        }
+      }
+    },
+    "oxford_flowers": {
+      "delta_full_vs_original_correct": 46.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "G0P0U1": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "G0P1U0": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "G0P1U1": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "G1P0U0": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "G1P0U1": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "G1P1U0": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "G1P1U1": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "residual": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "update_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        }
+      },
+      "num_samples": 2463,
+      "sequential_contribution_correct": {
+        "base_tuning": 36.0,
+        "enhanced_core": 10.0,
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 78.26086956521739,
+          "positive_percent": 78.26086956521739,
+          "signed_percent": 78.26086956521739
+        },
+        "enhanced_core": {
+          "magnitude_percent": 21.73913043478261,
+          "positive_percent": 21.73913043478261,
+          "signed_percent": 21.73913043478261
+        },
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "full_v3": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "original_dota": {
+          "accuracy": 75.07105156313439,
+          "correct": 1849
+        },
+        "plus_prediction_rank": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "plus_residual": {
+          "accuracy": 76.93869265123833,
+          "correct": 1895
+        },
+        "tuned_base_dota": {
+          "accuracy": 76.53268371904181,
+          "correct": 1885
+        }
+      }
+    },
+    "oxford_pets": {
+      "delta_full_vs_original_correct": 37.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "G0P0U1": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "G0P1U0": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "G0P1U1": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "G1P0U0": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "G1P0U1": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "G1P1U0": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "G1P1U1": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "residual": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "update_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        }
+      },
+      "num_samples": 3669,
+      "sequential_contribution_correct": {
+        "base_tuning": 27.0,
+        "enhanced_core": 10.0,
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 72.97297297297297,
+          "positive_percent": 72.97297297297297,
+          "signed_percent": 72.97297297297297
+        },
+        "enhanced_core": {
+          "magnitude_percent": 27.027027027027028,
+          "positive_percent": 27.027027027027028,
+          "signed_percent": 27.027027027027028
+        },
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "full_v3": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "original_dota": {
+          "accuracy": 91.9051512673753,
+          "correct": 3372
+        },
+        "plus_prediction_rank": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "plus_residual": {
+          "accuracy": 92.91360043608613,
+          "correct": 3409
+        },
+        "tuned_base_dota": {
+          "accuracy": 92.64104660670482,
+          "correct": 3399
+        }
+      }
+    },
+    "stanford_cars": {
+      "delta_full_vs_original_correct": -3.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "G0P0U1": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "G0P1U0": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "G0P1U1": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "G1P0U0": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "G1P0U1": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "G1P1U0": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "G1P1U1": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "residual": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "update_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        }
+      },
+      "num_samples": 8041,
+      "sequential_contribution_correct": {
+        "base_tuning": 13.0,
+        "enhanced_core": -16.0,
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 44.827586206896555,
+          "positive_percent": 100.0,
+          "signed_percent": -433.3333333333333
+        },
+        "enhanced_core": {
+          "magnitude_percent": 55.172413793103445,
+          "positive_percent": 0.0,
+          "signed_percent": 533.3333333333334
+        },
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": -0.0
+        },
+        "residual": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": -0.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": -0.0
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "full_v3": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "original_dota": {
+          "accuracy": 69.74256933217262,
+          "correct": 5608
+        },
+        "plus_prediction_rank": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "plus_residual": {
+          "accuracy": 69.70526053973387,
+          "correct": 5605
+        },
+        "tuned_base_dota": {
+          "accuracy": 69.90424076607387,
+          "correct": 5621
+        }
+      }
+    },
+    "sun397": {
+      "delta_full_vs_original_correct": 28.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 68.92191435768262,
+          "correct": 13681
+        },
+        "G0P0U1": {
+          "accuracy": 68.98740554156171,
+          "correct": 13694
+        },
+        "G0P1U0": {
+          "accuracy": 68.93198992443325,
+          "correct": 13683
+        },
+        "G0P1U1": {
+          "accuracy": 68.98740554156171,
+          "correct": 13694
+        },
+        "G1P0U0": {
+          "accuracy": 68.92695214105794,
+          "correct": 13682
+        },
+        "G1P0U1": {
+          "accuracy": 68.98740554156171,
+          "correct": 13694
+        },
+        "G1P1U0": {
+          "accuracy": 68.93702770780857,
+          "correct": 13684
+        },
+        "G1P1U1": {
+          "accuracy": 68.9823677581864,
+          "correct": 13693
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.6666666666666667,
+        "residual": 0.16666666666666669,
+        "update_rank": 11.166666666666666
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 5.555555555555556,
+          "positive_percent": 5.555555555555556,
+          "signed_percent": 5.555555555555556
+        },
+        "residual": {
+          "magnitude_percent": 1.388888888888889,
+          "positive_percent": 1.388888888888889,
+          "signed_percent": 1.388888888888889
+        },
+        "update_rank": {
+          "magnitude_percent": 93.05555555555554,
+          "positive_percent": 93.05555555555554,
+          "signed_percent": 93.05555555555554
+        }
+      },
+      "num_samples": 19850,
+      "sequential_contribution_correct": {
+        "base_tuning": 5.0,
+        "enhanced_core": 11.0,
+        "prediction_rank": 2.0,
+        "residual": 1.0,
+        "update_rank": 9.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 17.857142857142858,
+          "positive_percent": 17.857142857142858,
+          "signed_percent": 17.857142857142858
+        },
+        "enhanced_core": {
+          "magnitude_percent": 39.285714285714285,
+          "positive_percent": 39.285714285714285,
+          "signed_percent": 39.285714285714285
+        },
+        "prediction_rank": {
+          "magnitude_percent": 7.142857142857143,
+          "positive_percent": 7.142857142857143,
+          "signed_percent": 7.142857142857143
+        },
+        "residual": {
+          "magnitude_percent": 3.5714285714285716,
+          "positive_percent": 3.5714285714285716,
+          "signed_percent": 3.5714285714285716
+        },
+        "update_rank": {
+          "magnitude_percent": 32.142857142857146,
+          "positive_percent": 32.142857142857146,
+          "signed_percent": 32.142857142857146
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 68.92191435768262,
+          "correct": 13681
+        },
+        "full_v3": {
+          "accuracy": 68.9823677581864,
+          "correct": 13693
+        },
+        "original_dota": {
+          "accuracy": 68.84130982367758,
+          "correct": 13665
+        },
+        "plus_prediction_rank": {
+          "accuracy": 68.93702770780857,
+          "correct": 13684
+        },
+        "plus_residual": {
+          "accuracy": 68.92695214105794,
+          "correct": 13682
+        },
+        "tuned_base_dota": {
+          "accuracy": 68.86649874055415,
+          "correct": 13670
+        }
+      }
+    },
+    "ucf101": {
+      "delta_full_vs_original_correct": 69.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 74.04176579434312,
+          "correct": 2801
+        },
+        "G0P0U1": {
+          "accuracy": 74.20037007665874,
+          "correct": 2807
+        },
+        "G0P1U0": {
+          "accuracy": 74.01533174729052,
+          "correct": 2800
+        },
+        "G0P1U1": {
+          "accuracy": 74.12106793550093,
+          "correct": 2804
+        },
+        "G1P0U0": {
+          "accuracy": 74.04176579434312,
+          "correct": 2801
+        },
+        "G1P0U1": {
+          "accuracy": 74.25323817076395,
+          "correct": 2809
+        },
+        "G1P1U0": {
+          "accuracy": 74.01533174729052,
+          "correct": 2800
+        },
+        "G1P1U1": {
+          "accuracy": 74.20037007665874,
+          "correct": 2807
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": -1.6666666666666665,
+        "residual": 1.3333333333333333,
+        "update_rank": 6.333333333333332
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 17.857142857142858,
+          "positive_percent": 0.0,
+          "signed_percent": -27.77777777777778
+        },
+        "residual": {
+          "magnitude_percent": 14.285714285714285,
+          "positive_percent": 17.39130434782609,
+          "signed_percent": 22.22222222222222
+        },
+        "update_rank": {
+          "magnitude_percent": 67.85714285714286,
+          "positive_percent": 82.60869565217392,
+          "signed_percent": 105.55555555555556
+        }
+      },
+      "num_samples": 3783,
+      "sequential_contribution_correct": {
+        "base_tuning": 25.0,
+        "enhanced_core": 38.0,
+        "prediction_rank": -1.0,
+        "residual": 0.0,
+        "update_rank": 7.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 35.2112676056338,
+          "positive_percent": 35.714285714285715,
+          "signed_percent": 36.231884057971016
+        },
+        "enhanced_core": {
+          "magnitude_percent": 53.521126760563384,
+          "positive_percent": 54.285714285714285,
+          "signed_percent": 55.072463768115945
+        },
+        "prediction_rank": {
+          "magnitude_percent": 1.408450704225352,
+          "positive_percent": 0.0,
+          "signed_percent": -1.4492753623188406
+        },
+        "residual": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "update_rank": {
+          "magnitude_percent": 9.859154929577464,
+          "positive_percent": 10.0,
+          "signed_percent": 10.144927536231885
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 74.04176579434312,
+          "correct": 2801
+        },
+        "full_v3": {
+          "accuracy": 74.20037007665874,
+          "correct": 2807
+        },
+        "original_dota": {
+          "accuracy": 72.37642083002908,
+          "correct": 2738
+        },
+        "plus_prediction_rank": {
+          "accuracy": 74.01533174729052,
+          "correct": 2800
+        },
+        "plus_residual": {
+          "accuracy": 74.04176579434312,
+          "correct": 2801
+        },
+        "tuned_base_dota": {
+          "accuracy": 73.03727200634417,
+          "correct": 2763
+        }
+      }
+    }
+  },
+  "protocol": "full-stream true-online layered diagnostic using frozen per-dataset V3 winners",
+  "status": "complete"
+}

@@ -1,0 +1,4 @@
+candidate,source,dataset,correct,N,accuracy
+D,D,dtd,10,32,31.25
+E,E,dtd,10,32,31.25
+O,O,dtd,10,32,31.25

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.so
+
+.claude/
+.launcher.lock
+*.pid
+
+log/
+logs/
+dataset/
+datasets_data/
+data/
+
+.DS_Store
+.vscode/
+.idea/

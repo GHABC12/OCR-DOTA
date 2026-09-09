@@ -1,0 +1,16 @@
+OCR-DOTA-V3 P0真实在线消融
+冻结每流最新冠军；关闭项只置零，原冠军为零时记N/A，不擅自改强度。
+
+总样本: 331415
+Active counts: {'geometry': 19, 'prediction': 13, 'update': 7}
+Prediction纠错 W2C/C2W/NCR: 408/724/-0.00095349
+
+Macro accuracy:
+- original_dota: 70.463718%
+- matched_base_dota: 70.860414%
+- rank_free: 71.995715%
+- prediction_only: 71.850071%
+- update_only: 72.463665%
+- pure_rank: 72.311815%
+- geometry_only: 72.020088%
+- full_v3: 72.333731%

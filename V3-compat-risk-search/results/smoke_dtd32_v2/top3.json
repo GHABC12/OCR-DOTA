@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_id": "off",
+    "candidate_sha256": "8692ba58e03e35bb889c1430407bc8e8f7f863254d3111beca8672398d5204b3",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.0,
+    "source": "off",
+    "update_power": 0.0,
+    "usage": "off"
+  },
+  {
+    "candidate_id": "C_both",
+    "candidate_sha256": "d899b8c01cb66f46d2daa12450988b775fa48c356119ad52428099b770d453a7",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.1,
+    "source": "C",
+    "update_power": 1.0,
+    "usage": "both"
+  },
+  {
+    "candidate_id": "C_prediction_only",
+    "candidate_sha256": "85adffb9562d0f73cae32d3b8fe538381cc3749f47bfc4031799a047d299ce93",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.1,
+    "source": "C",
+    "update_power": 0.0,
+    "usage": "prediction_only"
+  }
+]

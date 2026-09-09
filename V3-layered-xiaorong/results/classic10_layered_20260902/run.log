@@ -1,0 +1,15 @@
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/home/user/shiyunxiao/OCR-DOTA/V3-layered-xiaorong/run_layered_ablation.py", line 389, in <module>
+    raise SystemExit(main())
+  File "/home/user/shiyunxiao/OCR-DOTA/V3-layered-xiaorong/run_layered_ablation.py", line 361, in main
+    raise RuntimeError(f"prediction-rank polluted update state for {dataset}/G{geometry}U{update}: {mismatches}")
+RuntimeError: prediction-rank polluted update state for eurosat/G0U0: {'trajectory_sha256': ['770589a4d10bca29588d12b9a0d3a599c96a882de20d79d2027d9a381f75e554', '0d9da2646536342b2c20c989256e520f6a86bcf1a5b5e93d3a06fceb52f421b0']}

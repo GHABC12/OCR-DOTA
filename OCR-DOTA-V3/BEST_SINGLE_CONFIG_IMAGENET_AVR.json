@@ -1,0 +1,182 @@
+{
+  "datasets": {
+    "A": {
+      "accuracy": 61.6,
+      "cache_sha256": "505ff03f191f38fb12adc2c09bd305023b90968d370e6294a892ec83fc49e702",
+      "candidate_id": "b2f10b1bca392ead",
+      "compatibility_sha256": "7a0af75cef078f27b62b65d2bf12e965fdbfa4d473b72b8b5046dc4ae3cb2631",
+      "config": {
+        "base": {
+          "epsilon": 3.8739094e-05,
+          "eta": 0.17191770987,
+          "rho": 0.011544218607,
+          "sigma": 0.001741270408
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 1.0,
+          "tau_rank": 0.15,
+          "update_power": 0.0
+        },
+        "update": {
+          "beta": 0.603054145267,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.74582425777375,
+          "init_mu": "text",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.25,
+          "stat_decay": 1.0
+        },
+        "update_rule": "clip",
+        "update_views": "selected"
+      },
+      "correct": 4620,
+      "elapsed_sec": 61.97974634170532,
+      "fingerprint": "b2f10b1bca392eadcc43823a4d4f3ddc28b70f71923311c41860b4528548b8f7",
+      "health_status": "healthy",
+      "label": "S2_count_x1.25",
+      "num_samples": 7500,
+      "order_sha256": "b265ef0e9aeac95702d27d21a0aef53588c137d6b93200ddbd5b97bceed082ac",
+      "prediction_sha256": "106fb12902c41e1d445c32a6b68e156b345f8ba065387fd1035aa3278a7940af",
+      "sample_order_seed": 152,
+      "sample_order_sha256": "b265ef0e9aeac95702d27d21a0aef53588c137d6b93200ddbd5b97bceed082ac",
+      "selection_scope": "fixed_order_tuning_oracle",
+      "stage": "stage2",
+      "state_sha256": "006e36ceeb9b7bae332106ff9428604534cec6761d17bee13cd851be9feaf755",
+      "trajectory_sha256": "cc65ea2ea0857fb4fc473fcf182bd1673d9ce74eb29da8e041e86f31ef20f9af",
+      "verification": {
+        "accuracy": 61.6,
+        "compatibility_sha256": "7a0af75cef078f27b62b65d2bf12e965fdbfa4d473b72b8b5046dc4ae3cb2631",
+        "correct": 4620,
+        "elapsed_sec": 61.78974270820618,
+        "health_status": "healthy",
+        "num_samples": 7500,
+        "prediction_sha256": "106fb12902c41e1d445c32a6b68e156b345f8ba065387fd1035aa3278a7940af",
+        "state_sha256": "006e36ceeb9b7bae332106ff9428604534cec6761d17bee13cd851be9feaf755",
+        "trajectory_sha256": "cc65ea2ea0857fb4fc473fcf182bd1673d9ce74eb29da8e041e86f31ef20f9af"
+      }
+    },
+    "R": {
+      "accuracy": 81.12,
+      "cache_sha256": "68f048d3934161b479f4b6c6be9bca79ecd343666f793e8ce58e3465bcda82d0",
+      "candidate_id": "addf25f029cee9cf",
+      "compatibility_sha256": "4d7df294d3e20033e31ec767cf24538bbfde8bdecc904c47dfe8cf87ed4ccad7",
+      "config": {
+        "base": {
+          "epsilon": 8.203125e-05,
+          "eta": 0.1753125,
+          "rho": 0.00625,
+          "sigma": 0.002125
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.5,
+          "tau_rank": 0.075,
+          "update_power": 1.0
+        },
+        "update": {
+          "beta": 0.1875,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 1.0,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 24336,
+      "elapsed_sec": 247.63885617256165,
+      "fingerprint": "addf25f029cee9cf96284eb479df0d29d5aac5443c18a7a33852475827a1a750",
+      "health_status": "healthy",
+      "label": "S3_eta_x1.1",
+      "num_samples": 30000,
+      "order_sha256": "7146f11166efda28ca9ca43d607a7b85de395dda7fb78283479068313b757972",
+      "prediction_sha256": "ab13586e18937347f275f352235fb61cb42d08fc21df5a231b94fcd0cb7916ec",
+      "sample_order_seed": null,
+      "sample_order_sha256": "7146f11166efda28ca9ca43d607a7b85de395dda7fb78283479068313b757972",
+      "selection_scope": "canonical_order_tuning_oracle",
+      "stage": "stage3",
+      "state_sha256": "73eb5b248f08a73587363f661ef03d4eba6cc82bc64571d1d74cf67ac99e9ce0",
+      "trajectory_sha256": "4203c7f1043bda85185fdda5806a146eec2f0777e124c58783b8bdc98e770143",
+      "verification": {
+        "accuracy": 81.12,
+        "compatibility_sha256": "4d7df294d3e20033e31ec767cf24538bbfde8bdecc904c47dfe8cf87ed4ccad7",
+        "correct": 24336,
+        "elapsed_sec": 246.17463421821594,
+        "health_status": "healthy",
+        "num_samples": 30000,
+        "prediction_sha256": "ab13586e18937347f275f352235fb61cb42d08fc21df5a231b94fcd0cb7916ec",
+        "state_sha256": "73eb5b248f08a73587363f661ef03d4eba6cc82bc64571d1d74cf67ac99e9ce0",
+        "trajectory_sha256": "4203c7f1043bda85185fdda5806a146eec2f0777e124c58783b8bdc98e770143"
+      }
+    },
+    "V": {
+      "accuracy": 64.76,
+      "cache_sha256": "af4acd16315cd02212e0c48f06402dce697e9109422dccd86feb93c13f7d471a",
+      "candidate_id": "A1",
+      "compatibility_sha256": "056a3f7f5fe46df970701fa5b1894f18c5aae67133f01b39a0b779d4d406c475",
+      "config": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.05,
+          "rho": 0.00553125,
+          "sigma": 0.002
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.5,
+          "tau_rank": 0.15,
+          "update_power": 0.0
+        },
+        "update": {
+          "beta": 0.28125,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.65625,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.25,
+          "stat_decay": 1.0
+        },
+        "update_rule": "clip",
+        "update_views": "selected"
+      },
+      "correct": 6476,
+      "elapsed_sec": 197.972740650177,
+      "fingerprint": "5f1979f4894dc24ed852c1834a27c955634e4eee0de6bf7c2c3a0546b4057c49",
+      "health_status": "healthy",
+      "label": "A1",
+      "num_samples": 10000,
+      "order_sha256": "5c72e762340104ee441aca8a53022d3206ff8cc838b559e4721e75d666c496d2",
+      "prediction_sha256": "bfcbd4ddd903e5f17afb3e8457fcb1227959b90cca47f656184a39eb65201aab",
+      "sample_order_seed": 20,
+      "sample_order_sha256": "5c72e762340104ee441aca8a53022d3206ff8cc838b559e4721e75d666c496d2",
+      "selection_scope": "fixed_order_tuning_oracle",
+      "stage": "initial",
+      "state_sha256": "78ee939ff6ecd6c38e8e0bb9d42ee2b2e3b2be4963c5dbc7193b86e48bd1f6ba",
+      "trajectory_sha256": "bddb3d8a9aafc48497ca6d3d0e5e95a745e6435e2a18295fdccf4466ed43a78e",
+      "verification": {
+        "accuracy": 64.76,
+        "compatibility_sha256": "056a3f7f5fe46df970701fa5b1894f18c5aae67133f01b39a0b779d4d406c475",
+        "correct": 6476,
+        "elapsed_sec": 197.54771423339844,
+        "health_status": "healthy",
+        "num_samples": 10000,
+        "prediction_sha256": "bfcbd4ddd903e5f17afb3e8457fcb1227959b90cca47f656184a39eb65201aab",
+        "state_sha256": "78ee939ff6ecd6c38e8e0bb9d42ee2b2e3b2be4963c5dbc7193b86e48bd1f6ba",
+        "trajectory_sha256": "bddb3d8a9aafc48497ca6d3d0e5e95a745e6435e2a18295fdccf4466ed43a78e"
+      }
+    }
+  },
+  "protocol": "A seed152 / V seed20 fixed-order oracle; R canonical-order oracle",
+  "status": "complete",
+  "summary_sha256": "5d946843af55e49e5b1f84a83bf5809d4e4bb690b1007b0aee8164ffebd36a77",
+  "version": "ocr-dota-v3-imagenet-avr-fixed-order-v2"
+}

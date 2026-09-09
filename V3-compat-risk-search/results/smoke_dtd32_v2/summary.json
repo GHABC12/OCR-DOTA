@@ -1,0 +1,391 @@
+{
+  "stage1_ranking": [
+    {
+      "candidate_id": "off",
+      "candidate_sha256": "8692ba58e03e35bb889c1430407bc8e8f7f863254d3111beca8672398d5204b3",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "off",
+      "update_power": 0.0,
+      "usage": "off"
+    },
+    {
+      "candidate_id": "C_both",
+      "candidate_sha256": "d899b8c01cb66f46d2daa12450988b775fa48c356119ad52428099b770d453a7",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "C",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "C_prediction_only",
+      "candidate_sha256": "85adffb9562d0f73cae32d3b8fe538381cc3749f47bfc4031799a047d299ce93",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "C",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "C_update_only",
+      "candidate_sha256": "4284a715811574acc78e7270417843657ad99f61b830c7f76aba8ae402fa847b",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "C",
+      "update_power": 1.0,
+      "usage": "update_only"
+    },
+    {
+      "candidate_id": "D_both",
+      "candidate_sha256": "b3df4ffc9f7101cd7ed4faac75f7e0b9766c14004f0e20dbe45b9c09ff3f9537",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "D",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "D_prediction_only",
+      "candidate_sha256": "3ea5d95b1bac31e73ae878782c5f9abccec2a71eaffd6b48ac75d7b0cd88ae7d",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "D",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "D_update_only",
+      "candidate_sha256": "49950b9bdc12b18a847d39610a872a7431ada081879ab12a783b03a3b16592a0",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "D",
+      "update_power": 1.0,
+      "usage": "update_only"
+    },
+    {
+      "candidate_id": "E_both",
+      "candidate_sha256": "ce0323e7ca23c160509ba6c18d956b8e46668ee8eda5a5b47fd11dd76e00b89c",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "E",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "E_prediction_only",
+      "candidate_sha256": "e06bed1e38a270e6c9c77714abfd495699cfc30f523297c17f6e2a76dcd270b7",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "E",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "E_update_only",
+      "candidate_sha256": "3b4580a6b8b2c5622941d9ead9c3940e000a7cb6d7914392fe6d6a2352c98d24",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "E",
+      "update_power": 1.0,
+      "usage": "update_only"
+    },
+    {
+      "candidate_id": "O_both",
+      "candidate_sha256": "09137079192fd06792ea0cbdb5491446dd3ea630f5c0b628ba0c0e6f5e984ac3",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "O",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "O_prediction_only",
+      "candidate_sha256": "fa747c99e1f7c3d4cce95acbf4d2ab728e562e7b647fdf27094abb68684ebaa5",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "O",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "O_update_only",
+      "candidate_sha256": "5252747ea4d6ca5b2a1543e5cc5a5540776547a73da23c9a3949f926643db1ab",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "O",
+      "update_power": 1.0,
+      "usage": "update_only"
+    },
+    {
+      "candidate_id": "DE_both",
+      "candidate_sha256": "0fc273f8137fec5a891d6accc790c69990f3f868b7cc73b217b98c37a29a8a82",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "DE",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "DE_prediction_only",
+      "candidate_sha256": "6af1193be8ce91bced731a730912506d2288b0b4b7a5058f736e3cc749811116",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "DE",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "DE_update_only",
+      "candidate_sha256": "a38eace259aea3e27b178acadbb3a4fe8d094738ada3b6301805e7c38bcd254f",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "DE",
+      "update_power": 1.0,
+      "usage": "update_only"
+    },
+    {
+      "candidate_id": "DO_both",
+      "candidate_sha256": "77e11951d02b113b2d10090605158174c6052c1e5a292dbea6c01afa32ce9a59",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "DO",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "DO_prediction_only",
+      "candidate_sha256": "28e181b2941868b19c8075f740f835aaff619a94e55184173733b77e612463f4",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "DO",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "DO_update_only",
+      "candidate_sha256": "8ce5eef473f6a5168a81254c58ea2f7fa6d06f5c4a8a306b258f40c2ce661309",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "DO",
+      "update_power": 1.0,
+      "usage": "update_only"
+    },
+    {
+      "candidate_id": "EO_both",
+      "candidate_sha256": "94dc23b2e936dd28aa32e8daf4cc5472830e345292ddd9ff2c0ea58d5487a88a",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "EO",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "EO_prediction_only",
+      "candidate_sha256": "1bb386385e6c0e18b648590fe9f58b7dabad5539f057bbb54a0beda29af5a767",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "EO",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "EO_update_only",
+      "candidate_sha256": "c3af22d996fb0e80491c356df2c4a4aa8b7933300824ea0b62bac9c15911e234",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "EO",
+      "update_power": 1.0,
+      "usage": "update_only"
+    },
+    {
+      "candidate_id": "DEO_both",
+      "candidate_sha256": "7b239741f71641df6fb2d2b771f129d9e1f55696ab03144947a2c7da4911c1f1",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "DEO",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "DEO_prediction_only",
+      "candidate_sha256": "c4ae62e30fa5111f5a28aec280f1806d906a2ccf18475f4e0ea7810a956c86f0",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "DEO",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "DEO_update_only",
+      "candidate_sha256": "09ef743d62a633d1a8f99c64358e361fd4d87de87643eed1bc1b624566f05de7",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "DEO",
+      "update_power": 1.0,
+      "usage": "update_only"
+    }
+  ],
+  "stage2_ranking": [
+    {
+      "candidate_id": "C_both",
+      "candidate_sha256": "d899b8c01cb66f46d2daa12450988b775fa48c356119ad52428099b770d453a7",
+      "datasets_complete": 1,
+      "macro_accuracy": 31.25,
+      "micro_correct": 10,
+      "num_samples": 32,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "C",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "C_prediction_only",
+      "candidate_sha256": "85adffb9562d0f73cae32d3b8fe538381cc3749f47bfc4031799a047d299ce93",
+      "datasets_complete": 1,
+      "macro_accuracy": 31.25,
+      "micro_correct": 10,
+      "num_samples": 32,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "C",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    },
+    {
+      "candidate_id": "off",
+      "candidate_sha256": "8692ba58e03e35bb889c1430407bc8e8f7f863254d3111beca8672398d5204b3",
+      "datasets_complete": 1,
+      "macro_accuracy": 31.25,
+      "micro_correct": 10,
+      "num_samples": 32,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "off",
+      "update_power": 0.0,
+      "usage": "off"
+    }
+  ],
+  "status": "complete",
+  "top3": [
+    {
+      "candidate_id": "off",
+      "candidate_sha256": "8692ba58e03e35bb889c1430407bc8e8f7f863254d3111beca8672398d5204b3",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.0,
+      "source": "off",
+      "update_power": 0.0,
+      "usage": "off"
+    },
+    {
+      "candidate_id": "C_both",
+      "candidate_sha256": "d899b8c01cb66f46d2daa12450988b775fa48c356119ad52428099b770d453a7",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "C",
+      "update_power": 1.0,
+      "usage": "both"
+    },
+    {
+      "candidate_id": "C_prediction_only",
+      "candidate_sha256": "85adffb9562d0f73cae32d3b8fe538381cc3749f47bfc4031799a047d299ce93",
+      "macro_accuracy": 31.25,
+      "per_dataset": {
+        "dtd": 31.25
+      },
+      "prediction_strength": 0.1,
+      "source": "C",
+      "update_power": 0.0,
+      "usage": "prediction_only"
+    }
+  ],
+  "verified": 3
+}

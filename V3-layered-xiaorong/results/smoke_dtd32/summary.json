@@ -1,0 +1,268 @@
+{
+  "aggregate": {
+    "delta_full_vs_original_correct": 0,
+    "delta_full_vs_original_macro_pp": 0.0,
+    "delta_full_vs_original_micro_pp": 0.0,
+    "factorial_macro_shapley_pp": {
+      "prediction_rank": 0.0,
+      "residual": 0.0,
+      "update_rank": 0.0
+    },
+    "factorial_macro_shares": {
+      "prediction_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "residual": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "update_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      }
+    },
+    "factorial_micro_shapley_correct": {
+      "prediction_rank": 0.0,
+      "residual": 0.0,
+      "update_rank": 0.0
+    },
+    "factorial_micro_shares": {
+      "prediction_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "residual": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "update_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      }
+    },
+    "macro_stage_accuracy": {
+      "enhanced_core": 31.25,
+      "full_v3": 31.25,
+      "original_dota": 31.25,
+      "plus_prediction_rank": 31.25,
+      "plus_residual": 31.25,
+      "tuned_base_dota": 31.25
+    },
+    "micro_stage_accuracy": {
+      "enhanced_core": 31.25,
+      "full_v3": 31.25,
+      "original_dota": 31.25,
+      "plus_prediction_rank": 31.25,
+      "plus_residual": 31.25,
+      "tuned_base_dota": 31.25
+    },
+    "micro_stage_correct": {
+      "enhanced_core": 10,
+      "full_v3": 10,
+      "original_dota": 10,
+      "plus_prediction_rank": 10,
+      "plus_residual": 10,
+      "tuned_base_dota": 10
+    },
+    "num_samples": 32,
+    "sequential_macro_pp": {
+      "base_tuning": 0.0,
+      "enhanced_core": 0.0,
+      "prediction_rank": 0.0,
+      "residual": 0.0,
+      "update_rank": 0.0
+    },
+    "sequential_macro_shares": {
+      "base_tuning": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "enhanced_core": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "prediction_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "residual": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "update_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      }
+    },
+    "sequential_micro_correct": {
+      "base_tuning": 0,
+      "enhanced_core": 0,
+      "prediction_rank": 0,
+      "residual": 0,
+      "update_rank": 0
+    },
+    "sequential_micro_shares": {
+      "base_tuning": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "enhanced_core": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "prediction_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "residual": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      },
+      "update_rank": {
+        "magnitude_percent": null,
+        "positive_percent": null,
+        "signed_percent": null
+      }
+    }
+  },
+  "per_dataset": {
+    "dtd": {
+      "delta_full_vs_original_correct": 0.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "G0P0U1": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "G0P1U0": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "G0P1U1": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "G1P0U0": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "G1P0U1": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "G1P1U0": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "G1P1U1": {
+          "accuracy": 31.25,
+          "correct": 10
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "residual": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "update_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        }
+      },
+      "num_samples": 32,
+      "sequential_contribution_correct": {
+        "base_tuning": 0.0,
+        "enhanced_core": 0.0,
+        "prediction_rank": 0.0,
+        "residual": 0.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "enhanced_core": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "prediction_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "residual": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        },
+        "update_rank": {
+          "magnitude_percent": null,
+          "positive_percent": null,
+          "signed_percent": null
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "full_v3": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "original_dota": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "plus_prediction_rank": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "plus_residual": {
+          "accuracy": 31.25,
+          "correct": 10
+        },
+        "tuned_base_dota": {
+          "accuracy": 31.25,
+          "correct": 10
+        }
+      }
+    }
+  },
+  "protocol": "full-stream true-online layered diagnostic using frozen per-dataset V3 winners",
+  "status": "complete"
+}

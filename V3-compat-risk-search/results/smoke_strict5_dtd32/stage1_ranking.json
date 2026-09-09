@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_id": "D",
+    "candidate_sha256": "bfc01908300b7a8541efa0e7b43755ff0dd9c3f19017bffeff0b21d20f894c61",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.1,
+    "source": "D",
+    "tau_rank": 0.15,
+    "update_power": 1.0
+  },
+  {
+    "candidate_id": "E",
+    "candidate_sha256": "1498fb03160d52693757cdad5268db678750fb301defe71064ded8ed3a5b5f47",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.1,
+    "source": "E",
+    "tau_rank": 0.15,
+    "update_power": 1.0
+  },
+  {
+    "candidate_id": "O",
+    "candidate_sha256": "1b60d6ea7ede8ae1a94b34fc1e90cf134d09e2226f13de3a8d24bf9406129172",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.1,
+    "source": "O",
+    "tau_rank": 0.15,
+    "update_power": 1.0
+  },
+  {
+    "candidate_id": "DO",
+    "candidate_sha256": "aa91b2a3b339566141542bc6868dcbf8e2177f3279c873e4a1488e6810015f65",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.1,
+    "source": "DO",
+    "tau_rank": 0.15,
+    "update_power": 1.0
+  },
+  {
+    "candidate_id": "EO",
+    "candidate_sha256": "a7dd111ba0ed772be0fb9adec9f1d55fdfc3f95e94ed510d0ba39f24a852de24",
+    "macro_accuracy": 31.25,
+    "per_dataset": {
+      "dtd": 31.25
+    },
+    "prediction_strength": 0.1,
+    "source": "EO",
+    "tau_rank": 0.15,
+    "update_power": 1.0
+  }
+]

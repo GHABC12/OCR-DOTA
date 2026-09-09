@@ -1,0 +1,22 @@
+ocr_dota_v3:
+  rank:
+    tau_rank: 0.15
+    prediction_strength: 1.0
+    update_power: 1.0
+    eps: 1.0e-12
+
+  update:
+    # The only retained geometric term.  semantic leakage and the previous
+    # independent order risk are intentionally absent.
+    beta: 0.5
+    residual_strength: 0.25
+    stat_decay: 1.0
+    init_count: 1.0
+    init_mu: text
+    prior_eps: 1.0e-6
+    norm_eps: 1.0e-12
+    gaussian_mode: shared_cov
+    covariance_mode: full
+
+  update_rule: mix08clip
+  update_views: selected

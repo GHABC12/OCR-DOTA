@@ -1,0 +1,13 @@
+OCR-DOTA-V3 三风险真实在线全因子消融
+口径：全量流诊断；不是独立测试泛化结果
+
+总样本数: 32
+全开相对全关: +0 个正确样本
+
+Micro Shapley贡献：
+- residual: +0.000 samples; magnitude=N/A; positive=N/A
+- semantic: +0.000 samples; magnitude=N/A; positive=N/A
+- order: +0.000 samples; magnitude=N/A; positive=N/A
+
+逐数据集：
+- dtd: none=10, all=10, Δ=+0; phi(D/E/O)=+0.000/+0.000/+0.000

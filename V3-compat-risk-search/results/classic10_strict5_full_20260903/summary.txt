@@ -1,0 +1,13 @@
+V3 compatibility-risk真实在线搜索
+状态: complete
+复验: 30/30
+
+Stage1 top3:
+- DO: macro=64.948609%
+- O: macro=64.781176%
+- EO: macro=64.636554%
+
+Stage2 ranking:
+- O: macro=71.108502% (10/10)
+- EO: macro=71.074050% (10/10)
+- DO: macro=69.961820% (10/10)

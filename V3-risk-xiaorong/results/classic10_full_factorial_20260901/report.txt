@@ -1,0 +1,22 @@
+OCR-DOTA-V3 三风险真实在线全因子消融
+口径：全量流诊断；不是独立测试泛化结果
+
+总样本数: 83696
+全开相对全关: +26 个正确样本
+
+Micro Shapley贡献：
+- residual: +24.500 samples; magnitude=90.741%; positive=92.453%
+- semantic: -0.500 samples; magnitude=1.852%; positive=0.000%
+- order: +2.000 samples; magnitude=7.407%; positive=7.547%
+
+逐数据集：
+- dtd: none=863, all=864, Δ=+1; phi(D/E/O)=+1.000/+0.000/+0.000
+- eurosat: none=5941, all=5964, Δ=+23; phi(D/E/O)=+21.000/+0.000/+2.000
+- caltech101: none=2325, all=2325, Δ=+0; phi(D/E/O)=+0.000/+0.000/+0.000
+- fgvc: none=905, all=906, Δ=+1; phi(D/E/O)=+1.000/+0.000/+0.000
+- oxford_flowers: none=1895, all=1894, Δ=-1; phi(D/E/O)=-0.333/-0.333/-0.333
+- oxford_pets: none=3409, all=3409, Δ=+0; phi(D/E/O)=+0.000/+0.000/+0.000
+- ucf101: none=2804, all=2807, Δ=+3; phi(D/E/O)=+2.833/-0.167/+0.333
+- stanford_cars: none=5605, all=5605, Δ=+0; phi(D/E/O)=+0.000/+0.000/+0.000
+- food101: none=26378, all=26378, Δ=+0; phi(D/E/O)=+0.000/+0.000/+0.000
+- sun397: none=13694, all=13693, Δ=-1; phi(D/E/O)=-1.000/+0.000/+0.000

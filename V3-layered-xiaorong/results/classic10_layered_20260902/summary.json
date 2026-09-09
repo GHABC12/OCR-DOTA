@@ -1,0 +1,247 @@
+{
+  "aggregate": null,
+  "per_dataset": {
+    "dtd": {
+      "delta_full_vs_original_correct": 50.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G0P0U1": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G0P1U0": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G0P1U1": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "G1P0U0": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "G1P0U1": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "G1P1U0": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "G1P1U1": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": 0.0,
+        "residual": 1.0,
+        "update_rank": 0.0
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 100.0,
+          "positive_percent": 100.0,
+          "signed_percent": 100.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "num_samples": 1692,
+      "sequential_contribution_correct": {
+        "base_tuning": 27.0,
+        "enhanced_core": 22.0,
+        "prediction_rank": 0.0,
+        "residual": 1.0,
+        "update_rank": 0.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 54.0,
+          "positive_percent": 54.0,
+          "signed_percent": 54.0
+        },
+        "enhanced_core": {
+          "magnitude_percent": 44.0,
+          "positive_percent": 44.0,
+          "signed_percent": 44.0
+        },
+        "prediction_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        },
+        "residual": {
+          "magnitude_percent": 2.0,
+          "positive_percent": 2.0,
+          "signed_percent": 2.0
+        },
+        "update_rank": {
+          "magnitude_percent": 0.0,
+          "positive_percent": 0.0,
+          "signed_percent": 0.0
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 51.004728132387704,
+          "correct": 863
+        },
+        "full_v3": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "original_dota": {
+          "accuracy": 48.10874704491726,
+          "correct": 814
+        },
+        "plus_prediction_rank": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "plus_residual": {
+          "accuracy": 51.06382978723404,
+          "correct": 864
+        },
+        "tuned_base_dota": {
+          "accuracy": 49.70449172576832,
+          "correct": 841
+        }
+      }
+    },
+    "eurosat": {
+      "delta_full_vs_original_correct": 865.0,
+      "factorial_arms": {
+        "G0P0U0": {
+          "accuracy": 67.85185185185185,
+          "correct": 5496
+        },
+        "G0P0U1": {
+          "accuracy": 76.58024691358025,
+          "correct": 6203
+        },
+        "G0P1U0": {
+          "accuracy": 64.53086419753086,
+          "correct": 5227
+        },
+        "G0P1U1": {
+          "accuracy": 73.34567901234568,
+          "correct": 5941
+        },
+        "G1P0U0": {
+          "accuracy": 68.34567901234568,
+          "correct": 5536
+        },
+        "G1P0U1": {
+          "accuracy": 76.82716049382717,
+          "correct": 6223
+        },
+        "G1P1U0": {
+          "accuracy": 65.0,
+          "correct": 5265
+        },
+        "G1P1U1": {
+          "accuracy": 73.60493827160494,
+          "correct": 5962
+        }
+      },
+      "factorial_shapley_correct": {
+        "prediction_rank": -265.5,
+        "residual": 29.999999999999996,
+        "update_rank": 701.5
+      },
+      "factorial_shares": {
+        "prediction_rank": {
+          "magnitude_percent": 26.62988966900702,
+          "positive_percent": 0.0,
+          "signed_percent": -56.97424892703863
+        },
+        "residual": {
+          "magnitude_percent": 3.0090270812437305,
+          "positive_percent": 4.1011619958988375,
+          "signed_percent": 6.437768240343346
+        },
+        "update_rank": {
+          "magnitude_percent": 70.36108324974924,
+          "positive_percent": 95.89883800410117,
+          "signed_percent": 150.53648068669528
+        }
+      },
+      "num_samples": 8100,
+      "sequential_contribution_correct": {
+        "base_tuning": -2.0,
+        "enhanced_core": 401.0,
+        "prediction_rank": -271.0,
+        "residual": 40.0,
+        "update_rank": 697.0
+      },
+      "sequential_shares": {
+        "base_tuning": {
+          "magnitude_percent": 0.14174344436569808,
+          "positive_percent": 0.0,
+          "signed_percent": -0.23121387283236994
+        },
+        "enhanced_core": {
+          "magnitude_percent": 28.419560595322466,
+          "positive_percent": 35.23725834797891,
+          "signed_percent": 46.358381502890175
+        },
+        "prediction_rank": {
+          "magnitude_percent": 19.20623671155209,
+          "positive_percent": 0.0,
+          "signed_percent": -31.329479768786126
+        },
+        "residual": {
+          "magnitude_percent": 2.8348688873139616,
+          "positive_percent": 3.51493848857645,
+          "signed_percent": 4.624277456647399
+        },
+        "update_rank": {
+          "magnitude_percent": 49.397590361445786,
+          "positive_percent": 61.24780316344464,
+          "signed_percent": 80.57803468208093
+        }
+      },
+      "stages": {
+        "enhanced_core": {
+          "accuracy": 67.85185185185185,
+          "correct": 5496
+        },
+        "full_v3": {
+          "accuracy": 73.60493827160494,
+          "correct": 5962
+        },
+        "original_dota": {
+          "accuracy": 62.925925925925924,
+          "correct": 5097
+        },
+        "plus_prediction_rank": {
+          "accuracy": 65.0,
+          "correct": 5265
+        },
+        "plus_residual": {
+          "accuracy": 68.34567901234568,
+          "correct": 5536
+        },
+        "tuned_base_dota": {
+          "accuracy": 62.901234567901234,
+          "correct": 5095
+        }
+      }
+    }
+  },
+  "protocol": "full-stream true-online layered diagnostic using frozen per-dataset V3 winners",
+  "status": "running"
+}

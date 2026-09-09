@@ -1,0 +1,313 @@
+{
+  "finished_at": 1788714177.7145422,
+  "identity": {
+    "caches": {
+      "caltech101": {
+        "num_samples": 2465,
+        "order_sha256": "77531dfd7566087636bb721ff93cc34b72818baec0ba72fb0ac3b09dc13e4e33",
+        "sha256": "05d1644c198e639a7d28c5474b0c0aa089e229b97bbf1467f2663a59f2ddaf81"
+      },
+      "domainnet_clipart": {
+        "num_samples": 14604,
+        "order_sha256": "6f704cd5473a1ec04a8ab085ab8040821402c8ad2d0b94d3ea84055ab1f93933",
+        "sha256": "605b23b86ffa088bb2afa12b601f0155832fd010d548490944a0157e499408d5"
+      },
+      "domainnet_infograph": {
+        "num_samples": 15582,
+        "order_sha256": "3debe31c5891b2bebe513f18b07deb188ce951540019b05c37d974b90bc6b0d6",
+        "sha256": "8f65ddcc5ff460988fd4becaa1a4142ee9969c5d71e19fc39ac7934cfa2bbf2c"
+      },
+      "domainnet_painting": {
+        "num_samples": 21850,
+        "order_sha256": "557025c1f5f1381652fe076241faf1e9b16732ea3d785140b575d2b144048e61",
+        "sha256": "4c6fb99d14424cfaa8b708aaa867b01cea31b2e22deb4910377d349f19bbec61"
+      },
+      "domainnet_quickdraw": {
+        "num_samples": 51750,
+        "order_sha256": "3c3eeebf0ef843ad21d5114b28f6e2b9b45e6937fad0b545e19c9396c1f9e505",
+        "sha256": "a83c2a114e16b122e137ef8b9f391bb4987ada15c5e4a2772e97e18cd074537c"
+      },
+      "domainnet_real": {
+        "num_samples": 52041,
+        "order_sha256": "51517f2f8d4b398ae9c7aa63bec893c268d6da22fa7bb5d802037aeffdf36456",
+        "sha256": "2a04a44d91fa7290d6ba08eb61ec66b9dd2cf323dde48fe5af4c6e7330fde842"
+      },
+      "domainnet_sketch": {
+        "num_samples": 20916,
+        "order_sha256": "a5b1c7f94bf50f7c0fc485698ccc78a5d9318df1912a5568d3b7ca627b996e97",
+        "sha256": "172ebe158b382ab810266177399173499dac43a7ae6a0db9c3a491fa56e40a5c"
+      },
+      "dtd": {
+        "num_samples": 1692,
+        "order_sha256": "f6aefa41550942fb0edfcfe681f56362bcff302bea77a327ff96b8c1a9302256",
+        "sha256": "3362a3847447fafcd2c512390ffa146b69d9892527f7dbb9fcaa85c02266103d"
+      },
+      "eurosat": {
+        "num_samples": 8100,
+        "order_sha256": "254ef240b12ba3f60216f838038f8fb69f3371c1cd31f9f5299c0fcb34777eb6",
+        "sha256": "032b7f1f675203f3c7a28e56885d7222d2f7811b28c8758ff980da2a16053430"
+      },
+      "fgvc": {
+        "num_samples": 3333,
+        "order_sha256": "551b4483649bb664126650c05f33dc781fe2aa22b410dc22b606140e90ec92c9",
+        "sha256": "2bce393656073433a8911254d6cb3146a68c9d4ec99657c58611c1b7296db059"
+      },
+      "food101": {
+        "num_samples": 30300,
+        "order_sha256": "6cfa68778c8be388d18faad95fc02e7ded613eafa8e2f122a27a02308011cd05",
+        "sha256": "7e30ed89fc4584b2aa17ee36405c002c832d5ce2303d06c3dff64c63bcfa06f8"
+      },
+      "office_home_art": {
+        "num_samples": 2427,
+        "order_sha256": "12a66f4deac7ddbf4bd86c4c86b6c34b8943d91513ccb37af6e6560490d959d1",
+        "sha256": "154db669e19d3d098cfb3da8593ac9f040e6e3a5e11de7f47b6be9806f2ca77b"
+      },
+      "office_home_clipart": {
+        "num_samples": 4365,
+        "order_sha256": "2195d1292ffdd0c24583628aa34e60b1b4003e5a9abda8d9ea8fc66ab357cc62",
+        "sha256": "e2f3796efde72a1056bb073b4da496a17096b5232cc2b02919ad6342d3c9631e"
+      },
+      "office_home_product": {
+        "num_samples": 4439,
+        "order_sha256": "f6c0554f8fcf4ba1cd09a3f59203b953272d362b13c66e5dd9e4c425c87477b4",
+        "sha256": "3484679dc984201cc365c6d371e8878f868858947f2f5b7b0905863c0c1eca44"
+      },
+      "office_home_real_world": {
+        "num_samples": 4357,
+        "order_sha256": "da162ba2f197b685dec6b8c4998e41f52a785bd4dc80bef4c6c1a6b73552d792",
+        "sha256": "7e89ff396b5d9ba11818ee1c5b17d0cf48766d5e78075cb674ba2392570e06cd"
+      },
+      "oxford_flowers": {
+        "num_samples": 2463,
+        "order_sha256": "93bc773fbf8fa920eed9dc62f66f8dc5a3c12c85a8dc22fa4abe827d8cd98864",
+        "sha256": "fce0fe5e773bffcfb9b4cca70ad6d7c5c4ea7229659b05fe665e0ebb09544dc9"
+      },
+      "oxford_pets": {
+        "num_samples": 3669,
+        "order_sha256": "83308eaab044b8daa3b71b8ee6b8b49b176827b93451544e7f00803626f7c389",
+        "sha256": "cc91bcab9abc32e79c1041f383105f87db0ba333dec2961bb4425bb0d6b539cf"
+      },
+      "stanford_cars": {
+        "num_samples": 8041,
+        "order_sha256": "40892e4bcc7d5b80e0486a07efeb8a7d17ea4b7ded0322dd2665ed0b2694d983",
+        "sha256": "5fe1038f509981e852f248a78ee9bbea60adc8e692866379534f34fda7112ba9"
+      },
+      "sun397": {
+        "num_samples": 19850,
+        "order_sha256": "c81df7a714ad16f737f8d6a4ada0fda6469ee43fd130a03beb8f9c227e8169c1",
+        "sha256": "10078987930d1b68406207d49aefcb7b50ddee1e952127f269d960675cbb6e8f"
+      },
+      "ucf101": {
+        "num_samples": 3783,
+        "order_sha256": "c64be1cdb12c7d215354556b388eb57bd98d0d9876e3072f6ab728f7813ae4a7",
+        "sha256": "7ce61438b58887232c3bf89f411486a46b4efb5e5bca10eac6961b1f09112170"
+      },
+      "visda2017_validation": {
+        "num_samples": 55388,
+        "order_sha256": "4f453a2489be15731331831ba71fedbe5f9338adce02f379dc2087d68ad16610",
+        "sha256": "054f550756a5b6b0683c716c0b43132d905213d37ca9e3a3b8a3b4ed8c0fec14"
+      }
+    },
+    "code_sha256": {
+      "core": "73f6a31f0ac7883d2c289283420ea4ad3a4b0557e5a77d5bf6d4b350f7b27369",
+      "legacy": "11cd3d4d77a876f8f7a3ff07c1313215d29588b416aa6e7a7124d1cc1cd2f478",
+      "model": "d7a947193428c1b70f0a2c40b49c610bd06cc420c527a990ea674af60d02b1f9",
+      "rank": "03d347fe3ee69b47dcf4cbeb79c2bc4d8dfae942029f6a98a35cc737f8c4ab11",
+      "runner": "f4b75cd02be54c1b109a0a72ddf4ea04097310441a6af7e5599108b9d46d4e07"
+    },
+    "datasets": [
+      "fgvc",
+      "caltech101",
+      "stanford_cars",
+      "dtd",
+      "eurosat",
+      "oxford_flowers",
+      "food101",
+      "oxford_pets",
+      "sun397",
+      "ucf101",
+      "office_home_art",
+      "office_home_clipart",
+      "office_home_product",
+      "office_home_real_world",
+      "visda2017_validation",
+      "domainnet_clipart",
+      "domainnet_infograph",
+      "domainnet_painting",
+      "domainnet_quickdraw",
+      "domainnet_real",
+      "domainnet_sketch"
+    ],
+    "max_samples": null,
+    "original_bases": {
+      "caltech101": {
+        "epsilon": 0.002,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "domainnet_clipart": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "domainnet_infograph": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "domainnet_painting": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "domainnet_quickdraw": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "domainnet_real": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "domainnet_sketch": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "dtd": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "eurosat": {
+        "epsilon": 0.0001,
+        "eta": 3.0,
+        "rho": 0.05,
+        "sigma": 0.002
+      },
+      "fgvc": {
+        "epsilon": 0.0001,
+        "eta": 0.2,
+        "rho": 0.01,
+        "sigma": 0.002
+      },
+      "food101": {
+        "epsilon": 4e-05,
+        "eta": 0.1,
+        "rho": 0.01,
+        "sigma": 0.002
+      },
+      "office_home_art": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "office_home_clipart": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "office_home_product": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "office_home_real_world": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "oxford_flowers": {
+        "epsilon": 0.0001,
+        "eta": 0.2,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "oxford_pets": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "stanford_cars": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.01,
+        "sigma": 0.002
+      },
+      "sun397": {
+        "epsilon": 0.0001,
+        "eta": 0.2,
+        "rho": 0.01,
+        "sigma": 0.002
+      },
+      "ucf101": {
+        "epsilon": 0.0001,
+        "eta": 0.4,
+        "rho": 0.02,
+        "sigma": 0.002
+      },
+      "visda2017_validation": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      }
+    },
+    "precision": "fp32",
+    "seed": 1,
+    "variants": [
+      "original_dota",
+      "matched_base_dota",
+      "rank_free",
+      "prediction_only",
+      "update_only",
+      "pure_rank",
+      "geometry_only",
+      "full_v3"
+    ],
+    "version": "ocr-dota-v3-p0-online-v1",
+    "winner_configs": {
+      "caltech101": "8e53ef27a7c121e0e2c29adc271c3619fcf7d89bc0d07f6a132088b996e1bb65",
+      "domainnet_clipart": "d784f0d5ec1d2fa91901feb8b73b58af7290a0fa44df80f6e5161c8c608d09ee",
+      "domainnet_infograph": "a132b44469ab73874b9696bd107ae6023840e984b1baf731bfa6ffa1e1afeb13",
+      "domainnet_painting": "a36bf459fc29dd05dfedf17772c5b45ced2824ea4e9165802b977c62d0170e7f",
+      "domainnet_quickdraw": "4ba32e455e85e4b817b8069c96a7b8548f5a6d1ddcb91fb2682143c2aea97da3",
+      "domainnet_real": "0eee0d68346d6ca7a81addaa4f56ad5b7f495ce5b585f87195adf387930613fa",
+      "domainnet_sketch": "b4e213ac1359b599d7b62bf0f6df91db26b8fa004721105a93344838f0eb33ab",
+      "dtd": "36237f2ba98cfc76a4d3e131f3855ab3a8ca2ec3e1a042607e7fb27154328634",
+      "eurosat": "8f0c37a7753d88a35cdd1499884b652b2036fa5a42269250276a168293fd00f9",
+      "fgvc": "ff3fa71469112ddcecd3b95edc287b54e59e509bcbf713d36d8a7fcc2fb5ff66",
+      "food101": "2c7fecf84418940390d0ab390c54b1b96f038a05e0a6b5879a9fa67df8f516c8",
+      "office_home_art": "cd23b287efc06b18e629cb147f213a45e56faa52c5043bbb3aeb7adc00e33049",
+      "office_home_clipart": "fd63902bcd0f2ce8145a861d0bf2f44e9d00e0d8654bfb879f9544ec91a27c30",
+      "office_home_product": "e4389d3e3e228b808238d7109b526ca79c7e8e7a66d6ad067cf01b3c757b58f1",
+      "office_home_real_world": "7ead8505a2e9d574fe3bb4be0ee148664e3dc097100c14945a8d36e4ada98f3a",
+      "oxford_flowers": "1a48f3afdd25ac1b7e097af1923cbf94f873d5ffffaf0a50d92fffd612044130",
+      "oxford_pets": "ad7985dd571e8f6ad5bf00b3fc598535f8ea0c71da141fdea42b32342f92e849",
+      "stanford_cars": "6fa04b42d22c8dff708abd98dbffea9d57f508ed938bc9b45f88061f887a0744",
+      "sun397": "4ccd232d8b83c4e68c446b9c6db67b566c2a62cf4d3afa0c97c4a483b37dd9d8",
+      "ucf101": "c91efb835cadd0e1b9af6f6f2a2adea7933dd01fcc534ff590276c4c1004cd7e",
+      "visda2017_validation": "b8da51a7b864f4842813ed7fe5c049a8543811db5d51bbd5eee65bc245fa1abd"
+    },
+    "winner_sha256": "479a803895abedeb885c3b8595308963a6cc07b8f938d0a7bdeee5241876d040",
+    "winner_source": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/BEST_SINGLE_CONFIG_NONIMAGENET21_CHAIN_ROUND3.json"
+  },
+  "identity_sha256": "8e6fda58fc29798860f7eb403fe9a1819f2028a4bdf783e951a5bb191922ad69",
+  "started_at": 1788679714.8220408,
+  "status": "complete",
+  "summary_sha256": "c9cda86328178892f256e1e9edec056c189fe70b0cb89e9577dc49db7cfc0371"
+}

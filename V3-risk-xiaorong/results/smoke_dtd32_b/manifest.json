@@ -1,0 +1,145 @@
+{
+  "finished_at": 1788269104.2506385,
+  "identity": {
+    "arms": [
+      {
+        "arm": "D0E0O0",
+        "effective_risks": {
+          "order": false,
+          "residual": false,
+          "semantic": false
+        },
+        "mask": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "arm": "D0E0O1",
+        "effective_risks": {
+          "order": true,
+          "residual": false,
+          "semantic": false
+        },
+        "mask": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "arm": "D0E1O0",
+        "effective_risks": {
+          "order": false,
+          "residual": false,
+          "semantic": true
+        },
+        "mask": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "arm": "D0E1O1",
+        "effective_risks": {
+          "order": true,
+          "residual": false,
+          "semantic": true
+        },
+        "mask": [
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "arm": "D1E0O0",
+        "effective_risks": {
+          "order": false,
+          "residual": true,
+          "semantic": false
+        },
+        "mask": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "arm": "D1E0O1",
+        "effective_risks": {
+          "order": true,
+          "residual": true,
+          "semantic": false
+        },
+        "mask": [
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "arm": "D1E1O0",
+        "effective_risks": {
+          "order": false,
+          "residual": true,
+          "semantic": true
+        },
+        "mask": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "arm": "D1E1O1",
+        "effective_risks": {
+          "order": true,
+          "residual": true,
+          "semantic": true
+        },
+        "mask": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "caches": {
+      "dtd": {
+        "num_samples": 1692,
+        "order_sha256": "f6aefa41550942fb0edfcfe681f56362bcff302bea77a327ff96b8c1a9302256",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/dtd_vitb16.pt",
+        "sha256": "3362a3847447fafcd2c512390ffa146b69d9892527f7dbb9fcaa85c02266103d"
+      }
+    },
+    "code_sha256": {
+      "legacy_runner": "11cd3d4d77a876f8f7a3ff07c1313215d29588b416aa6e7a7124d1cc1cd2f478",
+      "rank_compatibility": "03d347fe3ee69b47dcf4cbeb79c2bc4d8dfae942029f6a98a35cc737f8c4ab11",
+      "risk_model": "51e8c406b7119f68c105684329b54a7b7c71cea14cc402cecab04b18cbf70b66",
+      "runner": "886a4b219b201537bd51625c5e0e5a21b853c5ebd63be435283b3bcf616fa2b3",
+      "v3_model": "d7a947193428c1b70f0a2c40b49c610bd06cc420c527a990ea674af60d02b1f9",
+      "v3_tuner": "73f6a31f0ac7883d2c289283420ea4ad3a4b0557e5a77d5bf6d4b350f7b27369"
+    },
+    "datasets": [
+      "dtd"
+    ],
+    "global_seed": 1,
+    "max_samples": 32,
+    "precision": "fp32",
+    "risk_strengths": {
+      "order": 0.05,
+      "residual": 0.25,
+      "semantic": 0.05
+    },
+    "version": "ocr-dota-v3-old-three-risk-factorial-online-v1",
+    "winner_source": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/BEST_SINGLE_CONFIG_NONIMAGENET21_AFTER_CONTINUATION.json",
+    "winner_source_sha256": "d8e09dbb3bc39e8c7b29a11aa9bca18ad4c62edfae9de5f675d727bce12788c3"
+  },
+  "identity_sha256": "dc6cea31fae0126a6ff0d6ff1271a95919e3596428d4e6e980181480565d18e5",
+  "started_at": 1788269097.5438457,
+  "status": "complete_smoke",
+  "summary_sha256": "2d7484a722651841759e61743dd2f4a38a272204ceb80ed93f6c17130a0315b2"
+}

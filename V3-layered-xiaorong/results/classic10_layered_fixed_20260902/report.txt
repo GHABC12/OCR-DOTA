@@ -1,0 +1,29 @@
+OCR-DOTA-V3 分层真实在线消融
+口径：冻结冠军的全量流机制诊断，不是无偏泛化评估
+
+总样本: 83696
+Full V3 vs Original DOTA: +1162 samples / +1.388358pp micro / +1.966190pp macro
+
+Micro逐层贡献：
+- base_tuning: +161.000 samples; positive_share=11.196%
+- enhanced_core: +510.000 samples; positive_share=35.466%
+- residual: +43.000 samples; positive_share=2.990%
+- prediction_rank: -276.000 samples; positive_share=0.000%
+- update_rank: +724.000 samples; positive_share=50.348%
+
+V3内部G/P/U Shapley：
+- residual: +33.500 samples; magnitude_share=3.249%
+- prediction_rank: -270.000 samples; magnitude_share=26.188%
+- update_rank: +727.500 samples; magnitude_share=70.563%
+
+逐数据集：
+- dtd: 814 -> 841 -> 863 -> 864 -> 864 -> 864 (Full-Original +50)
+- eurosat: 5097 -> 5095 -> 5496 -> 5536 -> 5265 -> 5962 (Full-Original +865)
+- caltech101: 2322 -> 2310 -> 2325 -> 2325 -> 2325 -> 2325 (Full-Original +3)
+- fgvc: 873 -> 896 -> 905 -> 906 -> 906 -> 906 (Full-Original +33)
+- oxford_flowers: 1849 -> 1885 -> 1895 -> 1895 -> 1895 -> 1895 (Full-Original +46)
+- oxford_pets: 3372 -> 3399 -> 3409 -> 3409 -> 3409 -> 3409 (Full-Original +37)
+- ucf101: 2738 -> 2763 -> 2801 -> 2801 -> 2800 -> 2807 (Full-Original +69)
+- stanford_cars: 5608 -> 5621 -> 5605 -> 5605 -> 5605 -> 5605 (Full-Original -3)
+- food101: 26344 -> 26363 -> 26373 -> 26373 -> 26367 -> 26378 (Full-Original +34)
+- sun397: 13665 -> 13670 -> 13681 -> 13682 -> 13684 -> 13693 (Full-Original +28)
