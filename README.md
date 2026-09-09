@@ -13,6 +13,7 @@ V3 的核心改动：排序机制只保留一个核心量 **rank compatibility**
 
 | 目录 | 内容 |
 | --- | --- |
+| [OCR-DOTA-PaperCore/](OCR-DOTA-PaperCore/) | **论文核心实验**：基于 LegacyState DOTA 的 OCR-calibrated posterior + OCR-calibrated update responsibility，四个正式臂（Base / Posterior Only / Responsibility Only / Full），预注册 dev/holdout 划分与选择协议。含 `ocr_dota_paper/` 模块、tests、exact 复现验证、phase0 smoke 结果 |
 | [OCR-DOTA-V3/](OCR-DOTA-V3/) | **V3 主实现**：`ocr_dota_v3/`（rank_compatibility.py、model.py）、configs、单元测试、run.py、smoke_cache.py、tune_\*/supervise_\* 调参驱动、BEST\_\*.json/.txt 冠军结果 |
 | [V3-P0-ablation/](V3-P0-ablation/) | **P0 机制消融**：冻结 21 个非 ImageNet 数据流冠军，真实 GPU 逐样本运行各机制臂，记录纠错、compatibility 可靠性、更新污染与时间窗口统计 |
 | [V3-compat-risk-search/](V3-compat-risk-search/) | **compatibility 来源搜索**：严格比较五个候选来源 D / E / O / EO / DO（`compatibility = exp(-risk/0.15)`），同一张量同时供 prediction prior 与 update gate |
@@ -31,6 +32,8 @@ V3 的核心改动：排序机制只保留一个核心量 **rank compatibility**
   与数据集缓存（`log/all_dataset_perf/cache/`）。本仓库仅包含 V3 实现、实验驱动脚本
   与实验结果，父仓库代码请参见 [skylineeeeen/DOTA](https://github.com/skylineeeeen/DOTA)。
 - `DOTA-Rank-Only/`（legacy baseline 上的 rank-only 消融）整理时全量实验仍在运行，本次未包含。
+- `OCR-DOTA-PaperCore/results/paper_core_v1_20260909/`（论文核心 campaign，development phase）
+  发布时仍在运行，最终结果将在 campaign 完成后补传。
 
 ## 运行测试
 

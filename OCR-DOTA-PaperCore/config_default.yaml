@@ -1,0 +1,8 @@
+tau_rank: 0.15
+alpha: 0.25
+lambda_max: 0.25
+prediction_power: 1
+posterior_mode: gated_log_prior
+delta: 1.0
+beta_resp: 1.0
+responsibility_mode: calibrated_clip

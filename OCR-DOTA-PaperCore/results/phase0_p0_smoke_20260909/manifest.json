@@ -1,0 +1,53 @@
+{
+  "finished_at": 1788943962.3314912,
+  "identity": {
+    "caches": {
+      "dtd": {
+        "num_samples": 1692,
+        "order_sha256": "f6aefa41550942fb0edfcfe681f56362bcff302bea77a327ff96b8c1a9302256",
+        "sha256": "3362a3847447fafcd2c512390ffa146b69d9892527f7dbb9fcaa85c02266103d"
+      }
+    },
+    "code_sha256": {
+      "core": "73f6a31f0ac7883d2c289283420ea4ad3a4b0557e5a77d5bf6d4b350f7b27369",
+      "legacy": "11cd3d4d77a876f8f7a3ff07c1313215d29588b416aa6e7a7124d1cc1cd2f478",
+      "model": "d7a947193428c1b70f0a2c40b49c610bd06cc420c527a990ea674af60d02b1f9",
+      "rank": "03d347fe3ee69b47dcf4cbeb79c2bc4d8dfae942029f6a98a35cc737f8c4ab11",
+      "runner": "f4b75cd02be54c1b109a0a72ddf4ea04097310441a6af7e5599108b9d46d4e07"
+    },
+    "datasets": [
+      "dtd"
+    ],
+    "max_samples": 32,
+    "original_bases": {
+      "dtd": {
+        "epsilon": 0.0001,
+        "eta": 0.3,
+        "rho": 0.02,
+        "sigma": 0.002
+      }
+    },
+    "precision": "fp32",
+    "seed": 1,
+    "variants": [
+      "original_dota",
+      "matched_base_dota",
+      "rank_free",
+      "prediction_only",
+      "update_only",
+      "pure_rank",
+      "geometry_only",
+      "full_v3"
+    ],
+    "version": "ocr-dota-v3-p0-online-v1",
+    "winner_configs": {
+      "dtd": "36237f2ba98cfc76a4d3e131f3855ab3a8ca2ec3e1a042607e7fb27154328634"
+    },
+    "winner_sha256": "479a803895abedeb885c3b8595308963a6cc07b8f938d0a7bdeee5241876d040",
+    "winner_source": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/BEST_SINGLE_CONFIG_NONIMAGENET21_CHAIN_ROUND3.json"
+  },
+  "identity_sha256": "43036f1e68a02c3717f2ed7c00920c677707240236138b8395132aebde3ad7e6",
+  "started_at": 1788943956.874203,
+  "status": "complete_smoke",
+  "summary_sha256": "3fe07e63265db0aff4f3125433dd54e2f0189ce4751e6540fdd0967be9075c19"
+}
