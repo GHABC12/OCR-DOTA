@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "checks": {
+        "brier": true,
+        "correct": true,
+        "correct_to_wrong": true,
+        "ece": true,
+        "nll": true,
+        "prediction_sha256": true,
+        "wrong_to_correct": true
+      },
+      "gamma": 0.1,
+      "mode": "direct_prior",
+      "offline": {
+        "brier": 0.6912041001471454,
+        "correct": 814,
+        "correct_to_wrong": 1,
+        "ece": 0.13982894339001084,
+        "nll": 2.088338508380703,
+        "prediction_sha256": "34810e8e6e39b4630613e385bb25e4fccefa85ee11dcedd41db1eba32e300e29",
+        "wrong_to_correct": 1
+      },
+      "online": {
+        "brier": 0.6912040710449219,
+        "correct": 814,
+        "correct_to_wrong": 1,
+        "ece": 0.13982892804393815,
+        "nll": 2.088338613510132,
+        "prediction_sha256": "34810e8e6e39b4630613e385bb25e4fccefa85ee11dcedd41db1eba32e300e29",
+        "wrong_to_correct": 1
+      },
+      "status": "passed"
+    },
+    {
+      "checks": {
+        "brier": true,
+        "correct": true,
+        "correct_to_wrong": true,
+        "ece": true,
+        "nll": true,
+        "prediction_sha256": true,
+        "wrong_to_correct": true
+      },
+      "gamma": 0.1,
+      "mode": "entropy_gated_prior",
+      "offline": {
+        "brier": 0.6908958172275885,
+        "correct": 815,
+        "correct_to_wrong": 0,
+        "ece": 0.1382969476617698,
+        "nll": 2.0859359944206384,
+        "prediction_sha256": "217a51b01fb5a609d9919eae79b61cfd5ad8bbb0ac3040d5815d3a29c0c499be",
+        "wrong_to_correct": 1
+      },
+      "online": {
+        "brier": 0.6908957958221436,
+        "correct": 815,
+        "correct_to_wrong": 0,
+        "ece": 0.13829694284086536,
+        "nll": 2.0859360694885254,
+        "prediction_sha256": "217a51b01fb5a609d9919eae79b61cfd5ad8bbb0ac3040d5815d3a29c0c499be",
+        "wrong_to_correct": 1
+      },
+      "status": "passed"
+    }
+  ],
+  "dataset": "dtd",
+  "status": "passed"
+}

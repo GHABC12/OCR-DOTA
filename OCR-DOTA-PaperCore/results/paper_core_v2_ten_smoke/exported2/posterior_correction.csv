@@ -1,0 +1,3 @@
+﻿dataset,comparison,wrong_to_correct,correct_to_wrong,net,changed_prediction_rate
+dtd,posterior_vs_base,0,0,0,0.0
+dtd,full_vs_responsibility,0,0,0,3.125

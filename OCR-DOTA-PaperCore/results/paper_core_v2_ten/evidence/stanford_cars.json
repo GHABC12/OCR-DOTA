@@ -1,0 +1,39 @@
+{
+  "base": {
+    "epsilon": 0.0001,
+    "eta": 0.3,
+    "rho": 0.01,
+    "sigma": 0.002
+  },
+  "base_prediction_sha256": "ec8a0ff279a527faad27ede5efeb21cd86bc696bfffcf8a4711614f90cfe9c96",
+  "base_state_sha256": "ac5b4fbcd6f26cd46d4486965db4e3e5880bef1e1f00021a8f218ff02441fe10",
+  "base_trajectory_sha256": "69754baa948a60b5c6725cf40c1276eba4872f37178e63211df103c2d95062ea",
+  "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/stanford_cars_vitb16.pt",
+  "cache_sha256": "5fe1038f509981e852f248a78ee9bbea60adc8e692866379534f34fda7112ba9",
+  "compatibility_sha256": "40dcd98fb946254d5efc303092f40f224946e9264b747f76e208c52d6ba9f484",
+  "created_at": 1789006740.6174607,
+  "dataset": "stanford_cars",
+  "elapsed_sec": 35.086039543151855,
+  "evidence_sha256": "fdf3f585494ccd4b71dde8de88cf979022cca0bd34ce9585d915f4fa839aaddb",
+  "fields": [
+    "base_margin",
+    "base_prediction",
+    "clean_mass",
+    "clip_logits",
+    "compatibility",
+    "fusion_weight",
+    "gaussian_logits",
+    "rank_displacement",
+    "sample_id",
+    "target"
+  ],
+  "full_count": 8041,
+  "full_order_sha256": "40892e4bcc7d5b80e0486a07efeb8a7d17ea4b7ded0322dd2665ed0b2694d983",
+  "global_seed": 1,
+  "label_policy": "target is read after state.fit; target is not used by prediction or update",
+  "num_samples": 8041,
+  "order_sha256": "40892e4bcc7d5b80e0486a07efeb8a7d17ea4b7ded0322dd2665ed0b2694d983",
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "tau_rank": 0.15
+}

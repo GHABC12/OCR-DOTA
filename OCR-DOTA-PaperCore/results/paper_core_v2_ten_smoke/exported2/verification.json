@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    {
+      "dataset": "dtd",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    }
+  ],
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "status": "passed"
+}

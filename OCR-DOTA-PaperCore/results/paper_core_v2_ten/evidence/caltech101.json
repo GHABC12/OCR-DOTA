@@ -1,0 +1,39 @@
+{
+  "base": {
+    "epsilon": 0.002,
+    "eta": 0.3,
+    "rho": 0.02,
+    "sigma": 0.002
+  },
+  "base_prediction_sha256": "1ae68cac7916c904a961b25482d5d0e43fd5863b59031a1a30831eb1bb98b514",
+  "base_state_sha256": "187b978c9c042e65692e4df224e0db95298d80abf733d391630246ec6c5a8b6f",
+  "base_trajectory_sha256": "f2c4202abd152a9c035dc45bec6c3cd4e066bbe58c27ed8f369ea9c023ff47ee",
+  "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/caltech101_vitb16.pt",
+  "cache_sha256": "05d1644c198e639a7d28c5474b0c0aa089e229b97bbf1467f2663a59f2ddaf81",
+  "compatibility_sha256": "fc1bac954dfbac20aa3ad475533ec2a30ed24706cdad0b2845561c0f592cc520",
+  "created_at": 1789006704.8656616,
+  "dataset": "caltech101",
+  "elapsed_sec": 9.32802700996399,
+  "evidence_sha256": "1200e9985b7e677fc9c8a69aaf8f70382fba6b955d2a9023746db7258664ad29",
+  "fields": [
+    "base_margin",
+    "base_prediction",
+    "clean_mass",
+    "clip_logits",
+    "compatibility",
+    "fusion_weight",
+    "gaussian_logits",
+    "rank_displacement",
+    "sample_id",
+    "target"
+  ],
+  "full_count": 2465,
+  "full_order_sha256": "77531dfd7566087636bb721ff93cc34b72818baec0ba72fb0ac3b09dc13e4e33",
+  "global_seed": 1,
+  "label_policy": "target is read after state.fit; target is not used by prediction or update",
+  "num_samples": 2465,
+  "order_sha256": "77531dfd7566087636bb721ff93cc34b72818baec0ba72fb0ac3b09dc13e4e33",
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "tau_rank": 0.15
+}

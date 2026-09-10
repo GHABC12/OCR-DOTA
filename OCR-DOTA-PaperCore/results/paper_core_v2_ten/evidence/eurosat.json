@@ -1,0 +1,39 @@
+{
+  "base": {
+    "epsilon": 0.0001,
+    "eta": 3.0,
+    "rho": 0.05,
+    "sigma": 0.002
+  },
+  "base_prediction_sha256": "c88fcd00425d7accf136282f2584c823bb8ec0f82b1430f7a5f32f59a03e42a9",
+  "base_state_sha256": "030d4c3103172ebf99aaa471de4afd9ebb80104aaa60272247ce0aaaf6c9af4c",
+  "base_trajectory_sha256": "1f11c20e785f08706d445d7847b2ef9aa3d48ce1bbadadf88fa0847dd2313d9e",
+  "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/eurosat_vitb16.pt",
+  "cache_sha256": "032b7f1f675203f3c7a28e56885d7222d2f7811b28c8758ff980da2a16053430",
+  "compatibility_sha256": "4dcf9399021080a183aee4ed2f4d264f6a6ac3340f26b337a563b307d9ac62c7",
+  "created_at": 1789006776.3185954,
+  "dataset": "eurosat",
+  "elapsed_sec": 27.33039116859436,
+  "evidence_sha256": "2c306ba0144c91a7e4774e8c008d81792db8001d5164ee2b6349c0b73a1d1f8d",
+  "fields": [
+    "base_margin",
+    "base_prediction",
+    "clean_mass",
+    "clip_logits",
+    "compatibility",
+    "fusion_weight",
+    "gaussian_logits",
+    "rank_displacement",
+    "sample_id",
+    "target"
+  ],
+  "full_count": 8100,
+  "full_order_sha256": "254ef240b12ba3f60216f838038f8fb69f3371c1cd31f9f5299c0fcb34777eb6",
+  "global_seed": 1,
+  "label_policy": "target is read after state.fit; target is not used by prediction or update",
+  "num_samples": 8100,
+  "order_sha256": "254ef240b12ba3f60216f838038f8fb69f3371c1cd31f9f5299c0fcb34777eb6",
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "tau_rank": 0.15
+}

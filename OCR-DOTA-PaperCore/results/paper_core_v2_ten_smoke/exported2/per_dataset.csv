@@ -1,0 +1,2 @@
+﻿dataset,split,num_samples,base,base_correct,posterior,posterior_correct,responsibility,responsibility_correct,full,full_correct,delta_posterior,delta_responsibility,delta_full,interaction
+dtd,development,32,31.25,10,31.25,10,31.25,10,31.25,10,0.0,0.0,0.0,0.0

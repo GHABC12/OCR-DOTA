@@ -1,0 +1,13 @@
+﻿group,arm,correct,num_samples,micro_accuracy,macro_accuracy,late50_macro
+all,base,10,32,31.25,29.545454545454547,18.75
+all,posterior,10,32,31.25,29.545454545454547,18.75
+all,responsibility,10,32,31.25,29.545454545454547,18.75
+all,full,10,32,31.25,29.545454545454547,18.75
+development,base,10,32,31.25,29.545454545454547,18.75
+development,posterior,10,32,31.25,29.545454545454547,18.75
+development,responsibility,10,32,31.25,29.545454545454547,18.75
+development,full,10,32,31.25,29.545454545454547,18.75
+evaluation,base,0,0,,,
+evaluation,posterior,0,0,,,
+evaluation,responsibility,0,0,,,
+evaluation,full,0,0,,,

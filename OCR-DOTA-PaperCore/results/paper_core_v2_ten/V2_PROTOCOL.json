@@ -1,0 +1,104 @@
+{
+  "base": {
+    "geometry": false,
+    "policy": "Original DOTA epsilon/sigma/eta/rho from configs/vit YAML",
+    "responsibility": "zero-shot CLIP probability",
+    "state": "LegacyState exact DOTA FP32"
+  },
+  "datasets": [
+    "fgvc",
+    "caltech101",
+    "stanford_cars",
+    "dtd",
+    "eurosat",
+    "oxford_flowers",
+    "food101",
+    "oxford_pets",
+    "sun397",
+    "ucf101"
+  ],
+  "development": [
+    "fgvc",
+    "dtd",
+    "eurosat",
+    "oxford_pets",
+    "ucf101"
+  ],
+  "evaluation": [
+    "caltech101",
+    "stanford_cars",
+    "oxford_flowers",
+    "food101",
+    "sun397"
+  ],
+  "global_seed": 1,
+  "historical_exposure": "V2 held-out only; all datasets were seen in historical research",
+  "label_policy": "targets are read only after prediction and update; never enter adaptation",
+  "posterior": {
+    "direct_gamma": [
+      0.01,
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "entropy_gamma": [
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "entropy_power": 1.0,
+    "modes": [
+      "direct_prior",
+      "entropy_gated_prior"
+    ],
+    "selection": "Dev-5 correct strictly > Base; macro >= Base; net correction > 0"
+  },
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "responsibility": {
+    "candidates": [
+      {
+        "beta": 0.0,
+        "delta": 0.5,
+        "mode": "gate_only"
+      },
+      {
+        "beta": 0.0,
+        "delta": 1.0,
+        "mode": "gate_only"
+      },
+      {
+        "beta": 0.5,
+        "delta": 0.5,
+        "mode": "calibrated_clip"
+      },
+      {
+        "beta": 0.5,
+        "delta": 1.0,
+        "mode": "calibrated_clip"
+      },
+      {
+        "beta": 1.0,
+        "delta": 0.5,
+        "mode": "calibrated_clip"
+      },
+      {
+        "beta": 1.0,
+        "delta": 1.0,
+        "mode": "calibrated_clip"
+      }
+    ],
+    "modes": [
+      "dota",
+      "gate_only",
+      "calibrated_clip"
+    ],
+    "screen_prefix": 1000,
+    "selection": "Dev-5 macro, correct, WRM, late50; R1 preferred within 0.01 pp"
+  },
+  "tau_rank": 0.15
+}

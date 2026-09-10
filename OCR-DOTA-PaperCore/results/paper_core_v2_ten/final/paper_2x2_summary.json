@@ -1,0 +1,348 @@
+{
+  "contrasts": {
+    "all": {
+      "correct": {
+        "delta_full": 107,
+        "delta_posterior": 0,
+        "delta_responsibility": 107,
+        "interaction": 0
+      },
+      "late50_macro": {
+        "delta_full": 0.1135004811540199,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.1135004811540199,
+        "interaction": 0.0
+      },
+      "macro_accuracy": {
+        "delta_full": 0.07191563191287287,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.07191563191287287,
+        "interaction": 0.0
+      },
+      "micro_accuracy": {
+        "delta_full": 0.12784362454597442,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.12784362454597442,
+        "interaction": 0.0
+      }
+    },
+    "development": {
+      "correct": {
+        "delta_full": 95,
+        "delta_posterior": 0,
+        "delta_responsibility": 95,
+        "interaction": 0
+      },
+      "late50_macro": {
+        "delta_full": 0.22388003679948554,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.22388003679948554,
+        "interaction": 0.0
+      },
+      "macro_accuracy": {
+        "delta_full": 0.17123117293584755,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.17123117293584755,
+        "interaction": 0.0
+      },
+      "micro_accuracy": {
+        "delta_full": 0.46168051708217916,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.46168051708217916,
+        "interaction": 0.0
+      }
+    },
+    "evaluation": {
+      "correct": {
+        "delta_full": 12,
+        "delta_posterior": 0,
+        "delta_responsibility": 12,
+        "interaction": 0
+      },
+      "late50_macro": {
+        "delta_full": 0.0031209255085968834,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.0031209255085968834,
+        "interaction": 0.0
+      },
+      "macro_accuracy": {
+        "delta_full": -0.02739990911013024,
+        "delta_posterior": 0.0,
+        "delta_responsibility": -0.02739990911013024,
+        "interaction": 0.0
+      },
+      "micro_accuracy": {
+        "delta_full": 0.01901170804353569,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.01901170804353569,
+        "interaction": 0.0
+      }
+    }
+  },
+  "groups": {
+    "all": {
+      "base": {
+        "correct": 62682,
+        "late50_macro": 70.87340927724065,
+        "macro_accuracy": 69.31603868055983,
+        "micro_accuracy": 74.89246797935385,
+        "num_samples": 83696
+      },
+      "full": {
+        "correct": 62789,
+        "late50_macro": 70.98690975839467,
+        "macro_accuracy": 69.3879543124727,
+        "micro_accuracy": 75.02031160389983,
+        "num_samples": 83696
+      },
+      "posterior": {
+        "correct": 62682,
+        "late50_macro": 70.87340927724065,
+        "macro_accuracy": 69.31603868055983,
+        "micro_accuracy": 74.89246797935385,
+        "num_samples": 83696
+      },
+      "responsibility": {
+        "correct": 62789,
+        "late50_macro": 70.98690975839467,
+        "macro_accuracy": 69.3879543124727,
+        "micro_accuracy": 75.02031160389983,
+        "num_samples": 83696
+      }
+    },
+    "development": {
+      "base": {
+        "correct": 12894,
+        "late50_macro": 61.7790289021947,
+        "macro_accuracy": 60.2793226838858,
+        "micro_accuracy": 62.662195655343346,
+        "num_samples": 20577
+      },
+      "full": {
+        "correct": 12989,
+        "late50_macro": 62.00290893899419,
+        "macro_accuracy": 60.45055385682165,
+        "micro_accuracy": 63.123876172425526,
+        "num_samples": 20577
+      },
+      "posterior": {
+        "correct": 12894,
+        "late50_macro": 61.7790289021947,
+        "macro_accuracy": 60.2793226838858,
+        "micro_accuracy": 62.662195655343346,
+        "num_samples": 20577
+      },
+      "responsibility": {
+        "correct": 12989,
+        "late50_macro": 62.00290893899419,
+        "macro_accuracy": 60.45055385682165,
+        "micro_accuracy": 63.123876172425526,
+        "num_samples": 20577
+      }
+    },
+    "evaluation": {
+      "base": {
+        "correct": 49788,
+        "late50_macro": 79.9677896522866,
+        "macro_accuracy": 78.35275467723386,
+        "micro_accuracy": 78.87957667263423,
+        "num_samples": 63119
+      },
+      "full": {
+        "correct": 49800,
+        "late50_macro": 79.9709105777952,
+        "macro_accuracy": 78.32535476812373,
+        "micro_accuracy": 78.89858838067777,
+        "num_samples": 63119
+      },
+      "posterior": {
+        "correct": 49788,
+        "late50_macro": 79.9677896522866,
+        "macro_accuracy": 78.35275467723386,
+        "micro_accuracy": 78.87957667263423,
+        "num_samples": 63119
+      },
+      "responsibility": {
+        "correct": 49800,
+        "late50_macro": 79.9709105777952,
+        "macro_accuracy": 78.32535476812373,
+        "micro_accuracy": 78.89858838067777,
+        "num_samples": 63119
+      }
+    }
+  },
+  "per_dataset": [
+    {
+      "base": 94.19878296146045,
+      "base_correct": 2322,
+      "dataset": "caltech101",
+      "delta_full": -0.12170385395538119,
+      "delta_posterior": 0.0,
+      "delta_responsibility": -0.12170385395538119,
+      "full": 94.07707910750507,
+      "full_correct": 2319,
+      "interaction": 0.0,
+      "num_samples": 2465,
+      "posterior": 94.19878296146045,
+      "posterior_correct": 2322,
+      "responsibility": 94.07707910750507,
+      "responsibility_correct": 2319,
+      "split": "evaluation"
+    },
+    {
+      "base": 48.10874704491725,
+      "base_correct": 814,
+      "dataset": "dtd",
+      "delta_full": -0.35460992907800915,
+      "delta_posterior": 0.0,
+      "delta_responsibility": -0.35460992907800915,
+      "full": 47.75413711583924,
+      "full_correct": 808,
+      "interaction": 0.0,
+      "num_samples": 1692,
+      "posterior": 48.10874704491725,
+      "posterior_correct": 814,
+      "responsibility": 47.75413711583924,
+      "responsibility_correct": 808,
+      "split": "development"
+    },
+    {
+      "base": 62.92592592592593,
+      "base_correct": 5097,
+      "dataset": "eurosat",
+      "delta_full": 1.246913580246904,
+      "delta_posterior": 0.0,
+      "delta_responsibility": 1.246913580246904,
+      "full": 64.17283950617283,
+      "full_correct": 5198,
+      "interaction": 0.0,
+      "num_samples": 8100,
+      "posterior": 62.92592592592593,
+      "posterior_correct": 5097,
+      "responsibility": 64.17283950617283,
+      "responsibility_correct": 5198,
+      "split": "development"
+    },
+    {
+      "base": 26.192619261926193,
+      "base_correct": 873,
+      "dataset": "fgvc",
+      "delta_full": 0.0,
+      "delta_posterior": 0.0,
+      "delta_responsibility": 0.0,
+      "full": 26.192619261926193,
+      "full_correct": 873,
+      "interaction": 0.0,
+      "num_samples": 3333,
+      "posterior": 26.192619261926193,
+      "posterior_correct": 873,
+      "responsibility": 26.192619261926193,
+      "responsibility_correct": 873,
+      "split": "development"
+    },
+    {
+      "base": 86.94389438943895,
+      "base_correct": 26344,
+      "dataset": "food101",
+      "delta_full": 0.006600660065998909,
+      "delta_posterior": 0.0,
+      "delta_responsibility": 0.006600660065998909,
+      "full": 86.95049504950495,
+      "full_correct": 26346,
+      "interaction": 0.0,
+      "num_samples": 30300,
+      "posterior": 86.94389438943895,
+      "posterior_correct": 26344,
+      "responsibility": 86.95049504950495,
+      "responsibility_correct": 26346,
+      "split": "evaluation"
+    },
+    {
+      "base": 75.07105156313439,
+      "base_correct": 1849,
+      "dataset": "oxford_flowers",
+      "delta_full": -0.08120178643930842,
+      "delta_posterior": 0.0,
+      "delta_responsibility": -0.08120178643930842,
+      "full": 74.98984977669508,
+      "full_correct": 1847,
+      "interaction": 0.0,
+      "num_samples": 2463,
+      "posterior": 75.07105156313439,
+      "posterior_correct": 1849,
+      "responsibility": 74.98984977669508,
+      "responsibility_correct": 1847,
+      "split": "evaluation"
+    },
+    {
+      "base": 91.9051512673753,
+      "base_correct": 3372,
+      "dataset": "oxford_pets",
+      "delta_full": 0.08176614881439548,
+      "delta_posterior": 0.0,
+      "delta_responsibility": 0.08176614881439548,
+      "full": 91.9869174161897,
+      "full_correct": 3375,
+      "interaction": 0.0,
+      "num_samples": 3669,
+      "posterior": 91.9051512673753,
+      "posterior_correct": 3372,
+      "responsibility": 91.9869174161897,
+      "responsibility_correct": 3375,
+      "split": "development"
+    },
+    {
+      "base": 69.74256933217261,
+      "base_correct": 5608,
+      "dataset": "stanford_cars",
+      "delta_full": 0.12436264146251119,
+      "delta_posterior": 0.0,
+      "delta_responsibility": 0.12436264146251119,
+      "full": 69.86693197363512,
+      "full_correct": 5618,
+      "interaction": 0.0,
+      "num_samples": 8041,
+      "posterior": 69.74256933217261,
+      "posterior_correct": 5608,
+      "responsibility": 69.86693197363512,
+      "responsibility_correct": 5618,
+      "split": "evaluation"
+    },
+    {
+      "base": 68.84130982367758,
+      "base_correct": 13665,
+      "dataset": "sun397",
+      "delta_full": 0.025188916876587086,
+      "delta_posterior": 0.0,
+      "delta_responsibility": 0.025188916876587086,
+      "full": 68.86649874055416,
+      "full_correct": 13670,
+      "interaction": 0.0,
+      "num_samples": 19850,
+      "posterior": 68.84130982367758,
+      "posterior_correct": 13665,
+      "responsibility": 68.86649874055416,
+      "responsibility_correct": 13670,
+      "split": "evaluation"
+    },
+    {
+      "base": 72.37642083002908,
+      "base_correct": 2738,
+      "dataset": "ucf101",
+      "delta_full": -0.07930214115781098,
+      "delta_posterior": 0.0,
+      "delta_responsibility": -0.07930214115781098,
+      "full": 72.29711868887127,
+      "full_correct": 2735,
+      "interaction": 0.0,
+      "num_samples": 3783,
+      "posterior": 72.37642083002908,
+      "posterior_correct": 2738,
+      "responsibility": 72.29711868887127,
+      "responsibility_correct": 2735,
+      "split": "development"
+    }
+  ],
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "status": "complete"
+}

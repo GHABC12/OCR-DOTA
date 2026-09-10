@@ -1,0 +1,119 @@
+code_sha256:
+  OCR-DOTA-PaperCore/ocr_dota_paper/posterior_v2.py: 59d073d7c241ddc548c043e3f3ce8e56189dd5e3f57eaab2595f4b130f00823c
+  OCR-DOTA-PaperCore/ocr_dota_paper/responsibility_v2.py: e194d160c6368f42cb67fded7b78f7b37c2ca33bcb3e2a5061f8c9d5856827ba
+  OCR-DOTA-PaperCore/v2/build_posterior_evidence.py: 21400b45ff4c8897c330cf08636f5acba095b2314ea55b0c7d65734470e71246
+  OCR-DOTA-PaperCore/v2/evaluate_posterior_offline.py: 199f5bce24602650d5ea991dc7920a22adcd87055ed6518db7c6791893ad7d8b
+  OCR-DOTA-PaperCore/v2/export_v2_results.py: 2c2dbd00a56f336a2a6007ea43f80af5c9b8fddd7f5f8a2e13d95c3c73c8d050
+  OCR-DOTA-PaperCore/v2/protocol_v2.py: 6f2445ed702bb48ef87171f48fc6f79ea1a38ebe9e8a6fbe208f807306984f72
+  OCR-DOTA-PaperCore/v2/replay_pairs.py: d213a59ebaf5b1033ac727ff64796e1630fbe7bf4ed4b9de4bb0e0ed9fab4dba
+  OCR-DOTA-PaperCore/v2/run_v2_campaign.py: 1f9e1efc28505d6187449a3237955636740e158e93bed1d4a62992b5bd94b83f
+  OCR-DOTA-PaperCore/v2/screen_responsibility.py: e61746054f99c7ea43bb48f0ac81322d1d14e8ddaed141165992823f248330c8
+  OCR-DOTA-PaperCore/v2/verify_offline_online.py: 81b7f56dbe42ee6fdcd09ada64166e69bd06422f3df236275d1e1d98eeb618a3
+config_sha256: 6b0d4367c1b752c23e8a215e5e7c4f40733c6b94c7750ff22cf093a2d9621af6
+dev_datasets:
+- fgvc
+- dtd
+- eurosat
+- oxford_pets
+- ucf101
+eval_datasets:
+- caltech101
+- stanford_cars
+- oxford_flowers
+- food101
+- sun397
+frozen_at: 1789007584.4570003
+posterior:
+  entropy_power: 1.0
+  gamma: 0.0
+  mode: direct_prior
+protocol:
+  base:
+    geometry: false
+    policy: Original DOTA epsilon/sigma/eta/rho from configs/vit YAML
+    responsibility: zero-shot CLIP probability
+    state: LegacyState exact DOTA FP32
+  datasets:
+  - fgvc
+  - caltech101
+  - stanford_cars
+  - dtd
+  - eurosat
+  - oxford_flowers
+  - food101
+  - oxford_pets
+  - sun397
+  - ucf101
+  development:
+  - fgvc
+  - dtd
+  - eurosat
+  - oxford_pets
+  - ucf101
+  evaluation:
+  - caltech101
+  - stanford_cars
+  - oxford_flowers
+  - food101
+  - sun397
+  global_seed: 1
+  historical_exposure: V2 held-out only; all datasets were seen in historical research
+  label_policy: targets are read only after prediction and update; never enter adaptation
+  posterior:
+    direct_gamma:
+    - 0.01
+    - 0.025
+    - 0.05
+    - 0.1
+    - 0.2
+    - 0.3
+    entropy_gamma:
+    - 0.025
+    - 0.05
+    - 0.1
+    - 0.2
+    - 0.3
+    entropy_power: 1.0
+    modes:
+    - direct_prior
+    - entropy_gated_prior
+    selection: Dev-5 correct strictly > Base; macro >= Base; net correction > 0
+  precision: fp32
+  protocol_version: paper-core-v2-ten-prereg-1
+  responsibility:
+    candidates:
+    - beta: 0.0
+      delta: 0.5
+      mode: gate_only
+    - beta: 0.0
+      delta: 1.0
+      mode: gate_only
+    - beta: 0.5
+      delta: 0.5
+      mode: calibrated_clip
+    - beta: 0.5
+      delta: 1.0
+      mode: calibrated_clip
+    - beta: 1.0
+      delta: 0.5
+      mode: calibrated_clip
+    - beta: 1.0
+      delta: 1.0
+      mode: calibrated_clip
+    modes:
+    - dota
+    - gate_only
+    - calibrated_clip
+    screen_prefix: 1000
+    selection: Dev-5 macro, correct, WRM, late50; R1 preferred within 0.01 pp
+  tau_rank: 0.15
+protocol_version: paper-core-v2-ten-prereg-1
+responsibility:
+  beta: 0.0
+  candidate_id: 1
+  delta: 1.0
+  mode: gate_only
+  status: selected
+selection_status:
+  posterior: research_negative
+  responsibility: selected

@@ -1,0 +1,39 @@
+{
+  "base": {
+    "epsilon": 0.0001,
+    "eta": 0.2,
+    "rho": 0.02,
+    "sigma": 0.002
+  },
+  "base_prediction_sha256": "c7d3c8895382baea186787bbd9888ab540f25e327c96bf394451ff7abaf3cc7d",
+  "base_state_sha256": "2594f6a8fc76c10f417cbcf82b6c09ce100378ccdc04f598b5256058114d72a6",
+  "base_trajectory_sha256": "dfde0b57ff551c6fd43fd6eab47d3c7c410c25667f379c8275cf7dc68dc4ab5d",
+  "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/oxford_flowers_vitb16.pt",
+  "cache_sha256": "fce0fe5e773bffcfb9b4cca70ad6d7c5c4ea7229659b05fe665e0ebb09544dc9",
+  "compatibility_sha256": "972e7dc7700882187fe262b44138177b649a13cc1a9e7f63c41ffd3781af1bc6",
+  "created_at": 1789006786.0317059,
+  "dataset": "oxford_flowers",
+  "elapsed_sec": 9.29379153251648,
+  "evidence_sha256": "60fa850f8d34a047aec7399f7dc252fbc6d61f7c8d0cfb69c7a4be01c4564649",
+  "fields": [
+    "base_margin",
+    "base_prediction",
+    "clean_mass",
+    "clip_logits",
+    "compatibility",
+    "fusion_weight",
+    "gaussian_logits",
+    "rank_displacement",
+    "sample_id",
+    "target"
+  ],
+  "full_count": 2463,
+  "full_order_sha256": "93bc773fbf8fa920eed9dc62f66f8dc5a3c12c85a8dc22fa4abe827d8cd98864",
+  "global_seed": 1,
+  "label_policy": "target is read after state.fit; target is not used by prediction or update",
+  "num_samples": 2463,
+  "order_sha256": "93bc773fbf8fa920eed9dc62f66f8dc5a3c12c85a8dc22fa4abe827d8cd98864",
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "tau_rank": 0.15
+}

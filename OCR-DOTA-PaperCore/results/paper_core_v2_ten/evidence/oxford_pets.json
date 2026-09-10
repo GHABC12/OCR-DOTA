@@ -1,0 +1,39 @@
+{
+  "base": {
+    "epsilon": 0.0001,
+    "eta": 0.3,
+    "rho": 0.02,
+    "sigma": 0.002
+  },
+  "base_prediction_sha256": "08da54d78a333215155ce4193ac89e19a33c0138f829cd1fb0aae415fd8ac6e2",
+  "base_state_sha256": "cfda34cab131fc09de1df9defe1bad64e2a361f37d0f816340f09cdcf9c08aed",
+  "base_trajectory_sha256": "84079f8e37e63bd52eb43866f90e3edbd9f2c09c1487c913d334d2357a51e892",
+  "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/oxford_pets_vitb16.pt",
+  "cache_sha256": "cc91bcab9abc32e79c1041f383105f87db0ba333dec2961bb4425bb0d6b539cf",
+  "compatibility_sha256": "bf3198b727b88a4cbb8dd6fd9a7401f10da04aa727c6394d93799ead73f04c79",
+  "created_at": 1789006917.4253821,
+  "dataset": "oxford_pets",
+  "elapsed_sec": 12.256490230560303,
+  "evidence_sha256": "72427878a48bf64aa65fc50fd1d6a90af4f3acb75c0b72cf3ab670f40cdda16e",
+  "fields": [
+    "base_margin",
+    "base_prediction",
+    "clean_mass",
+    "clip_logits",
+    "compatibility",
+    "fusion_weight",
+    "gaussian_logits",
+    "rank_displacement",
+    "sample_id",
+    "target"
+  ],
+  "full_count": 3669,
+  "full_order_sha256": "83308eaab044b8daa3b71b8ee6b8b49b176827b93451544e7f00803626f7c389",
+  "global_seed": 1,
+  "label_policy": "target is read after state.fit; target is not used by prediction or update",
+  "num_samples": 3669,
+  "order_sha256": "83308eaab044b8daa3b71b8ee6b8b49b176827b93451544e7f00803626f7c389",
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "tau_rank": 0.15
+}

@@ -25,6 +25,21 @@ V3 的核心改动：排序机制只保留一个核心量 **rank compatibility**
 （summary、state、candidate results、per-sample traces、verification）保存在各自的
 `results/` 目录中。
 
+### PaperCore V2 十数据集实验
+
+[OCR-DOTA-PaperCore/v2/](OCR-DOTA-PaperCore/v2/) 为第二版预注册快速实验
+（协议 `paper-core-v2-ten-prereg-1`，十数据集，Dev-5/Eval-5 划分）：
+
+- Posterior 按预注册搜索**冻结为 `gamma=0`**（与 Base 严格等价，Δcorrect=0、interaction=0）；
+- 本轮可复现增益全部来自 Responsibility：Dev-5 +95 样本（micro +0.46pp）、
+  Eval-5 +12 样本（micro +0.02pp）；
+- DTD 与 EuroSAT 冷启动二次复现全部校验（correct/prediction/trajectory/state/
+  compatibility SHA256）通过。
+
+结果在 [results/paper_core_v2_ten/](OCR-DOTA-PaperCore/results/paper_core_v2_ten/)
+（含 `REPORT.md`、`FROZEN_V2_CONFIG.yaml`、`final/` 2×2 汇总、`evidence/` 与 `runs/`），
+两个 smoke 运行在 `results/paper_core_v2_ten_smoke/`、`paper_core_v2_ten_smoke2/`。
+
 ## 依赖说明
 
 - V3 主实现 `ocr_dota_v3/model.py` 复用上游 DOTA 的状态与数据流实现；

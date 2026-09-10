@@ -1,0 +1,39 @@
+{
+  "base": {
+    "epsilon": 0.0001,
+    "eta": 0.2,
+    "rho": 0.01,
+    "sigma": 0.002
+  },
+  "base_prediction_sha256": "f091e5bc470673abebc63e1ad97cdacde9883378f6402bb762c81484e3a89d7a",
+  "base_state_sha256": "f192bfc3dbc691641d43b94be24f146f7a94235b74f0487ca2eee8784c815934",
+  "base_trajectory_sha256": "470c04b54aa61b27796a4927b8615909bc2373b20bface8f977e9a4f5fdbdb8b",
+  "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/fgvc_vitb16.pt",
+  "cache_sha256": "2bce393656073433a8911254d6cb3146a68c9d4ec99657c58611c1b7296db059",
+  "compatibility_sha256": "2b86435ad58500319caa8e7c6c56aefa5b656a292dd70f07f80d4876ddbd7f0d",
+  "created_at": 1789006694.9360058,
+  "dataset": "fgvc",
+  "elapsed_sec": 12.483811616897583,
+  "evidence_sha256": "caf8a0885f702320e4f6f148f6a95ce5b80f1de844d7d3a1ccbbf93feb588c73",
+  "fields": [
+    "base_margin",
+    "base_prediction",
+    "clean_mass",
+    "clip_logits",
+    "compatibility",
+    "fusion_weight",
+    "gaussian_logits",
+    "rank_displacement",
+    "sample_id",
+    "target"
+  ],
+  "full_count": 3333,
+  "full_order_sha256": "551b4483649bb664126650c05f33dc781fe2aa22b410dc22b606140e90ec92c9",
+  "global_seed": 1,
+  "label_policy": "target is read after state.fit; target is not used by prediction or update",
+  "num_samples": 3333,
+  "order_sha256": "551b4483649bb664126650c05f33dc781fe2aa22b410dc22b606140e90ec92c9",
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "tau_rank": 0.15
+}

@@ -1,0 +1,195 @@
+{
+  "contrasts": {
+    "all": {
+      "correct": {
+        "delta_full": 0,
+        "delta_posterior": 0,
+        "delta_responsibility": 0,
+        "interaction": 0
+      },
+      "late50_macro": {
+        "delta_full": 0.0,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.0,
+        "interaction": 0.0
+      },
+      "macro_accuracy": {
+        "delta_full": 0.0,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.0,
+        "interaction": 0.0
+      },
+      "micro_accuracy": {
+        "delta_full": 0.0,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.0,
+        "interaction": 0.0
+      }
+    },
+    "development": {
+      "correct": {
+        "delta_full": 0,
+        "delta_posterior": 0,
+        "delta_responsibility": 0,
+        "interaction": 0
+      },
+      "late50_macro": {
+        "delta_full": 0.0,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.0,
+        "interaction": 0.0
+      },
+      "macro_accuracy": {
+        "delta_full": 0.0,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.0,
+        "interaction": 0.0
+      },
+      "micro_accuracy": {
+        "delta_full": 0.0,
+        "delta_posterior": 0.0,
+        "delta_responsibility": 0.0,
+        "interaction": 0.0
+      }
+    },
+    "evaluation": {
+      "correct": {
+        "delta_full": 0,
+        "delta_posterior": 0,
+        "delta_responsibility": 0,
+        "interaction": 0
+      },
+      "late50_macro": {
+        "delta_full": null,
+        "delta_posterior": null,
+        "delta_responsibility": null,
+        "interaction": null
+      },
+      "macro_accuracy": {
+        "delta_full": null,
+        "delta_posterior": null,
+        "delta_responsibility": null,
+        "interaction": null
+      },
+      "micro_accuracy": {
+        "delta_full": null,
+        "delta_posterior": null,
+        "delta_responsibility": null,
+        "interaction": null
+      }
+    }
+  },
+  "groups": {
+    "all": {
+      "base": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      },
+      "full": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      },
+      "posterior": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      },
+      "responsibility": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      }
+    },
+    "development": {
+      "base": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      },
+      "full": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      },
+      "posterior": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      },
+      "responsibility": {
+        "correct": 10,
+        "late50_macro": 18.75,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "num_samples": 32
+      }
+    },
+    "evaluation": {
+      "base": {
+        "correct": 0,
+        "late50_macro": null,
+        "macro_accuracy": null,
+        "micro_accuracy": null,
+        "num_samples": 0
+      },
+      "full": {
+        "correct": 0,
+        "late50_macro": null,
+        "macro_accuracy": null,
+        "micro_accuracy": null,
+        "num_samples": 0
+      },
+      "posterior": {
+        "correct": 0,
+        "late50_macro": null,
+        "macro_accuracy": null,
+        "micro_accuracy": null,
+        "num_samples": 0
+      },
+      "responsibility": {
+        "correct": 0,
+        "late50_macro": null,
+        "macro_accuracy": null,
+        "micro_accuracy": null,
+        "num_samples": 0
+      }
+    }
+  },
+  "per_dataset": [
+    {
+      "base": 31.25,
+      "base_correct": 10,
+      "dataset": "dtd",
+      "delta_full": 0.0,
+      "delta_posterior": 0.0,
+      "delta_responsibility": 0.0,
+      "full": 31.25,
+      "full_correct": 10,
+      "interaction": 0.0,
+      "num_samples": 32,
+      "posterior": 31.25,
+      "posterior_correct": 10,
+      "responsibility": 31.25,
+      "responsibility_correct": 10,
+      "split": "development"
+    }
+  ],
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "status": "complete"
+}

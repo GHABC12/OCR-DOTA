@@ -1,0 +1,148 @@
+{
+  "datasets": [
+    {
+      "dataset": "caltech101",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "dtd",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "eurosat",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "fgvc",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "food101",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "oxford_flowers",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "oxford_pets",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "stanford_cars",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "sun397",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    },
+    {
+      "dataset": "ucf101",
+      "health": true,
+      "pair_a_compatibility_equal": true,
+      "pair_a_state_equal": true,
+      "pair_a_trajectory_equal": true,
+      "pair_b_compatibility_equal": true,
+      "pair_b_state_equal": true,
+      "pair_b_trajectory_equal": true
+    }
+  ],
+  "cold_replay": [
+    {
+      "dataset": "dtd",
+      "base_posterior": {
+        "correct_equal": true,
+        "prediction_sha256_equal": true,
+        "trajectory_sha256_equal": true,
+        "state_sha256_equal": true,
+        "compatibility_sha256_equal": true,
+        "num_samples_equal": true
+      },
+      "responsibility_full": {
+        "correct_equal": true,
+        "prediction_sha256_equal": true,
+        "trajectory_sha256_equal": true,
+        "state_sha256_equal": true,
+        "compatibility_sha256_equal": true,
+        "num_samples_equal": true
+      },
+      "status": "passed"
+    },
+    {
+      "dataset": "eurosat",
+      "base_posterior": {
+        "correct_equal": true,
+        "prediction_sha256_equal": true,
+        "trajectory_sha256_equal": true,
+        "state_sha256_equal": true,
+        "compatibility_sha256_equal": true,
+        "num_samples_equal": true
+      },
+      "responsibility_full": {
+        "correct_equal": true,
+        "prediction_sha256_equal": true,
+        "trajectory_sha256_equal": true,
+        "state_sha256_equal": true,
+        "compatibility_sha256_equal": true,
+        "num_samples_equal": true
+      },
+      "status": "passed"
+    }
+  ],
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "status": "passed"
+}

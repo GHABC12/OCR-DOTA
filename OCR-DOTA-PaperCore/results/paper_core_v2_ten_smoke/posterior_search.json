@@ -1,0 +1,180 @@
+{
+  "base_dev": {
+    "correct": 10,
+    "macro_accuracy": 29.545454545454547,
+    "num_samples": 32
+  },
+  "candidates": [
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.01,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.025,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.05,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.1,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.2,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.3,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.025,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.05,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.1,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.2,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 10,
+        "macro_accuracy": 29.545454545454547,
+        "micro_accuracy": 31.25,
+        "net_correction": 0,
+        "num_samples": 32
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.3,
+        "mode": "entropy_gated_prior"
+      }
+    }
+  ],
+  "datasets": [
+    "dtd"
+  ],
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "selected": null,
+  "status": "research_negative"
+}

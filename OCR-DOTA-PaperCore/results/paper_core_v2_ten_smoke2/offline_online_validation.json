@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "dataset": "dtd",
+  "records": [
+    {
+      "config": {
+        "mode": "direct_prior",
+        "gamma": 0.1,
+        "entropy_power": 1.0
+      },
+      "offline": {
+        "num_samples": 1692,
+        "correct": 814,
+        "accuracy": 48.10874704491725,
+        "macro_accuracy": 48.10874704491725,
+        "nll": 2.088338508380703,
+        "brier": 0.6912041001471454,
+        "ece": 0.13982894339001084,
+        "wrong_to_correct": 1,
+        "correct_to_wrong": 1,
+        "net_correction": 0,
+        "changed_prediction_rate": 0.1773049645390071,
+        "mean_effective_correction_abs": 0.02906259762270314,
+        "max_effective_correction_abs": 0.19565217733049906,
+        "prediction_gate_mean": 1.0,
+        "mean_clean_mass": 0.8316310048103333
+      },
+      "online": {
+        "correct": 814,
+        "nll": 2.0883385034045046,
+        "brier": 0.6912040959506452,
+        "wrong_to_correct": 1,
+        "correct_to_wrong": 1
+      },
+      "checks": {
+        "prediction_sha256": "34810e8e6e39b4630613e385bb25e4fccefa85ee11dcedd41db1eba32e300e29",
+        "offline_correct": 814,
+        "correct": 814,
+        "nll_abs_diff": 4.976198564321521e-09,
+        "brier_abs_diff": 4.1965001473798225e-09,
+        "wrong_to_correct": 1,
+        "correct_to_wrong": 1
+      }
+    },
+    {
+      "config": {
+        "mode": "entropy_gated_prior",
+        "gamma": 0.1,
+        "entropy_power": 1.0
+      },
+      "offline": {
+        "num_samples": 1692,
+        "correct": 815,
+        "accuracy": 48.167848699763596,
+        "macro_accuracy": 48.167848699763596,
+        "nll": 2.0859359944206384,
+        "brier": 0.6908958172275885,
+        "ece": 0.1382969476617698,
+        "wrong_to_correct": 1,
+        "correct_to_wrong": 0,
+        "net_correction": 1,
+        "changed_prediction_rate": 0.1182033096926714,
+        "mean_effective_correction_abs": 0.007493900858767276,
+        "max_effective_correction_abs": 0.1262328154228643,
+        "prediction_gate_mean": 0.2912843155207027,
+        "mean_clean_mass": 0.8316310048103333
+      },
+      "online": {
+        "correct": 815,
+        "nll": 2.085936012548951,
+        "brier": 0.6908958176983163,
+        "wrong_to_correct": 1,
+        "correct_to_wrong": 0
+      },
+      "checks": {
+        "prediction_sha256": "217a51b01fb5a609d9919eae79b61cfd5ad8bbb0ac3040d5815d3a29c0c499be",
+        "offline_correct": 815,
+        "correct": 815,
+        "nll_abs_diff": 1.8128312628817866e-08,
+        "brier_abs_diff": 4.707277900806162e-10,
+        "wrong_to_correct": 1,
+        "correct_to_wrong": 0
+      }
+    }
+  ]
+}

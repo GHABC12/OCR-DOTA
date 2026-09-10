@@ -1,0 +1,189 @@
+{
+  "base_dev": {
+    "correct": 12894,
+    "macro_accuracy": 60.2793226838858,
+    "num_samples": 20577
+  },
+  "candidates": [
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12892,
+        "macro_accuracy": 60.27443379499691,
+        "micro_accuracy": 62.65247606551004,
+        "net_correction": -2,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.01,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12889,
+        "macro_accuracy": 60.26776712833025,
+        "micro_accuracy": 62.63789668076007,
+        "net_correction": -5,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.025,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12880,
+        "macro_accuracy": 60.244361722924836,
+        "micro_accuracy": 62.59415852651018,
+        "net_correction": -14,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.05,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12859,
+        "macro_accuracy": 60.192806167369284,
+        "micro_accuracy": 62.49210283326044,
+        "net_correction": -35,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.1,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12777,
+        "macro_accuracy": 60.02532913133906,
+        "micro_accuracy": 62.09359965009477,
+        "net_correction": -117,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.2,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12693,
+        "macro_accuracy": 59.85257150467155,
+        "micro_accuracy": 61.685376877095784,
+        "net_correction": -201,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.3,
+        "mode": "direct_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12892,
+        "macro_accuracy": 60.27443379499691,
+        "micro_accuracy": 62.65247606551004,
+        "net_correction": -2,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.025,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12888,
+        "macro_accuracy": 60.266211572774694,
+        "micro_accuracy": 62.63303688584342,
+        "net_correction": -6,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.05,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12863,
+        "macro_accuracy": 60.21240427611633,
+        "micro_accuracy": 62.51154201292705,
+        "net_correction": -31,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.1,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12825,
+        "macro_accuracy": 60.12395983167189,
+        "micro_accuracy": 62.32686980609418,
+        "net_correction": -69,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.2,
+        "mode": "entropy_gated_prior"
+      }
+    },
+    {
+      "acceptable": false,
+      "aggregate": {
+        "correct": 12753,
+        "macro_accuracy": 59.98004493805487,
+        "micro_accuracy": 61.976964572095056,
+        "net_correction": -141,
+        "num_samples": 20577
+      },
+      "config": {
+        "entropy_power": 1.0,
+        "gamma": 0.3,
+        "mode": "entropy_gated_prior"
+      }
+    }
+  ],
+  "datasets": [
+    "caltech101",
+    "dtd",
+    "eurosat",
+    "fgvc",
+    "food101",
+    "oxford_flowers",
+    "oxford_pets",
+    "stanford_cars",
+    "sun397",
+    "ucf101"
+  ],
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "selected": null,
+  "status": "research_negative"
+}

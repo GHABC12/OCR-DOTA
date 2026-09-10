@@ -1,0 +1,39 @@
+{
+  "base": {
+    "epsilon": 4e-05,
+    "eta": 0.1,
+    "rho": 0.01,
+    "sigma": 0.002
+  },
+  "base_prediction_sha256": "ad5ab62afd8cb1977f884bbe0a8f981f9243fcbcdf9dec0b9acfd2d778fc64d9",
+  "base_state_sha256": "e3a54eb7d0a41a8c15f62b1e39826d6c98028d2de0a97572a581dd34afa79234",
+  "base_trajectory_sha256": "a1b4d7d1a0f0ca5142a7004343259a7b26e201c77c0efe417bf1f66b57d8e36f",
+  "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/food101_vitb16.pt",
+  "cache_sha256": "7e30ed89fc4584b2aa17ee36405c002c832d5ce2303d06c3dff64c63bcfa06f8",
+  "compatibility_sha256": "c8f55cdfc1584b129e784b232604c527feab85101a98bb6a7616b92385c811dd",
+  "created_at": 1789006900.2927206,
+  "dataset": "food101",
+  "elapsed_sec": 113.1402575969696,
+  "evidence_sha256": "b8d6b9c54e663fd7b880afeddc6ef4784d57589fb660c899fe7b1b1f4fdf53a7",
+  "fields": [
+    "base_margin",
+    "base_prediction",
+    "clean_mass",
+    "clip_logits",
+    "compatibility",
+    "fusion_weight",
+    "gaussian_logits",
+    "rank_displacement",
+    "sample_id",
+    "target"
+  ],
+  "full_count": 30300,
+  "full_order_sha256": "6cfa68778c8be388d18faad95fc02e7ded613eafa8e2f122a27a02308011cd05",
+  "global_seed": 1,
+  "label_policy": "target is read after state.fit; target is not used by prediction or update",
+  "num_samples": 30300,
+  "order_sha256": "6cfa68778c8be388d18faad95fc02e7ded613eafa8e2f122a27a02308011cd05",
+  "precision": "fp32",
+  "protocol_version": "paper-core-v2-ten-prereg-1",
+  "tau_rank": 0.15
+}

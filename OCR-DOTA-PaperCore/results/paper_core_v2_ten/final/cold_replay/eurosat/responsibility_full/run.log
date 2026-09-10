@@ -1,0 +1,92 @@
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+{
+  "elapsed_sec": 44.40212917327881,
+  "full": {
+    "accuracy": 64.17283950617283,
+    "analysis_trace_sha256": "a001394e4db2ca9546489c6607ec1ed28ed1cdf9580500b0d1710679830a8d3f",
+    "brier": 0.5729237198829651,
+    "changed_prediction_rate": 0.0,
+    "compatibility_sha256": "826ae6d24360dd52f043b266e6b25d0075e646cda9363b60b80e792045f713c1",
+    "correct": 5198,
+    "correct_to_wrong": 0,
+    "crm": 45.52922188679331,
+    "ece": 0.21935285620299388,
+    "health_status": "healthy",
+    "late50_accuracy": 63.95061728395062,
+    "mean_update_gate": 0.6928818225860596,
+    "net_correction_vs_same_state_base": 0,
+    "nll": 1.9611848592758179,
+    "num_samples": 8100,
+    "prediction_sha256": "67a4e56b941d621f8dc53e8112bab788d52b2ea98e7fa52aab5914a076bb47db",
+    "state_sha256": "a638c4b8d705fc089b33d4471205af8dbf5bc7cc25ec8033407ef4a3c3595bea",
+    "temporal_accuracy": [
+      62.22222222222222,
+      66.66666666666666,
+      65.92592592592592,
+      63.70370370370371,
+      63.456790123456784,
+      61.85185185185185,
+      65.30864197530865,
+      66.5432098765432,
+      63.580246913580254,
+      62.46913580246913
+    ],
+    "total_update_mass": 5612.34033203125,
+    "trace_file_sha256": "7fd8d403879785f51358309599a2bcdd2e299d1338d40841e1da7ec61cbe0e24",
+    "trace_path": "OCR-DOTA-PaperCore/results/paper_core_v2_ten/final/cold_replay/eurosat/responsibility_full/traces/full.npz",
+    "trajectory_sha256": "d0922d82493bd4dbc163c8d8b8a664ea73b72d935f2768c660f7d5fc109955fa",
+    "true_class_responsibility_mass": 2555.2548828125,
+    "wrm": 54.47077811320669,
+    "wrong_class_responsibility_mass": 3057.08544921875,
+    "wrong_to_correct": 0
+  },
+  "num_samples": 8100,
+  "pair": "responsibility_full",
+  "responsibility": {
+    "accuracy": 64.17283950617283,
+    "analysis_trace_sha256": "a001394e4db2ca9546489c6607ec1ed28ed1cdf9580500b0d1710679830a8d3f",
+    "brier": 0.5729237198829651,
+    "changed_prediction_rate": 0.0,
+    "compatibility_sha256": "826ae6d24360dd52f043b266e6b25d0075e646cda9363b60b80e792045f713c1",
+    "correct": 5198,
+    "correct_to_wrong": 0,
+    "crm": 45.52922188679331,
+    "ece": 0.21935285620299388,
+    "health_status": "healthy",
+    "late50_accuracy": 63.95061728395062,
+    "mean_update_gate": 0.6928818225860596,
+    "net_correction_vs_same_state_base": 0,
+    "nll": 1.9611848592758179,
+    "num_samples": 8100,
+    "prediction_sha256": "67a4e56b941d621f8dc53e8112bab788d52b2ea98e7fa52aab5914a076bb47db",
+    "state_sha256": "a638c4b8d705fc089b33d4471205af8dbf5bc7cc25ec8033407ef4a3c3595bea",
+    "temporal_accuracy": [
+      62.22222222222222,
+      66.66666666666666,
+      65.92592592592592,
+      63.70370370370371,
+      63.456790123456784,
+      61.85185185185185,
+      65.30864197530865,
+      66.5432098765432,
+      63.580246913580254,
+      62.46913580246913
+    ],
+    "total_update_mass": 5612.34033203125,
+    "trace_file_sha256": "7fd8d403879785f51358309599a2bcdd2e299d1338d40841e1da7ec61cbe0e24",
+    "trace_path": "OCR-DOTA-PaperCore/results/paper_core_v2_ten/final/cold_replay/eurosat/responsibility_full/traces/responsibility.npz",
+    "trajectory_sha256": "d0922d82493bd4dbc163c8d8b8a664ea73b72d935f2768c660f7d5fc109955fa",
+    "true_class_responsibility_mass": 2555.2548828125,
+    "wrm": 54.47077811320669,
+    "wrong_class_responsibility_mass": 3057.08544921875,
+    "wrong_to_correct": 0
+  }
+}

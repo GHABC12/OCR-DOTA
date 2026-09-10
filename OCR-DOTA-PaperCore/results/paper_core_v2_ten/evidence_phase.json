@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    "fgvc",
+    "caltech101",
+    "stanford_cars",
+    "dtd",
+    "eurosat",
+    "oxford_flowers",
+    "food101",
+    "oxford_pets",
+    "sun397",
+    "ucf101"
+  ],
+  "num_samples_override": null,
+  "status": "complete"
+}
