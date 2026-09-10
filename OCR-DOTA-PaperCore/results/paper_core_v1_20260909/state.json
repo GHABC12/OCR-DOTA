@@ -1,0 +1,5 @@
+{
+  "phase": "posterior",
+  "reason": "Neither pre-registered posterior family improved both development aggregate metrics. Heldout remains unused.",
+  "status": "research_negative"
+}

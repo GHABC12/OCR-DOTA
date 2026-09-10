@@ -1,0 +1,17 @@
+{
+  "arm": "base",
+  "dataset": "sun397",
+  "fields": [
+    "correct",
+    "num_samples",
+    "prediction_sha256",
+    "trajectory_sha256",
+    "state_sha256",
+    "compatibility_sha256",
+    "analysis_trace_sha256"
+  ],
+  "identity_sha256": "0a18ceb464cf5b0653140fd9b5aea11ad3f57980c64f511b7435b288139a3930",
+  "job": "41381e079cc98efcef9ac74349e40e257ead5c7641d975561be03cd511fc38e1",
+  "reference_result_sha256": "79ba7021e738da46777b144583f1a4154840cba7bcc3893a5c02c8917309e089",
+  "status": "reproduced"
+}

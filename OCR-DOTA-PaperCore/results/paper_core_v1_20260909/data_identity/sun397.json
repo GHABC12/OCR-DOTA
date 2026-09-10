@@ -1,0 +1,9 @@
+{
+  "cache_meta": null,
+  "full_count": 19850,
+  "full_order_sha256": "c81df7a714ad16f737f8d6a4ada0fda6469ee43fd130a03beb8f9c227e8169c1",
+  "num_samples": 19850,
+  "order_sha256": "c81df7a714ad16f737f8d6a4ada0fda6469ee43fd130a03beb8f9c227e8169c1",
+  "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/sun397_vitb16.pt",
+  "sha256": "10078987930d1b68406207d49aefcb7b50ddee1e952127f269d960675cbb6e8f"
+}

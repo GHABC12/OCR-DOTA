@@ -1,0 +1,93 @@
+{
+  "all_datasets": [
+    "fgvc",
+    "caltech101",
+    "stanford_cars",
+    "dtd",
+    "eurosat",
+    "oxford_flowers",
+    "food101",
+    "oxford_pets",
+    "sun397",
+    "ucf101",
+    "office_home_art",
+    "office_home_clipart",
+    "office_home_product",
+    "office_home_real_world",
+    "visda2017_validation",
+    "domainnet_clipart",
+    "domainnet_infograph",
+    "domainnet_painting",
+    "domainnet_quickdraw",
+    "domainnet_real",
+    "domainnet_sketch"
+  ],
+  "base_policy": "Original configs/vit YAML frozen before development; all four arms identical base; no base tuning",
+  "development": [
+    "oxford_pets",
+    "stanford_cars",
+    "sun397",
+    "office_home_product",
+    "domainnet_painting",
+    "domainnet_real"
+  ],
+  "geometry": false,
+  "global_seed": 1,
+  "heldout": [
+    "fgvc",
+    "caltech101",
+    "dtd",
+    "eurosat",
+    "oxford_flowers",
+    "food101",
+    "ucf101",
+    "office_home_art",
+    "office_home_clipart",
+    "office_home_real_world",
+    "visda2017_validation",
+    "domainnet_clipart",
+    "domainnet_infograph",
+    "domainnet_quickdraw",
+    "domainnet_sketch"
+  ],
+  "limitations": "Heldout means not used in this campaign selection. All datasets were exposed in historical research; not pristine external validation.",
+  "negative_posterior_policy": "stop after both 18-point grids if neither yields acceptable posterior; do not run or retune on heldout",
+  "per_dataset_module_selection": false,
+  "posterior_accept": "development macro and micro >= base; net correction strictly positive",
+  "posterior_grid": {
+    "alpha": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "lambda_max": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "prediction_power": [
+      1,
+      2
+    ]
+  },
+  "posterior_modes": [
+    "gated_log_prior",
+    "probability_blend"
+  ],
+  "posterior_selection": "macro accuracy, total correct, lower alpha*lambda_max, deterministic id",
+  "precision": "fp32",
+  "rank": "normalized ordinal ranks in [0,1], stable descending tie break",
+  "responsibility": {
+    "beta_resp": 1.0,
+    "delta": 1.0,
+    "modes": [
+      "gate_only",
+      "calibrated_clip",
+      "posterior"
+    ],
+    "selection": "largest macro then correct; prefer R3 over best if within .01 macro pp and nonnegative micro/macro gain"
+  },
+  "split_rule": "SHA256(paper-core-v1-dev-split|dataset), lowest 3 classic,1 Office,2 DomainNet; VisDA held out",
+  "tau_rank": 0.15,
+  "version": "paper-core-v1-prereg-1"
+}

@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "code": {
+      "OCR-DOTA-PaperCore/evaluate_paper.py": "7ef85b3076c7381465ff433bc8757656f538b0848f3ffcd2b98583b6f1885836",
+      "OCR-DOTA-PaperCore/ocr_dota_paper/__init__.py": "5269fb79a91eb5674fd3736207e06cd1db424ab8c6aa10d1d2336c9bab28a368",
+      "OCR-DOTA-PaperCore/ocr_dota_paper/compatibility.py": "64ea3feead3a9bbce0de07b203e2e0c22085115ae648cad058b2025550c8a669",
+      "OCR-DOTA-PaperCore/ocr_dota_paper/model.py": "fde90633f14871a5282fac4e90a34cebcd218618dd98971a8389f845a89d28db",
+      "OCR-DOTA-PaperCore/ocr_dota_paper/posterior.py": "b2a02c674933719099c04a12972ac7a7daf0910ae8aef29ab0ba472e87ec0cf7",
+      "OCR-DOTA-PaperCore/ocr_dota_paper/responsibility.py": "f46968421451c3070cf5ac8a0adae4c361d27cc90d3f63f951bd960242a39fcd",
+      "OCR-DOTA-PaperCore/paper_campaign.py": "82e154ffa23a73b848497ba238400ca2fc9303db17bd5cf818c3ccb787512b84",
+      "OCR-DOTA-PaperCore/run_paper_ablation.py": "5b973f3c5be09f96e683897357643ce81aec1d279ccc51cc51da3aa3710180a5",
+      "OCR-DOTA-PaperCore/tune_paper_dev.py": "483fd74d7629d1946635d42ce03882f0dadeed50a995f0e5058008092d5c6447",
+      "OCR-DOTA-PaperCore/verify_exact.py": "ad4655face36497d08beb2519c99bae53bd4d6c3eee9ba5a8868f006e4787d14",
+      "OCR-DOTA-V3/tune_nonimagenet21.py": "73f6a31f0ac7883d2c289283420ea4ad3a4b0557e5a77d5bf6d4b350f7b27369",
+      "scripts/run_cross_benchmark_ocr_ablation.py": "11cd3d4d77a876f8f7a3ff07c1313215d29588b416aa6e7a7124d1cc1cd2f478"
+    },
+    "datasets": {
+      "caltech101": {
+        "base": {
+          "epsilon": 0.002,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "21212220c7be0bc4c0a9eb05c6256c6abde51f39a66b5fe13870d0a025c0e65b",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/caltech101_vitb16.pt",
+        "cache_sha256": "05d1644c198e639a7d28c5474b0c0aa089e229b97bbf1467f2663a59f2ddaf81"
+      },
+      "domainnet_clipart": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/domainnet_clipart_vitb16.pt",
+        "cache_sha256": "605b23b86ffa088bb2afa12b601f0155832fd010d548490944a0157e499408d5"
+      },
+      "domainnet_infograph": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/domainnet_infograph_vitb16.pt",
+        "cache_sha256": "8f65ddcc5ff460988fd4becaa1a4142ee9969c5d71e19fc39ac7934cfa2bbf2c"
+      },
+      "domainnet_painting": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/domainnet_painting_vitb16.pt",
+        "cache_sha256": "4c6fb99d14424cfaa8b708aaa867b01cea31b2e22deb4910377d349f19bbec61"
+      },
+      "domainnet_quickdraw": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/domainnet_quickdraw_vitb16.pt",
+        "cache_sha256": "a83c2a114e16b122e137ef8b9f391bb4987ada15c5e4a2772e97e18cd074537c"
+      },
+      "domainnet_real": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/domainnet_real_vitb16.pt",
+        "cache_sha256": "2a04a44d91fa7290d6ba08eb61ec66b9dd2cf323dde48fe5af4c6e7330fde842"
+      },
+      "domainnet_sketch": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/domainnet_sketch_vitb16.pt",
+        "cache_sha256": "172ebe158b382ab810266177399173499dac43a7ae6a0db9c3a491fa56e40a5c"
+      },
+      "dtd": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "b5b4bdae8b9185e6f9f29d236ae6549d6e4849315d0bfc43cd3d65af5bce22d4",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/dtd_vitb16.pt",
+        "cache_sha256": "3362a3847447fafcd2c512390ffa146b69d9892527f7dbb9fcaa85c02266103d"
+      },
+      "eurosat": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 3.0,
+          "rho": 0.05,
+          "sigma": 0.002
+        },
+        "base_file_sha": "a32e865589e97c9c188a4bc31b12235514f26607e9aed770e73d81cb1feb1cef",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/eurosat_vitb16.pt",
+        "cache_sha256": "032b7f1f675203f3c7a28e56885d7222d2f7811b28c8758ff980da2a16053430"
+      },
+      "fgvc": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.2,
+          "rho": 0.01,
+          "sigma": 0.002
+        },
+        "base_file_sha": "c6816f8d0beec78127f3582a591520ca413883b828b2456de16f2ca43af6d586",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/fgvc_vitb16.pt",
+        "cache_sha256": "2bce393656073433a8911254d6cb3146a68c9d4ec99657c58611c1b7296db059"
+      },
+      "food101": {
+        "base": {
+          "epsilon": 4e-05,
+          "eta": 0.1,
+          "rho": 0.01,
+          "sigma": 0.002
+        },
+        "base_file_sha": "60b8042aec7e4c24e08056b5a728e0dd5878971480656ebc5a3bb9565036480e",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/food101_vitb16.pt",
+        "cache_sha256": "7e30ed89fc4584b2aa17ee36405c002c832d5ce2303d06c3dff64c63bcfa06f8"
+      },
+      "office_home_art": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/office_home_art_vitb16.pt",
+        "cache_sha256": "154db669e19d3d098cfb3da8593ac9f040e6e3a5e11de7f47b6be9806f2ca77b"
+      },
+      "office_home_clipart": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/office_home_clipart_vitb16.pt",
+        "cache_sha256": "e2f3796efde72a1056bb073b4da496a17096b5232cc2b02919ad6342d3c9631e"
+      },
+      "office_home_product": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/office_home_product_vitb16.pt",
+        "cache_sha256": "3484679dc984201cc365c6d371e8878f868858947f2f5b7b0905863c0c1eca44"
+      },
+      "office_home_real_world": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/office_home_real_world_vitb16.pt",
+        "cache_sha256": "7e89ff396b5d9ba11818ee1c5b17d0cf48766d5e78075cb674ba2392570e06cd"
+      },
+      "oxford_flowers": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.2,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "0cadf7e85b76010101d345d22ca689a099e7e1f4700dbfd14acee47eb178b277",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/oxford_flowers_vitb16.pt",
+        "cache_sha256": "fce0fe5e773bffcfb9b4cca70ad6d7c5c4ea7229659b05fe665e0ebb09544dc9"
+      },
+      "oxford_pets": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "c93c42527f06ac9d45704a7a69e81923d20e885ab23a0ddccdd4aeeb1169ef0d",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/oxford_pets_vitb16.pt",
+        "cache_sha256": "cc91bcab9abc32e79c1041f383105f87db0ba333dec2961bb4425bb0d6b539cf"
+      },
+      "stanford_cars": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.01,
+          "sigma": 0.002
+        },
+        "base_file_sha": "b663cfe4a3284e16ebea518d3ecdfacdf1d37e1fb3b175f36032969c30b352e4",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/stanford_cars_vitb16.pt",
+        "cache_sha256": "5fe1038f509981e852f248a78ee9bbea60adc8e692866379534f34fda7112ba9"
+      },
+      "sun397": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.2,
+          "rho": 0.01,
+          "sigma": 0.002
+        },
+        "base_file_sha": "1a35cebf913582d4680c59add7baba5d9c1909370159318c1400cf39a4b5c8f0",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/sun397_vitb16.pt",
+        "cache_sha256": "10078987930d1b68406207d49aefcb7b50ddee1e952127f269d960675cbb6e8f"
+      },
+      "ucf101": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.4,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "c3565e11960880635adbc74aedb82e859eba6a675e5987686a8547f640d48178",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/ucf101_vitb16.pt",
+        "cache_sha256": "7ce61438b58887232c3bf89f411486a46b4efb5e5bca10eac6961b1f09112170"
+      },
+      "visda2017_validation": {
+        "base": {
+          "epsilon": 0.0001,
+          "eta": 0.3,
+          "rho": 0.02,
+          "sigma": 0.002
+        },
+        "base_file_sha": "217501f314f51ca9bbf2f27e234a4202f8a8bd0713e33a09b69a33c3699b79b2",
+        "cache_path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/officehome_visda_domainnet_dtd_style_20260803/cache/visda2017_validation_vitb16.pt",
+        "cache_sha256": "054f550756a5b6b0683c716c0b43132d905213d37ca9e3a3b8a3b4ed8c0fec14"
+      }
+    },
+    "protocol": {
+      "all_datasets": [
+        "fgvc",
+        "caltech101",
+        "stanford_cars",
+        "dtd",
+        "eurosat",
+        "oxford_flowers",
+        "food101",
+        "oxford_pets",
+        "sun397",
+        "ucf101",
+        "office_home_art",
+        "office_home_clipart",
+        "office_home_product",
+        "office_home_real_world",
+        "visda2017_validation",
+        "domainnet_clipart",
+        "domainnet_infograph",
+        "domainnet_painting",
+        "domainnet_quickdraw",
+        "domainnet_real",
+        "domainnet_sketch"
+      ],
+      "base_policy": "Original configs/vit YAML frozen before development; all four arms identical base; no base tuning",
+      "development": [
+        "oxford_pets",
+        "stanford_cars",
+        "sun397",
+        "office_home_product",
+        "domainnet_painting",
+        "domainnet_real"
+      ],
+      "geometry": false,
+      "global_seed": 1,
+      "heldout": [
+        "fgvc",
+        "caltech101",
+        "dtd",
+        "eurosat",
+        "oxford_flowers",
+        "food101",
+        "ucf101",
+        "office_home_art",
+        "office_home_clipart",
+        "office_home_real_world",
+        "visda2017_validation",
+        "domainnet_clipart",
+        "domainnet_infograph",
+        "domainnet_quickdraw",
+        "domainnet_sketch"
+      ],
+      "limitations": "Heldout means not used in this campaign selection. All datasets were exposed in historical research; not pristine external validation.",
+      "negative_posterior_policy": "stop after both 18-point grids if neither yields acceptable posterior; do not run or retune on heldout",
+      "per_dataset_module_selection": false,
+      "posterior_accept": "development macro and micro >= base; net correction strictly positive",
+      "posterior_grid": {
+        "alpha": [
+          0.25,
+          0.5,
+          1.0
+        ],
+        "lambda_max": [
+          0.25,
+          0.5,
+          1.0
+        ],
+        "prediction_power": [
+          1,
+          2
+        ]
+      },
+      "posterior_modes": [
+        "gated_log_prior",
+        "probability_blend"
+      ],
+      "posterior_selection": "macro accuracy, total correct, lower alpha*lambda_max, deterministic id",
+      "precision": "fp32",
+      "rank": "normalized ordinal ranks in [0,1], stable descending tie break",
+      "responsibility": {
+        "beta_resp": 1.0,
+        "delta": 1.0,
+        "modes": [
+          "gate_only",
+          "calibrated_clip",
+          "posterior"
+        ],
+        "selection": "largest macro then correct; prefer R3 over best if within .01 macro pp and nonnegative micro/macro gain"
+      },
+      "split_rule": "SHA256(paper-core-v1-dev-split|dataset), lowest 3 classic,1 Office,2 DomainNet; VisDA held out",
+      "tau_rank": 0.15,
+      "version": "paper-core-v1-prereg-1"
+    }
+  },
+  "identity_sha256": "0a18ceb464cf5b0653140fd9b5aea11ad3f57980c64f511b7435b288139a3930",
+  "status": "running"
+}

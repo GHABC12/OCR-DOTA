@@ -1,0 +1,9 @@
+{
+  "cache_meta": null,
+  "full_count": 8041,
+  "full_order_sha256": "40892e4bcc7d5b80e0486a07efeb8a7d17ea4b7ded0322dd2665ed0b2694d983",
+  "num_samples": 8041,
+  "order_sha256": "40892e4bcc7d5b80e0486a07efeb8a7d17ea4b7ded0322dd2665ed0b2694d983",
+  "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/stanford_cars_vitb16.pt",
+  "sha256": "5fe1038f509981e852f248a78ee9bbea60adc8e692866379534f34fda7112ba9"
+}

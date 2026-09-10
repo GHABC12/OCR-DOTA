@@ -1,0 +1,9 @@
+{
+  "cache_meta": null,
+  "full_count": 3669,
+  "full_order_sha256": "83308eaab044b8daa3b71b8ee6b8b49b176827b93451544e7f00803626f7c389",
+  "num_samples": 3669,
+  "order_sha256": "83308eaab044b8daa3b71b8ee6b8b49b176827b93451544e7f00803626f7c389",
+  "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/oxford_pets_vitb16.pt",
+  "sha256": "cc91bcab9abc32e79c1041f383105f87db0ba333dec2961bb4425bb0d6b539cf"
+}

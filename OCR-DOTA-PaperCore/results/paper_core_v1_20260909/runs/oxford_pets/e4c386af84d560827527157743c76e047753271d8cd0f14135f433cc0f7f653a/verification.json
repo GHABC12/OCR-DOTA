@@ -1,0 +1,17 @@
+{
+  "arm": "base",
+  "dataset": "oxford_pets",
+  "fields": [
+    "correct",
+    "num_samples",
+    "prediction_sha256",
+    "trajectory_sha256",
+    "state_sha256",
+    "compatibility_sha256",
+    "analysis_trace_sha256"
+  ],
+  "identity_sha256": "0a18ceb464cf5b0653140fd9b5aea11ad3f57980c64f511b7435b288139a3930",
+  "job": "e4c386af84d560827527157743c76e047753271d8cd0f14135f433cc0f7f653a",
+  "reference_result_sha256": "a2414ef70600a6b14f7eb6f273ba3d46aa4db6d1490c002c74f765f3ed89c6dd",
+  "status": "reproduced"
+}

@@ -32,8 +32,12 @@ V3 的核心改动：排序机制只保留一个核心量 **rank compatibility**
   与数据集缓存（`log/all_dataset_perf/cache/`）。本仓库仅包含 V3 实现、实验驱动脚本
   与实验结果，父仓库代码请参见 [skylineeeeen/DOTA](https://github.com/skylineeeeen/DOTA)。
 - `DOTA-Rank-Only/`（legacy baseline 上的 rank-only 消融）整理时全量实验仍在运行，本次未包含。
-- `OCR-DOTA-PaperCore/results/paper_core_v1_20260909/`（论文核心 campaign，development phase）
-  发布时仍在运行，最终结果将在 campaign 完成后补传。
+- `OCR-DOTA-PaperCore/results/paper_core_v1_20260909/`（论文核心 campaign）已补传最终结果：
+  campaign 按预注册协议以**负结果**结束（两个 18 点 posterior 网格均未达到验收标准），
+  因此**未产生** `FROZEN_PAPER_CONFIG.yaml` 与 held-out 评估——协议要求此时停止、不使用 held-out
+  标签，也不重新定义 Base。最终产物为 `posterior_search.json`、
+  `posterior_development_correction.csv`、`research_negative.md`、完整 `candidate_results.jsonl`
+  与逐候选 traces（`runs/`）。
 
 ## 运行测试
 

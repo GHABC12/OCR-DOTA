@@ -1,0 +1,17 @@
+{
+  "arm": "base",
+  "dataset": "domainnet_real",
+  "fields": [
+    "correct",
+    "num_samples",
+    "prediction_sha256",
+    "trajectory_sha256",
+    "state_sha256",
+    "compatibility_sha256",
+    "analysis_trace_sha256"
+  ],
+  "identity_sha256": "0a18ceb464cf5b0653140fd9b5aea11ad3f57980c64f511b7435b288139a3930",
+  "job": "2bb113f17c47d33f738a6e7d844b74a66f0b982a14cce087f1dc30f590a544d3",
+  "reference_result_sha256": "ecbc80ae079f57b0f4f89c0efcc8d1a40f62055491314c6c218f757f0f0f2f30",
+  "status": "reproduced"
+}

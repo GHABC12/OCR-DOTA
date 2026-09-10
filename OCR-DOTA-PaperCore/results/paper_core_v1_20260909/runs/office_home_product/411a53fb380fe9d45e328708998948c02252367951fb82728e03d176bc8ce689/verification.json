@@ -1,0 +1,17 @@
+{
+  "arm": "base",
+  "dataset": "office_home_product",
+  "fields": [
+    "correct",
+    "num_samples",
+    "prediction_sha256",
+    "trajectory_sha256",
+    "state_sha256",
+    "compatibility_sha256",
+    "analysis_trace_sha256"
+  ],
+  "identity_sha256": "0a18ceb464cf5b0653140fd9b5aea11ad3f57980c64f511b7435b288139a3930",
+  "job": "411a53fb380fe9d45e328708998948c02252367951fb82728e03d176bc8ce689",
+  "reference_result_sha256": "07a5cdcab98639b0f5312fb56106c06367d4ac7aa5a0d715ca90ae23aad66965",
+  "status": "reproduced"
+}
