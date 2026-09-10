@@ -1,0 +1,2 @@
+dataset,display_name,base_correct,base_total,base_accuracy,posterior_correct,posterior_accuracy,delta_p_correct,delta_p_pp,update_correct,update_accuracy,delta_u_correct,delta_u_pp,full_correct,full_accuracy,delta_full_correct,delta_full_pp
+dtd,DTD,23,64,35.9375,23,35.9375,0,0.0,24,37.5,1,1.5625,,,,

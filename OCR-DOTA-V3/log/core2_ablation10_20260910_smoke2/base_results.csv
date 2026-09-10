@@ -1,0 +1,2 @@
+dataset,display_name,num_samples,correct,accuracy,last50_correct,last50_accuracy,prediction_sha256,state_sha256
+dtd,DTD,64,23,35.9375,13,40.625,995d3779aae38d6c1955f6b7eb85b3b761a3bb276b4579b19c38a50663ae4024,1066e26d7aea57c370e1dcfed9b869f92a3af8589336763e7b0678eed9b2308f

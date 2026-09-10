@@ -1,0 +1,105 @@
+{
+  "best": {
+    "candidate": "P1",
+    "correct": 63359,
+    "macro_accuracy": 71.00549334698852,
+    "micro_accuracy": 75.70134773465877,
+    "num_samples": 83696,
+    "positive_datasets": 1,
+    "strength": 0.0075,
+    "worst_delta": -0.0033003300329994545
+  },
+  "rows": [
+    {
+      "candidate": "P0",
+      "correct": 63351,
+      "macro_accuracy": 70.99471226888072,
+      "micro_accuracy": 75.69178933282355,
+      "num_samples": 83696,
+      "positive_datasets": 0,
+      "strength": 0.0,
+      "worst_delta": 0.0
+    },
+    {
+      "candidate": "P1",
+      "correct": 63359,
+      "macro_accuracy": 71.00549334698852,
+      "micro_accuracy": 75.70134773465877,
+      "num_samples": 83696,
+      "positive_datasets": 1,
+      "strength": 0.0075,
+      "worst_delta": -0.0033003300329994545
+    },
+    {
+      "candidate": "P2",
+      "correct": 63354,
+      "macro_accuracy": 70.99578904322482,
+      "micro_accuracy": 75.69537373351176,
+      "num_samples": 83696,
+      "positive_datasets": 1,
+      "strength": 0.015,
+      "worst_delta": -0.06000600060005823
+    },
+    {
+      "candidate": "P3",
+      "correct": 63358,
+      "macro_accuracy": 70.99630037418767,
+      "micro_accuracy": 75.70015293442937,
+      "num_samples": 83696,
+      "positive_datasets": 2,
+      "strength": 0.0375,
+      "worst_delta": -0.12001200120012001
+    },
+    {
+      "candidate": "P4",
+      "correct": 63355,
+      "macro_accuracy": 71.00433431242789,
+      "micro_accuracy": 75.69656853374116,
+      "num_samples": 83696,
+      "positive_datasets": 3,
+      "strength": 0.075,
+      "worst_delta": -0.12001200120012001
+    },
+    {
+      "candidate": "P5",
+      "correct": 63347,
+      "macro_accuracy": 71.000590711642,
+      "micro_accuracy": 75.68701013190595,
+      "num_samples": 83696,
+      "positive_datasets": 4,
+      "strength": 0.15,
+      "worst_delta": -0.1500150015001509
+    },
+    {
+      "candidate": "P6",
+      "correct": 63319,
+      "macro_accuracy": 70.94108895138154,
+      "micro_accuracy": 75.6535557254827,
+      "num_samples": 83696,
+      "positive_datasets": 3,
+      "strength": 0.3,
+      "worst_delta": -0.3209876543209873
+    },
+    {
+      "candidate": "P7",
+      "correct": 63214,
+      "macro_accuracy": 70.8079790673395,
+      "micro_accuracy": 75.52810170139553,
+      "num_samples": 83696,
+      "positive_datasets": 3,
+      "strength": 0.6,
+      "worst_delta": -1.6049382716049365
+    },
+    {
+      "candidate": "P8",
+      "correct": 63071,
+      "macro_accuracy": 70.6032349809713,
+      "micro_accuracy": 75.35724526859109,
+      "num_samples": 83696,
+      "positive_datasets": 1,
+      "strength": 1.0,
+      "worst_delta": -3.1851851851851762
+    }
+  ],
+  "selection": "macro then positive datasets then micro then worst delta"
+}

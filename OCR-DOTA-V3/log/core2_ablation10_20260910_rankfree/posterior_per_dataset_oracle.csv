@@ -1,0 +1,11 @@
+dataset,display_name,candidate,strength,delta_correct,delta_pp
+fgvc,Aircraft,P0,0.0,0,0.0
+caltech101,Caltech101,P0,0.0,0,0.0
+stanford_cars,Cars,P6,0.3,2,0.02487252829249087
+dtd,DTD,P5,0.15,4,0.2364066193853418
+eurosat,EuroSAT,P3,0.0375,10,0.12345679012346977
+oxford_flowers,Flower102,P0,0.0,0,0.0
+food101,Food101,P0,0.0,0,0.0
+oxford_pets,Pets,P4,0.075,1,0.027255382938122352
+sun397,SUN397,P5,0.15,2,0.01007556675062915
+ucf101,UCF101,P7,0.6,2,0.05286809410520732

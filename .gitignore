@@ -8,6 +8,7 @@ __pycache__/
 
 log/
 logs/
+!OCR-DOTA-V3/log/
 dataset/
 datasets_data/
 data/

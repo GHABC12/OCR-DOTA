@@ -1,0 +1,19 @@
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+{
+  "status": "complete",
+  "output": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/log/core2_ablation10_20260910_rankfree",
+  "identity_sha256": "e02c4164f0b865ecd2b4331bd6e3c8d31ffc21000721b9f52c8a9454d5588798",
+  "base_datasets": 10,
+  "posterior_candidates": 9,
+  "update_u1_candidates": 16,
+  "update_u2_gate_count": 2,
+  "full_completed": true
+}

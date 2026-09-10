@@ -1,0 +1,930 @@
+{
+  "best": {
+    "candidate": "U2_t0.075_p0.25_mix05",
+    "config": {
+      "base": {
+        "epsilon": 5e-05,
+        "eta": 1.0,
+        "rho": 0.056499999999999995,
+        "sigma": 0.001
+      },
+      "rank": {
+        "eps": 1e-12,
+        "prediction_strength": 0.0,
+        "tau_rank": 0.075,
+        "update_power": 0.25
+      },
+      "update": {
+        "beta": 0.75,
+        "covariance_mode": "full",
+        "gaussian_mode": "shared_cov",
+        "init_count": 0.1,
+        "init_mu": "constant",
+        "norm_eps": 1e-12,
+        "prior_eps": 1e-06,
+        "residual_strength": 0.0,
+        "stat_decay": 1.0
+      },
+      "update_rule": "mix05",
+      "update_views": "selected"
+    },
+    "correct": 24,
+    "macro_accuracy": 37.5,
+    "macro_last50_accuracy": 40.625,
+    "micro_accuracy": 37.5,
+    "num_samples": 64,
+    "positive_datasets": 1,
+    "positive_last50_datasets": 0
+  },
+  "rows": [
+    {
+      "candidate": "U1_t0.075_p0.25",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.075_p0.5",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.075_p1",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 1.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.075_p2",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 2.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.15_p0.25",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.15,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.15_p0.5",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.15,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.15_p1",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.15,
+          "update_power": 1.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.15_p2",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.15,
+          "update_power": 2.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.3_p0.25",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.3,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.3_p0.5",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.3,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.3_p1",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.3,
+          "update_power": 1.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.3_p2",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.3,
+          "update_power": 2.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.6_p0.25",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.6,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.6_p0.5",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.6,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.6_p1",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.6,
+          "update_power": 1.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U1_t0.6_p2",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.6,
+          "update_power": 2.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.25_clip",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.25_mix05",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix05",
+        "update_views": "selected"
+      },
+      "correct": 24,
+      "macro_accuracy": 37.5,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 37.5,
+      "num_samples": 64,
+      "positive_datasets": 1,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.25_mix08clip",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.25_omega",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "omega",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.5_clip",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.5_mix05",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix05",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.5_mix08clip",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    },
+    {
+      "candidate": "U2_t0.075_p0.5_omega",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.5
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "omega",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "macro_accuracy": 35.9375,
+      "macro_last50_accuracy": 40.625,
+      "micro_accuracy": 35.9375,
+      "num_samples": 64,
+      "positive_datasets": 0,
+      "positive_last50_datasets": 0
+    }
+  ],
+  "selection": "macro then last50 macro then positive datasets then micro"
+}

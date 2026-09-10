@@ -1,0 +1,23 @@
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_core2_ablation10.py", line 630, in <module>
+    raise SystemExit(run(build_parser().parse_args()))
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_core2_ablation10.py", line 538, in run
+    probe_shas = [independent_replay_state_sha(data, base_cfg, s, stop, args.stop_interval) for s in (0.0, 0.30, 1.0)]
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_core2_ablation10.py", line 538, in <listcomp>
+    probe_shas = [independent_replay_state_sha(data, base_cfg, s, stop, args.stop_interval) for s in (0.0, 0.30, 1.0)]
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_core2_ablation10.py", line 327, in independent_replay_state_sha
+    return replay_posterior_grid(data, anchor, stop, interval, (strength,))["state_sha256"]
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_core2_ablation10.py", line 282, in replay_posterior_grid
+    if index % max(1, stop_interval) == 0: check_stop(stop, f"posterior sample {index}")
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_core2_ablation10.py", line 160, in check_stop
+    if path.exists(): raise StopRequested(f"STOP requested {context}")
+__main__.StopRequested: STOP requested posterior sample 1050

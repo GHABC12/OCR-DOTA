@@ -1,0 +1,23 @@
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+/usr/local/iCompute/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/usr/local/iCompute/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{
+  "status": "complete",
+  "output": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/log/core2_ablation10_20260910_smoke_rankfree",
+  "identity_sha256": "e61dedc84fcc7f7947b38b191d32fc0c95c5880e7ba4e68f91117ab46c00cb4d",
+  "base_datasets": 1,
+  "posterior_candidates": 9,
+  "update_u1_candidates": 16,
+  "update_u2_gate_count": 2,
+  "full_completed": false
+}

@@ -1,0 +1,79 @@
+{
+  "finished_at": 1789015410.9673786,
+  "full_completed": false,
+  "identity": {
+    "anchor_source": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/BEST_SINGLE_CONFIG_NONIMAGENET21.json",
+    "anchor_source_sha256": "d8e09dbb3bc39e8c7b29a11aa9bca18ad4c62edfae9de5f675d727bce12788c3",
+    "anchors_sha256": "0a6957083f65df82dba2529a3d2fe545da75f4654592739b642db0dd07b74e86",
+    "caches": {
+      "dtd": {
+        "num_samples": 1692,
+        "order_sha256": "f6aefa41550942fb0edfcfe681f56362bcff302bea77a327ff96b8c1a9302256",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/dtd_vitb16.pt",
+        "sha256": "3362a3847447fafcd2c512390ffa146b69d9892527f7dbb9fcaa85c02266103d"
+      }
+    },
+    "code_sha256": {
+      "anchor": "d8e09dbb3bc39e8c7b29a11aa9bca18ad4c62edfae9de5f675d727bce12788c3",
+      "model": "d7a947193428c1b70f0a2c40b49c610bd06cc420c527a990ea674af60d02b1f9",
+      "rank_compatibility": "03d347fe3ee69b47dcf4cbeb79c2bc4d8dfae942029f6a98a35cc737f8c4ab11",
+      "runner": "d53ff6d8ee4b0d9562c992bf28edb8e71acbdd3f43e3cd5c8ad7517a412bfba1"
+    },
+    "datasets": [
+      "dtd"
+    ],
+    "global_seed": 1,
+    "precision": "fp32",
+    "version": "ocr-dota-v3-core2-ablation10-v1"
+  },
+  "identity_sha256": "a64ade3b9ae7bb45861303a3e863bd093a31f32d29cb2f2a2fdf1d5cec12af9c",
+  "posterior_best": {
+    "candidate": "P0",
+    "correct": 23,
+    "macro_accuracy": 35.9375,
+    "micro_accuracy": 35.9375,
+    "num_samples": 64,
+    "positive_datasets": 0,
+    "strength": 0.0,
+    "worst_delta": 0.0
+  },
+  "results_sha256": "33d7ad3cfbb470c11b0d356193114ca54320a6c907689c60931438db959fd3fe",
+  "status": "complete",
+  "update_best": {
+    "candidate": "U2_t0.075_p0.25_mix05",
+    "config": {
+      "base": {
+        "epsilon": 5e-05,
+        "eta": 1.0,
+        "rho": 0.056499999999999995,
+        "sigma": 0.001
+      },
+      "rank": {
+        "eps": 1e-12,
+        "prediction_strength": 0.0,
+        "tau_rank": 0.075,
+        "update_power": 0.25
+      },
+      "update": {
+        "beta": 0.75,
+        "covariance_mode": "full",
+        "gaussian_mode": "shared_cov",
+        "init_count": 0.1,
+        "init_mu": "constant",
+        "norm_eps": 1e-12,
+        "prior_eps": 1e-06,
+        "residual_strength": 0.25,
+        "stat_decay": 1.0
+      },
+      "update_rule": "mix05",
+      "update_views": "selected"
+    },
+    "correct": 24,
+    "macro_accuracy": 37.5,
+    "macro_last50_accuracy": 40.625,
+    "micro_accuracy": 37.5,
+    "num_samples": 64,
+    "positive_datasets": 1,
+    "positive_last50_datasets": 0
+  }
+}
