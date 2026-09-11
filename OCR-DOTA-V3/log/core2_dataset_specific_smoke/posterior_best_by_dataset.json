@@ -1,0 +1,115 @@
+{
+  "rows": {
+    "dtd": {
+      "accuracy": 51.241134751773046,
+      "base_accuracy": 51.004728132387704,
+      "base_correct": 863,
+      "candidate_fingerprint": "81fdd484567ef33e25f5156ada12ecea2b801cf633591c075e87f9506b06962e",
+      "candidate_id": "P5",
+      "compat_mean": 0.4215095043182373,
+      "compat_p10": 0.3465686172246933,
+      "compat_p50": 0.4209665507078171,
+      "compat_p90": 0.4973485887050629,
+      "compatibility_sha256": "03ffabacfe6d68a3ec43bacf8ba710bc61252c75baf17c0240f5f794df343567",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.15,
+          "tau_rank": 0.15,
+          "update_power": 0.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 867,
+      "corrected": 4,
+      "dataset": "dtd",
+      "delta_correct": 4,
+      "delta_pp": 0.2364066193853418,
+      "display_name": "DTD",
+      "health_status": "healthy",
+      "identity_sha256": "b89261f4d915b28d2f1e6f393f1f7947e6661f6c6753706f26b1a495b2767b28",
+      "last50_accuracy": 54.60992907801418,
+      "last50_correct": 462,
+      "mcnemar_b": 4,
+      "mcnemar_c": 0,
+      "mcnemar_p": 0.13361440253771617,
+      "mcnemar_stat": 2.25,
+      "net_correction": 4,
+      "num_samples": 1692,
+      "phase": "posterior",
+      "prediction_sha256": "b120b0fdb1d442e027533bd6adea194138889ba0ecf37a5976b4b750598bd886",
+      "quartiles": [
+        {
+          "base_accuracy": 52.71867612293144,
+          "base_correct": 223,
+          "corrected": 0,
+          "delta_pp": 0.0,
+          "num_samples": 423,
+          "posterior_accuracy": 52.71867612293144,
+          "posterior_correct": 223,
+          "quartile": "Q1",
+          "regressed": 0
+        },
+        {
+          "base_accuracy": 51.536643026004725,
+          "base_correct": 218,
+          "corrected": 2,
+          "delta_pp": 0.47281323877068626,
+          "num_samples": 423,
+          "posterior_accuracy": 52.00945626477541,
+          "posterior_correct": 220,
+          "quartile": "Q2",
+          "regressed": 0
+        },
+        {
+          "base_accuracy": 50.82742316784869,
+          "base_correct": 215,
+          "corrected": 2,
+          "delta_pp": 0.47281323877068626,
+          "num_samples": 423,
+          "posterior_accuracy": 51.30023640661938,
+          "posterior_correct": 217,
+          "quartile": "Q3",
+          "regressed": 0
+        },
+        {
+          "base_accuracy": 48.93617021276596,
+          "base_correct": 207,
+          "corrected": 0,
+          "delta_pp": 0.0,
+          "num_samples": 423,
+          "posterior_accuracy": 48.93617021276596,
+          "posterior_correct": 207,
+          "quartile": "Q4",
+          "regressed": 0
+        }
+      ],
+      "regressed": 0,
+      "source": "historical_reuse",
+      "state_sha256": "c48ba5027f902d6ccb71f1e93e2afdf93b07faf00df287442cae13bbcfe751f3",
+      "status": "ok",
+      "trajectory_sha256": "5ecdb3e634fa150489523228a824b8aecf19af09a154c0ec9db798450f916231",
+      "unchanged_correct": 863,
+      "unchanged_wrong": 825
+    }
+  },
+  "selection": "per-dataset correct, corrected-regressed, local stability"
+}

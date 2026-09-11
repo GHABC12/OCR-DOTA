@@ -1,0 +1,121 @@
+{
+  "rows": {
+    "dtd": {
+      "accuracy": 35.9375,
+      "base_accuracy": 35.9375,
+      "base_correct": 23,
+      "base_last50_accuracy": 40.625,
+      "base_last50_correct": 13,
+      "candidate_fingerprint": "f7ab175bb2da4ed9a54529643f2b95cce91153b18c6568a09c6c0e03a8216670",
+      "candidate_id": "P_t0.075_r0",
+      "compat_mean": 0.370696097612381,
+      "compat_p10": 0.30050288438796996,
+      "compat_p50": 0.37314821779727936,
+      "compat_p90": 0.43306212723255155,
+      "compatibility_sha256": "658e32e5b2a89126d47decd9c03b990749a8fea647fc3b4b5354853f81df4b30",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.075,
+          "update_power": 0.0
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 23,
+      "corrected": 0,
+      "dataset": "dtd",
+      "delta_correct": 0,
+      "delta_last50_correct": 0,
+      "delta_last50_pp": 0.0,
+      "delta_pp": 0.0,
+      "display_name": "DTD",
+      "health_status": "healthy",
+      "identity_sha256": "5b5365aaed6c4b89f2b317d35663e8001888f2b20fcb7a022876b35084d20cfc",
+      "last50_accuracy": 40.625,
+      "last50_correct": 13,
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "mcnemar_p": 1.0,
+      "mcnemar_stat": 0.0,
+      "net_correction": 0,
+      "num_samples": 64,
+      "phase": "posterior",
+      "prediction_sha256": "995d3779aae38d6c1955f6b7eb85b3b761a3bb276b4579b19c38a50663ae4024",
+      "quartiles": [
+        {
+          "base_accuracy": 25.0,
+          "base_correct": 4,
+          "corrected": 0,
+          "delta_pp": 0.0,
+          "num_samples": 16,
+          "posterior_accuracy": 25.0,
+          "posterior_correct": 4,
+          "quartile": "Q1",
+          "regressed": 0
+        },
+        {
+          "base_accuracy": 62.5,
+          "base_correct": 10,
+          "corrected": 0,
+          "delta_pp": 0.0,
+          "num_samples": 16,
+          "posterior_accuracy": 62.5,
+          "posterior_correct": 10,
+          "quartile": "Q2",
+          "regressed": 0
+        },
+        {
+          "base_accuracy": 18.75,
+          "base_correct": 3,
+          "corrected": 0,
+          "delta_pp": 0.0,
+          "num_samples": 16,
+          "posterior_accuracy": 18.75,
+          "posterior_correct": 3,
+          "quartile": "Q3",
+          "regressed": 0
+        },
+        {
+          "base_accuracy": 37.5,
+          "base_correct": 6,
+          "corrected": 0,
+          "delta_pp": 0.0,
+          "num_samples": 16,
+          "posterior_accuracy": 37.5,
+          "posterior_correct": 6,
+          "quartile": "Q4",
+          "regressed": 0
+        }
+      ],
+      "ratio": 0.0,
+      "regressed": 0,
+      "source": "shared_trajectory",
+      "state_sha256": "f5458b32df6aa7d8ecf5f6cf9a4678753fb0e6d6c30d12288d5772b411e850c3",
+      "status": "ok",
+      "tau_rank": 0.075,
+      "trajectory_sha256": "77f3f93f6494cb9ba739e43c9cd1c3472f8be6bb1b529073d7585ee7dbe3a674",
+      "unchanged_correct": 23,
+      "unchanged_wrong": 41
+    }
+  },
+  "selection": "per-dataset correct, corrected-regressed, local stability"
+}

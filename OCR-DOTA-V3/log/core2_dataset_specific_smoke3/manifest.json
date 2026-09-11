@@ -1,0 +1,39 @@
+{
+  "candidate_count": 88,
+  "finished_at": 1789035370.0117576,
+  "identity": {
+    "anchor_sha256": "d607c3af0d72b4ecc5c4f12c07aa56978a6699da6b4fd1174b55c0c99e39ff1d",
+    "anchor_source": "/home/user/shiyunxiao/OCR-DOTA/V3-P0-ablation/results/nonimagenet21_p0_20260906/results.jsonl",
+    "anchors_sha256": "09798b4c67719c87df1831dc559eeb725fc9adc1cc821352439494efcd083e70",
+    "caches": {
+      "dtd": {
+        "num_samples": 1692,
+        "order_sha256": "f6aefa41550942fb0edfcfe681f56362bcff302bea77a327ff96b8c1a9302256",
+        "path": "/home/user/shiyunxiao/OCR-DOTA/log/all_dataset_perf/cache/dtd_vitb16.pt",
+        "sha256": "3362a3847447fafcd2c512390ffa146b69d9892527f7dbb9fcaa85c02266103d"
+      }
+    },
+    "code_sha256": {
+      "anchor": "d607c3af0d72b4ecc5c4f12c07aa56978a6699da6b4fd1174b55c0c99e39ff1d",
+      "history_results": "f74ba179235a4996e83c90bab28b9f97fb9051edddcaa3c6d0b88897001c0683",
+      "model": "d7a947193428c1b70f0a2c40b49c610bd06cc420c527a990ea674af60d02b1f9",
+      "rank_compatibility": "03d347fe3ee69b47dcf4cbeb79c2bc4d8dfae942029f6a98a35cc737f8c4ab11",
+      "runner": "a5833129aa46b8731f2a4847cae2e7b767d7400dc9cbcdf1cd6dfa79ff7d0e92",
+      "shared_runner": "f4153400c3c8504cec7049ed55921f95c74dc7d1d093fe72a25c6ea54aa17ae4"
+    },
+    "datasets": [
+      "dtd"
+    ],
+    "global_seed": 1,
+    "history_path": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/log/core2_ablation10_20260910_rankfree",
+    "precision": "fp32",
+    "version": "ocr-dota-v3-dataset-specific-oracle10-v1"
+  },
+  "identity_sha256": "1f88a9dedd8945b280557c073323b943a62a29cbf66e68246abc12ffff975308",
+  "positive": {
+    "full": 1,
+    "posterior": 0,
+    "responsibility": 1
+  },
+  "status": "complete"
+}

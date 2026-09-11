@@ -1,0 +1,34 @@
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_dataset_specific_oracle10.py", line 371, in <module>
+    if __name__ == "__main__": raise SystemExit(run(parser().parse_args()))
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_dataset_specific_oracle10.py", line 330, in run
+    local = posterior_rows(d, data, anchor, b, identity["identity_sha256"], out, stop, args.stop_interval,
+  File "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/run_dataset_specific_oracle10.py", line 137, in posterior_rows
+    base_pred = grid["predictions"][f"t{taus[0]:g}_r0"]
+KeyError: 't0.075_r0'
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+{
+  "status": "complete",
+  "output": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/log/core2_dataset_specific_oracle10_20260910",
+  "rows": 1173,
+  "posterior_positive": 6,
+  "responsibility_positive": 6,
+  "full_positive": 7
+}

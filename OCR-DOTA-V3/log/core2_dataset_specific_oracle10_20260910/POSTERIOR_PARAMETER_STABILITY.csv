@@ -1,0 +1,11 @@
+dataset,display_name,best_delta_correct,positive_parameter_count,parameter_count,positive_parameter_ratio,median_positive_delta
+fgvc,Aircraft,0,0,48,0.0,0.0
+caltech101,Caltech101,0,0,48,0.0,0.0
+stanford_cars,Cars,2,28,50,0.56,1.0
+dtd,DTD,4,20,50,0.4,2.0
+eurosat,EuroSAT,10,21,50,0.42,6.0
+oxford_flowers,Flower102,0,0,48,0.0,0.0
+food101,Food101,0,0,48,0.0,0.0
+oxford_pets,Pets,1,16,50,0.32,1.0
+sun397,SUN397,2,32,50,0.64,2.0
+ucf101,UCF101,2,20,50,0.4,2.0

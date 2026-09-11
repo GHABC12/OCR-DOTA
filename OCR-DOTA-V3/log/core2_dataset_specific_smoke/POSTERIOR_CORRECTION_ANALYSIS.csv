@@ -1,0 +1,2 @@
+dataset,candidate,tau_rank,prediction_strength,base_correct,candidate_correct,delta_correct,delta_pp,corrected,regressed,net_correction
+dtd,P5,0.15,0.15,863,867,4,0.2364066193853418,4,0,4

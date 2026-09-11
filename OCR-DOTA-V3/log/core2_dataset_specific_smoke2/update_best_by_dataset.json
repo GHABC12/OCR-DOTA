@@ -1,0 +1,66 @@
+{
+  "rows": {
+    "dtd": {
+      "accuracy": 50.945626477541374,
+      "base_accuracy": 51.004728132387704,
+      "base_correct": 863,
+      "base_last50_accuracy": 54.255319148936174,
+      "base_last50_correct": 459,
+      "candidate_fingerprint": "1957bf9060d031571945ac5c47c8f369f1c9e41a229d4cb711b09d4f07011710",
+      "candidate_id": "U_t0.6_p0.25_mix08clip",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.6,
+          "update_power": 0.25
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix08clip",
+        "update_views": "selected"
+      },
+      "correct": 862,
+      "dataset": "dtd",
+      "delta_correct": -1,
+      "delta_last50_correct": 1,
+      "delta_last50_pp": 0.11820330969266735,
+      "delta_pp": -0.05910165484633012,
+      "display_name": "DTD",
+      "gate_p10": 0.9495610237121582,
+      "gate_p25": 0.9732352644205093,
+      "gate_p75": 0.9999997019767761,
+      "gate_p90": 1.0,
+      "health_status": "healthy",
+      "identity_sha256": "5b5365aaed6c4b89f2b317d35663e8001888f2b20fcb7a022876b35084d20cfc",
+      "last50_accuracy": 54.37352245862884,
+      "last50_correct": 460,
+      "mean_effective_update_mass": 0.983485996723175,
+      "mean_gate": 0.9834903478622437,
+      "median_gate": 0.9946273565292358,
+      "num_samples": 1692,
+      "phase": "responsibility",
+      "prediction_sha256": "9f5ad6047e2e15e3ef7cb5dfb4baf26a6b59b2c22f31e438c6c78206d337b796",
+      "source": "historical_reuse",
+      "state_sha256": "750ff08a8b0e092ca09f4db9657d71d2787df61f9a8251acc0aec00b541c6513",
+      "status": "ok",
+      "trajectory_sha256": "a72b52c47453a2e600ae6119baa3908ab7d9c75623be3585595ada94ee1334cd"
+    }
+  },
+  "selection": "per-dataset overall correct, then last50"
+}

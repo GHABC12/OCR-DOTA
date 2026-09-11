@@ -1,0 +1,2 @@
+dataset,candidate,tau_rank,update_power,update_rule,base_all_correct,candidate_all_correct,delta_correct_all,delta_all_pp,base_last50_accuracy,candidate_last50_accuracy,delta_last50_pp,mean_gate,gate_p10,median_gate,gate_p90
+dtd,U_t0.6_p0.25_mix08clip,0.6,0.25,mix08clip,863,862,-1,-0.05910165484633012,54.255319148936174,54.37352245862884,0.11820330969266735,0.9834903478622437,0.9495610237121582,0.9946273565292358,1.0

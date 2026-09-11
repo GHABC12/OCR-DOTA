@@ -1,0 +1,66 @@
+{
+  "rows": {
+    "dtd": {
+      "accuracy": 37.5,
+      "base_accuracy": 35.9375,
+      "base_correct": 23,
+      "base_last50_accuracy": 40.625,
+      "base_last50_correct": 13,
+      "candidate_fingerprint": "9daf3b71a8127ea3303a4cf06fe9bce46a0d06ed325c4bb565b2b482feb214d8",
+      "candidate_id": "F_t0.45_s0_p0.140625_mix05",
+      "config": {
+        "base": {
+          "epsilon": 5e-05,
+          "eta": 1.0,
+          "rho": 0.056499999999999995,
+          "sigma": 0.001
+        },
+        "rank": {
+          "eps": 1e-12,
+          "prediction_strength": 0.0,
+          "tau_rank": 0.45,
+          "update_power": 0.140625
+        },
+        "update": {
+          "beta": 0.75,
+          "covariance_mode": "full",
+          "gaussian_mode": "shared_cov",
+          "init_count": 0.1,
+          "init_mu": "constant",
+          "norm_eps": 1e-12,
+          "prior_eps": 1e-06,
+          "residual_strength": 0.0,
+          "stat_decay": 1.0
+        },
+        "update_rule": "mix05",
+        "update_views": "selected"
+      },
+      "correct": 24,
+      "dataset": "dtd",
+      "delta_correct": 1,
+      "delta_last50_correct": 0,
+      "delta_last50_pp": 0.0,
+      "delta_pp": 1.5625,
+      "display_name": "DTD",
+      "gate_p10": 0.9186554908752441,
+      "gate_p25": 0.9275368005037308,
+      "gate_p75": 0.9564065933227539,
+      "gate_p90": 0.9733146965503693,
+      "health_status": "healthy",
+      "identity_sha256": "1f88a9dedd8945b280557c073323b943a62a29cbf66e68246abc12ffff975308",
+      "last50_accuracy": 40.625,
+      "last50_correct": 13,
+      "mean_effective_update_mass": 0.9468173980712891,
+      "mean_gate": 0.9468100666999817,
+      "median_gate": 0.9502778053283691,
+      "num_samples": 64,
+      "phase": "full",
+      "prediction_sha256": "e74c56d3f8297a546c1a850c986c4b23ac047dca30b0408dda6cac0b4b8a48eb",
+      "source": "fresh_replay",
+      "state_sha256": "39a6759821bfb99c49e9fa41cb370591c0f580e39a7502afee954d6ca208a7a8",
+      "status": "ok",
+      "trajectory_sha256": "b76ce4d1e799513fcf0d77c732c2c36dda5505c4634ed3e1ccdd7d8f3e955c0b"
+    }
+  },
+  "selection": "per-dataset overall correct, then last50"
+}

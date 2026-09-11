@@ -1,0 +1,17 @@
+Error processing line 1 of /usr/local/iCompute/lib/python3.10/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/iCompute/lib/python3.10/site.py", line 195, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  AttributeError: module '_distutils_hack' has no attribute 'add_shim'
+
+Remainder of file ignored
+{
+  "status": "complete",
+  "output": "/home/user/shiyunxiao/OCR-DOTA/OCR-DOTA-V3/log/core2_dataset_specific_smoke3",
+  "rows": 88,
+  "posterior_positive": 0,
+  "responsibility_positive": 0,
+  "full_positive": 1
+}
