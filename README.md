@@ -40,6 +40,10 @@ V3 的核心改动：排序机制只保留一个核心量 **rank compatibility**
 （含 `REPORT.md`、`FROZEN_V2_CONFIG.yaml`、`final/` 2×2 汇总、`evidence/` 与 `runs/`），
 两个 smoke 运行在 `results/paper_core_v2_ten_smoke/`、`paper_core_v2_ten_smoke2/`。
 
+### PaperCore V2 核心实现补充
+
+V2 使用独立的 `posterior_v2.py` 与 `responsibility_v2.py`，分别实现类别兼容度 posterior 校正和 clean-mass Gaussian 更新责任度；本轮冻结为 `gamma=0`、`gate_only, delta=1`。核心方法与边界见 [PaperCore V2 核心思路](OCR-DOTA-PaperCore/PAPERCORE_V2_CORE_IDEA.md)。完整协议与逐数据集结果见 [V2 报告](OCR-DOTA-PaperCore/results/paper_core_v2_ten/REPORT.md)。
+
 ## 依赖说明
 
 - V3 主实现 `ocr_dota_v3/model.py` 复用上游 DOTA 的状态与数据流实现；
